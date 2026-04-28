@@ -1,0 +1,2143 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+<meta http-equiv="X-Robots-Tag" content="noindex, nofollow">
+<title>中壢公司 IT 設備出清 · 多 AI 會商策略報告（v3.1）</title>
+<style>
+:root { --bg:#fafaf7; --fg:#1a1a1a; --muted:#666; --border:#e0ddd5; --card:#fff; --accent:#5b4636; --code-bg:#f2efe8; }
+* { box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Noto Sans TC", "Helvetica Neue", sans-serif;
+  background: var(--bg); color: var(--fg); max-width: 960px; margin: 0 auto; padding: 2em 1.5em 5em;
+  line-height: 1.75; font-size: 16px; }
+h1 { font-size: 2em; border-bottom: 3px solid var(--accent); padding-bottom: .3em; }
+h2 { font-size: 1.5em; margin-top: 2em; color: var(--accent); border-left: 5px solid var(--accent); padding-left: .5em; }
+h3 { font-size: 1.2em; margin-top: 1.5em; }
+code { background: var(--code-bg); padding: 1px 5px; border-radius: 3px; font-size: 14px; }
+pre { background: var(--code-bg); padding: 1em; border-radius: 6px; overflow-x: auto; }
+hr { border: none; border-top: 1px dashed var(--border); margin: 2em 0; }
+table { border-collapse: collapse; width: 100%; margin: 1em 0; font-size: 14px; }
+th, td { border: 1px solid var(--border); padding: .5em .8em; text-align: left; vertical-align: top; }
+th { background: var(--code-bg); }
+.ai-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+  padding: 1.5em; margin: 1.5em 0; box-shadow: 0 1px 3px rgba(0,0,0,.04); }
+.ai-badge { display: inline-block; padding: .15em .6em; border-radius: 12px; color: white; font-weight: 600; font-size: .9em; }
+details { margin: 1em 0; }
+details > summary { cursor: pointer; font-weight: 600; padding: .5em 0; }
+.meta-banner { background: #fff8e7; border-left: 4px solid #d97757; padding: 1em 1.2em; margin: 1.5em 0; border-radius: 4px; }
+.toc { background: var(--card); border: 1px solid var(--border); border-radius: 6px; padding: 1em 1.5em; margin: 1em 0; }
+.toc a { text-decoration: none; color: var(--accent); }
+.disclaimer { background: #fdf0ed; border: 1px solid #e6b0a8; padding: 1em; border-radius: 6px; font-size: 14px; margin-bottom: 2em; }
+.footer { color: var(--muted); font-size: 13px; margin-top: 4em; text-align: center; }
+</style>
+</head>
+<body>
+<h1>中壢公司 IT 設備出清 · 多 AI 會商策略報告（v3.1）</h1>
+<p style="color:var(--muted)">v2 異模型 panel + v2.1 Top 10 Web 查證 + v3 Claude 4-Agent 角色論證 + v3.1 NUC Bundle 重估　│　2026-04-29 02:30</p>
+<div class="disclaimer">⚠️ 本報告為 4 AI 顧問意見整合，廠商資訊以 AI 訓練資料為基礎，實際聯絡前請二次查證。價格估算僅供參考，最終以實際報價為準。　本頁不供搜尋引擎索引（noindex）。</div>
+<div class="toc"><strong>目錄</strong>
+<ul><li><a href="#bg">一、案情背景</a></li><li><a href="#v31"><strong>⭐⭐ v3.1 NUC Bundle 重估 + FB 可執行性（最新修正）</strong></a></li><li><a href="#v3"><strong>⭐ v3 策略精煉（總務時間優先版）</strong></a></li><li><a href="#meta">二、多 AI 會商 · 統整結論（v2）</a></li><li><a href="#raw">三、4 AI 原始回答</a></li><li><a href="#round2">四、深度追問（Round 2）</a></li><li><a href="#supplement">補充：前次名單交叉驗證</a></li></ul></div>
+
+<h2 id="bg">一、案情背景</h2>
+
+<p>公司位於桃園中壢，因設備更新汰舊，需出清一批 IT 與辦公室設備。多數品項使用超過 10 年，仍在持續盤點中。</p>
+<h3>目前盤點清單（持續更新中）</h3>
+<ul>
+  <li><strong>運算設備</strong>：<strong>ASUS NUC UN65 + BenQ 1080p 螢幕 + 鍵鼠 + 螢幕背 VESA 後掛 × 20+ 套</strong>（turnkey 文書機 bundle，10 年但賣相佳，二手商已出價 NT$900~1,000+/組）；其他舊電腦主機與螢幕</li>
+  <li><strong>網通設備</strong>：Network Switch × 9 台、大型機櫃 × 1、小型機櫃 × 1</li>
+  <li><strong>通訊設備</strong>：Mitel 5312 IP 硬體話機 × 數十支</li>
+  <li><strong>影音設備</strong>：會議擴大機、QSC 喇叭 × 6、37~50 吋電視 × 18 台</li>
+  <li><strong>辦公家具</strong>：辦公桌椅、三層櫃、會議桌（數量待補）</li>
+</ul>
+<h3>核心需求</h3>
+<p>找出台灣（特別是中壢/桃園在地）適合的<strong>收購廠商</strong>或<strong>二手平台</strong>，按效度排序，提供最快、最有效率的處置策略。</p>
+
+
+
+<h2 id="v31">⭐⭐ v3.1 修正：NUC Bundle 重估 + FB 可執行性</h2>
+<div class="meta-banner" style="background:#fff8e7;border-left-color:#d97757">
+<strong>🔥 重要修正（2026-04-29 Brian 提供精準規格後）</strong>：
+PC 不是「10 年雜機」，是 <strong>20+ 套 ASUS NUC UN65 + BenQ 1080p + 鍵鼠 + VESA 後掛</strong>的 turnkey 文書機 bundle。
+二手商已出價 NT$900~1,000+/組。本節為針對此 bundle 的局部 v3 修正。
+</div>
+<h1>v3.1 修正：NUC Bundle 重估 + FB 可執行性</h1>
+<p><strong>觸發</strong>：2026-04-29 Brian 提供更精準的設備規格——這不是「10 年雜機」，是 <strong>20+ 套 ASUS NUC UN65 mini PC + BenQ 1080p + 鍵鼠 + 螢幕背 VESA 後掛</strong>的 turnkey 文書機 bundle。已驗證二手商出價 NT$900~1,000+/組。v3 原版假設嚴重低估，本節局部修正。</p>
+<h2>一、重估：bundle 合理二手市場價值</h2>
+<table>
+<tr><th>檔位</th><th>單組價</th><th>條件</th></tr>
+<tr><td><strong>保守</strong></td><td>NT$1,200~1,500</td><td>i3、4G RAM、無 SSD/小 HDD、螢幕有黃斑、整批出</td></tr>
+<tr><td><strong>折衷</strong></td><td>NT$1,800~2,400</td><td>i5、8G RAM、SSD 240G+、螢幕 8 成、整批出</td></tr>
+<tr><td><strong>樂觀</strong></td><td>NT$2,800~3,500</td><td>i5/i7、8G+、SSD 480G+、螢幕 9 成新、單組零售</td></tr>
+</table>
+<p><strong>3 個影響落差關鍵變數</strong>：</p>
+<ol>
+<li><strong>CPU 世代與等級</strong>（UN65 系列橫跨 i3/i5/i7、第 5~7 代，價差 2 倍）</li>
+<li><strong>SSD/RAM 規格</strong>（決定能否跑 Win11 / 文書順暢）</li>
+<li><strong>螢幕成色與尺寸</strong>（21.5&quot; vs 24&quot;、有無亮點/烙印）</li>
+</ol>
+<p><strong>Bundle 特殊賣點</strong>：</p>
+<ul>
+<li>VESA 後掛 + 整套到位 → 比裸機散賣加值 <strong>NT$400~600/組</strong>（買家最痛是「拼裝、找線」）</li>
+<li>turnkey 即插即用 → C2C 買家強訴求</li>
+</ul>
+<p><strong>結論</strong>：廠商 NT$900~1,000 是合理躉售價（他們轉手要賺 30~50%），但不代表市場價就這個數。</p>
+<h2>二、整批 vs FB 零售 經濟性試算</h2>
+<h3>單組 FB 全流程工時</h3>
+<table>
+<tr><th>環節</th><th>時間</th></tr>
+<tr><td>拍照 + 寫文 + 刊登</td><td>15 分（首次）/ 5 分（複製）</td></tr>
+<tr><td>私訊回覆（平均 5~8 人）</td><td>20~30 分</td></tr>
+<tr><td>議價拉鋸</td><td>10 分</td></tr>
+<tr><td>面交 + 試機 + 收款</td><td>30~45 分</td></tr>
+<tr><td>開發票 + 銷毀清單登錄</td><td>5 分</td></tr>
+<tr><td><strong>合計</strong></td><td><strong>80~100 分鐘/組</strong></td></tr>
+</table>
+<h3>切換門檻計算</h3>
+<ul>
+<li>總務時薪 NT$250（月薪 4 萬換算）→ 單組多花 1.5h = 隱性成本 NT$375</li>
+<li>加上面交風險、放鴿子、客訴 → ~NT$200/組</li>
+<li><strong>FB 零售單組淨價需高於廠商整批 NT$600 以上才划算</strong></li>
+</ul>
+<h3>結論</h3>
+<ul>
+<li>廠商出 NT$1,000 → FB 要能穩定賣 <strong>NT$1,600 以上</strong>才值得切換</li>
+<li>以折衷檔 NT$1,800~2,200 看，<strong>有切換空間，但只在「部分組」（非全部 20 組）</strong></li>
+</ul>
+<h2>三、FB 可執行 SOP</h2>
+<h3>刊登社團（依優先序）</h3>
+<ol>
+<li><strong>「中壢二手」</strong>、「桃園中壢二手拍賣」（在地、面交方便，首選）</li>
+<li><strong>「電腦交流二手社團」</strong>、「二手電腦/筆電交流社」（精準買家）</li>
+<li><strong>避開</strong>全國性大社團（私訊量爆炸、總務扛不住）</li>
+</ol>
+<h3>標題模板</h3>
+<pre><code>
+【中壢自取】ASUS NUC 迷你電腦+BenQ螢幕+鍵鼠 整套文書機 $2200
+</code></pre>
+<h3>內文模板（直接給總務複製貼上）</h3>
+<pre><code>
+公司汰換，整套出清，可立即上線使用：
+
+✅ ASUS NUC UN65（i5/8G/SSD 240G）※ 請依實際規格填
+✅ BenQ ○○吋 1080p 螢幕（VESA 後掛 NUC，桌面超整潔）
+✅ 原廠鍵盤滑鼠
+✅ 已重灌 Win10／已清除原資料
+
+【售價】單組 $2,200，可開發票
+【數量】目前釋出 2 組，意者私訊
+【面交】中壢辦公室，平日 14:00-17:00，限自取
+【保固】通電試機 OK 後銀貨兩訖，恕不提供售後
+
+※ 不分售、不寄送、不議價（誠可少 100）
+</code></pre>
+<h3>試水溫策略</h3>
+<p><strong>先刊 2 組，不要一次全上。</strong></p>
+<ul>
+<li>一次 20 組會被當盤商貨，買家殺到見骨</li>
+<li>2 組可測「合理成交價」「私訊量」「總務負荷」</li>
+<li>賣掉再補刊，營造稀缺感</li>
+</ul>
+<h3>預先標準回覆</h3>
+<p><strong>Q：可以算便宜一點嗎？/ NT$1,500 賣不賣？</strong></p>
+<p>&gt; 您好，價格已是公司核定底價，誠可少 100，謝謝您。</p>
+<p><strong>Q：可以分開只賣 NUC 嗎？</strong></p>
+<p>&gt; 不好意思，公司規定整套出清，無法分售，謝謝。</p>
+<p><strong>Q：可以先帶回家試用 / 宅配嗎？</strong></p>
+<p>&gt; 不好意思，限現場通電試機 OK 後當場銀貨兩訖，無法外借或寄送。</p>
+<h3>時間停損點</h3>
+<p><strong>刊登後 5 個工作天，若成交 &lt; 3 組 → 立刻整批轉廠商。</strong></p>
+<p>理由：拖太久占用總務心力，且廠商報價可能下修。</p>
+<h2>四、v3 主流程修正：NUC Bundle 獨立處理</h2>
+<p><strong>決策：NUC bundle 獨立，不混進佳龍 IT 整批</strong></p>
+<p>理由：</p>
+<ul>
+<li>佳龍這類 IT 處置商收 NUC bundle 多半算「料件價」NT$500~700（他們不做零售）</li>
+<li>已知二手商願出 NT$1,000+/組，<strong>整批給佳龍會直接損失 NT$6,000~10,000</strong></li>
+<li>NUC bundle 性質是「可再使用商品」，不是「資產報廢」，處理路徑本來就該分流</li>
+</ul>
+<h3>修正後 14 天 SOP（NUC 部分）</h3>
+<table>
+<tr><th>Day</th><th>動作</th></tr>
+<tr><td><strong>Day 1</strong></td><td>佳龍照打，<strong>明確排除 NUC bundle</strong>（伺服器、雜牌 PC、報廢機照原流程）</td></tr>
+<tr><td><strong>Day 1~2</strong></td><td>同步請現有接洽二手商正式報價（<strong>要求 NT$1,100+/組當保底、含搬運、開發票、資料銷毀證明</strong>）</td></tr>
+<tr><td><strong>Day 2~3</strong></td><td>FB 試刊 2 組（中壢二手社團），標 NT$2,200</td></tr>
+<tr><td><strong>Day 7</strong></td><td><strong>結算 FB 戰況</strong>：成交 ≥3 組 → 續刊到 Day 12；&lt;3 組 → 剩餘整批給二手商</td></tr>
+<tr><td><strong>Day 12~14</strong></td><td>剩餘整批出清，與 v3 原本收尾同步</td></tr>
+</table>
+<p><strong>核心邏輯</strong>：FB 與廠商整批是<strong>並行雙軌</strong>，不是二選一。廠商報價當保底，FB 當上檔加值。</p>
+<h2>五、給總務的一句話決策</h2>
+<p>&gt; <strong>「NUC 這 20 組你應該——先逼二手商把 NT$1,000 加到 NT$1,200/組當保底，同時 FB 試刊 2 組賣 NT$2,200，5 天後沒動就整批丟給二手商，別自己當網拍。」</strong></p>
+<h2>六、預估金額重估</h2>
+<table>
+<tr><th>情境</th><th>20 組總額</th><th>占整體出清比重</th></tr>
+<tr><td>全給佳龍當料件（最差）</td><td>NT$10,000~14,000</td><td>低估</td></tr>
+<tr><td>二手商整批保底 NT$1,100+</td><td><strong>NT$22,000~24,000</strong></td><td><strong>保底基線</strong></td></tr>
+<tr><td>部分 FB 零售 + 部分整批</td><td>NT$30,000~40,000</td><td>折衷目標</td></tr>
+<tr><td>全 FB 零售（不可行，總務扛不住）</td><td>NT$36,000~44,000</td><td>理論值</td></tr>
+</table>
+<p><strong>v3 原報告的整體預估金額（保守 NT$50k~90k / 折衷 NT$150k~200k）需上修</strong>：NUC bundle 從原本「報廢類 NT$0~3k」躍升為「中價值類 NT$22k~30k+」，整體加 <strong>NT$15~25k</strong>。</p>
+
+
+
+<h2 id="v3">v3 策略精煉 · Claude 4-Agent 角色論證（總務時間優先版）</h2>
+<div class="meta-banner"><strong>🎯 策略修正（2026-04-29 Brian 指示）</strong>：
+總務人力有限 → 大宗收購商整批處理為主；FB 社團不是賣場，是「市場行情情報員 + 收購商議價籌碼」。
+本節由 4 個 Claude Opus 4.7 instances 各扮演一個專業角色，從不同視角論證後由第 5 個 Claude 統整出可執行 SOP。</div>
+<h3>v3 Meta 統整（4 角色綜合決策）</h3>
+<div class="meta-banner" style="background:#fff8e7"><strong>🧠 v3 Meta</strong> · claude-opus-4-7 · 81.3s</div>
+<h1>v3 策略精煉：中壢 IT 出清案執行藍本</h1>
+<hr>
+<h2>一、核心執行邏輯（3 句話）</h2>
+<ol>
+<li><strong>不追求一站式幻想，而是「2 家分工」實質一站式</strong>：IT 給佳龍（含 Switch/Mitel/PC/螢幕/機櫃）、TV 18 台 + 家具給百豐悅，這是現實版最省總務時間的解法。</li>
+<li><strong>FB 探價的目的不是賣，是建立「具體數字的議價錨點」</strong>——只挑 QSC、Switch、Mitel 三項高價值小眾品，其餘不刊。</li>
+<li><strong>資料銷毀證明（逐台序號級）優先於殘值最大化</strong>——這條沒到位，多賺幾千塊都是 Brian 個人扛責任的賭注。</li>
+</ol>
+<hr>
+<h2>二、總務 Day 1 ~ Day 14 SOP</h2>
+<h3>前置（Day 0，30 分鐘案頭作業）</h3>
+<ul>
+<li>清點 IT 品項型號（Switch 廠牌、Mitel 確切型號、QSC 型號）→ 拍照備存</li>
+<li>與主管敲定<strong>未來 10 個工作天內 2 個半天</strong>作為現勘窗口（<strong>這是最關鍵的前置動作</strong>，沒有這個 FB 探價會折半）</li>
+<li>清單上每項先標「必清/可送/可丟」三類，避免現場猶豫</li>
+</ul>
+<h3>Day 1（週一，2 通電話 + 1 篇貼文，<strong>總務本人</strong>）</h3>
+<ul>
+<li><strong>電話 1</strong>｜佳龍科技：說明品項規模，<strong>第一句話直接問「資料銷毀證明能否附逐顆硬碟序號 + 銷毀方式？」</strong>——這句話篩掉不合格業者，也立刻定位你是內行人。約現場估價（建議 Day 3 上午）</li>
+<li><strong>電話 2</strong>｜百豐悅：TV×18 + 全部家具，約現場估價（建議 Day 3 下午，與佳龍同日）</li>
+<li><strong>FB 貼文</strong>：QSC × 6 一篇、Switch × 9 一篇（Mitel 等 Day 3 確認佳龍是否願收後再決定要不要刊）</li>
+</ul>
+<h3>Day 2（週二，1 通電話，可委託同事）</h3>
+<ul>
+<li><strong>電話 3</strong>｜樂吉國際 或 金益鼎：作為佳龍的 Plan B 與比價壓力。同樣先問銷毀證明規格</li>
+</ul>
+<h3>Day 3（週三，<strong>總務必須親自出現</strong>，半天）</h3>
+<ul>
+<li>上午佳龍現勘 → 下午百豐悅現勘（連場安排，業者會感受到競爭壓力）</li>
+<li>兩家都要求「3 個工作天內出書面報價 + 銷毀證明範本」</li>
+</ul>
+<h3>Day 4~5（週四五，被動等報價 + 主動回 FB 私訊）</h3>
+<ul>
+<li>FB 私訊一律回：「<strong>有意者請報整批收購價、現勘可約於 X 月 X 日 或 X 月 X 日</strong>」（直接給時段，30 分鐘內回）</li>
+<li>第二家 ITAD（樂吉/金益鼎）若需現勘，安排 Day 5</li>
+</ul>
+<h3>Day 6~7（週末，FB 收尾）</h3>
+<ul>
+<li>整理 FB 探到的單品行情，列出 QSC、Switch 各自的「業者最高出價」</li>
+</ul>
+<h3>Day 8（Day 8，<strong>議價日</strong>，2 通電話）</h3>
+<ul>
+<li>用 FB 數據回壓佳龍與樂吉（話術見第三節）</li>
+<li>百豐悅同步議價 TV 與家具</li>
+</ul>
+<h3>Day 9~10</h3>
+<ul>
+<li>簽約、確認載運日、確認文件清單（四聯單、發票、<strong>逐台硬碟序號銷毀證明</strong>、影像紀錄）</li>
+</ul>
+<h3>Day 11~14</h3>
+<ul>
+<li>現場交運（<strong>總務必須親自監督硬碟銷毀過程</strong>，要求現場拍照或錄影，這是事後稽核唯一鐵證）</li>
+<li>收單、歸檔</li>
+</ul>
+<h3>動作平行 vs 依賴關係</h3>
+<table>
+<tr><th>可平行</th><th>有依賴</th></tr>
+<tr><td>佳龍 / 樂吉 / 百豐悅三線報價</td><td>議價（Day 8）必須等 FB 數據（Day 6~7）齊備</td></tr>
+<tr><td>FB 貼文 + ITAD 接洽</td><td>載運排程必須等簽約 + 文件範本確認</td></tr>
+<tr><td>比價電話可委託同事</td><td><strong>現勘日 + 銷毀現場必須總務本人</strong>，不可委託</td></tr>
+</table>
+<hr>
+<h2>三、FB 探價 SOP</h2>
+<h3>刊登範圍（只 3 項，不要分散）</h3>
+<ol>
+<li><strong>QSC 喇叭 × 6</strong> → 二手 PA 器材社團</li>
+<li><strong>Network Switch × 9</strong> → 標清楚廠牌型號，網通二手社團</li>
+<li><strong>Mitel 5312 × 數十支</strong> → 企業二手通訊社團（量大才有人理）</li>
+</ol>
+<p><strong>不刊</strong>：PC、螢幕、TV、家具、機櫃。CP 值低、被個人騷擾、徒增私訊負擔。</p>
+<h3>貼文模板（複製貼上即可）</h3>
+<p><strong>標題</strong>：</p>
+<pre><code>
+【整批出清・公司汰換】QSC K 系列喇叭 ×6 / 桃園中壢自取 / 可開發票 / 意者私訊報整批價
+</code></pre>
+<p><strong>內文</strong>：</p>
+<pre><code>
+公司設備汰換，整批出清以下品項：
+・QSC K12.2 × 6 隻（10 年使用，功能正常）
+・桃園中壢自取，公司可開立發票
+・整批優先處理，恕不分售、不議單顆
+・現勘可約於 [X 月 X 日上午] 或 [X 月 X 日下午]
+・有意者請私訊「整批收購報價」，謝謝
+</code></pre>
+<p><strong>關鍵字必出現</strong>：<code>整批</code>、<code>公司汰換</code>、<code>自取</code>、<code>可開發票</code>、<code>意者報價</code></p>
+<p><strong>禁忌</strong>：標單價、寫「可議」「可面交」、放手機號</p>
+<h3>反應窗口</h3>
+<ul>
+<li><strong>5 天</strong>為主，最多 7 天</li>
+<li><strong>前 48 小時</strong>收到的報價品質最高（業者每日巡）</li>
+<li>第 6 天起若無實質出價，直接接受 ITAD 報價，別拖</li>
+</ul>
+<h3>議價話術：有效 vs 無效</h3>
+<h4>✅ 有效話術（具體、可驗證、給對方退路）</h4>
+<p>&gt; 「佳龍你好，QSC 那 6 隻我在 FB 上有 3 個 PA 業者私訊，最高出到單顆 NT$5,500 自取整批。我傾向整批給你，但 QSC 這段請拉到接近這個水位，<strong>不然我就把 QSC 抽出來單走，剩下 IT 還是給你</strong>。」</p>
+<p>&gt; 「Switch 9 台我有網通盤商出到整批 NT$X，你的整批報價可不可以重看一次？我希望今天就敲定，<strong>不想再開第二輪比價</strong>。」</p>
+<h4>❌ 無效話術（含糊、虛張聲勢、沒退路）</h4>
+<p>&gt; 「FB 上有人出比較高欸……你能不能加一點？」（沒數字、沒對象、業者一聽就知道是唬的）</p>
+<p>&gt; 「我再去問問看別家。」（拖延 = 業者降溫，下一通報價會更低）</p>
+<p>&gt; 「你不加價我就不賣了。」（沒有 Plan B 的威脅最廉價）</p>
+<h4>核心心法</h4>
+<p><strong>FB 數據用在「單品項」上做局部加價，不要拿來推翻整批架構</strong>。整批商最怕被挑走肉、剩骨頭給他——「威脅拆單」是最有效的單一槓桿。</p>
+<hr>
+<h2>四、4 角色的歧見與決策</h2>
+<table>
+<tr><th>議題</th><th>歧見</th><th>最終判斷</th><th>理由</th></tr>
+<tr><td><strong>第 1 通電話打給誰？</strong></td><td>處置顧問、在地業者、ITAD 業者都說「佳龍」；FB 運營者說「百豐悅」</td><td><strong>同一天平行打佳龍 + 百豐悅</strong></td><td>FB 運營者的洞察是對的——家具 TV 不解決 = 沒解決，但不必有先後，平行進行才符合 Brian 時間有限的約束</td></tr>
+<tr><td><strong>能否真正一站式？</strong></td><td>ITAD 業者說「佳龍可以但 TV/家具會收 NT$0」；其他三人都說「分兩家更實在」</td><td><strong>採分兩家（佳龍 + 百豐悅）</strong></td><td>一站式省的是 1 通電話，分兩家多賺的是 NT$1~2 萬 TV 殘值，後者明顯划算</td></tr>
+<tr><td><strong>FB 是否刊 Mitel？</strong></td><td>ITAD、處置顧問、運營者推薦刊；在地業者也支持</td><td><strong>刊，但延後到 Day 3 確認佳龍收 Mitel 意願後再決定</strong></td><td>若佳龍願意以合理價包 Mitel，FB 那篇就不必發；可省一輪私訊干擾</td></tr>
+<tr><td><strong>議價重點是殘值還是合規？</strong></td><td>處置顧問與 ITAD 業者都把「銷毀證明」放在殘值之上；在地業者也認同</td><td><strong>合規優先、殘值次之</strong></td><td>Brian 是經辦人、責任在你身上，不是公司分擔</td></tr>
+<tr><td><strong>FB 反應窗口</strong></td><td>處置顧問 5 天、運營者 3~5 天、其他 5~7 天</td><td><strong>5 天為主、最多 7 天</strong></td><td>與 Day 8 議價日對齊，給足探價時間又不拖整體節奏</td></tr>
+</table>
+<hr>
+<h2>五、容易被忽略的 3 個關鍵風險</h2>
+<h3>風險 1：銷毀證明是「總表」而非「逐台序號」</h3>
+<p><strong>症狀</strong>：拿到 A4 一張寫「茲證明 30 台已銷毀」，總務簽收歸檔。</p>
+<p><strong>後果</strong>：未來資料外洩追溯時，這張紙在 ISO 27001 / 個資法稽核下等於零，<strong>Brian 個人扛責任</strong>。</p>
+<p><strong>對策</strong>：第 1 通電話就問「能否附逐顆硬碟序號 + 銷毀方式 + 影像紀錄？」。報價簽約前要看到範本。<strong>載運當天總務必須親自監督銷毀過程並拍照</strong>。</p>
+<h3>風險 2：FB 貼文發出去但沒準備好現勘窗口</h3>
+<p><strong>症狀</strong>：業者私訊問「何時可看貨？」，總務回「我再確認」。</p>
+<p><strong>後果</strong>：業者降溫，後續報價打 7 折，FB 探價形同無效。</p>
+<p><strong>對策</strong>：貼文發布<strong>前</strong>就先敲好 2 個半天現勘窗口，私訊 30 分鐘內給選項。</p>
+<h3>風險 3：把高價品（QSC、Switch）跟低價品（PC、螢幕）綁在整批裡被一起壓低</h3>
+<p><strong>症狀</strong>：收購商整批報一個數字，看似乾脆，但你不知道單品項分配多少。</p>
+<p><strong>後果</strong>：殘值被低估 15~25%，且難以察覺。</p>
+<p><strong>對策</strong>：要求收購商<strong>分品項列價</strong>（即使最後整批成交），用 FB 探到的單品行情逐項對照。低於行情就威脅「這項抽出來單走」。</p>
+<hr>
+<h2>六、執行摘要（200 字內）</h2>
+<p>中壢 IT 出清最佳路徑：<strong>佳龍（IT）+ 百豐悅（TV/家具）兩家分工</strong>，總務在 14 個工作天內結案。Day 1 平行接觸兩家、第一句話問「銷毀證明能否附逐顆硬碟序號」作為篩選器；同日發 FB 貼文探 QSC、Switch 兩項行情。Day 3 同日連場現勘製造競爭壓力，Day 8 用 FB 數據回壓 ITAD 議價（核心話術：威脅單品拆單）。<strong>Brian 個人責任最大的風險不是殘值少賺，而是銷毀證明造假</strong>——載運當天必須親自到場監督並拍照。整體預估：總務投入 8~10 小時、5 通核心電話、TV 與家具獨立處理可多拿 NT$1~2 萬。</p>
+<h3>4 角色各自論證（展開閱讀）</h3>
+
+<details class="ai-card">
+  <summary>🎯 企業資產處置顧問
+    <span style="color:#666;font-size:.85em"> claude-opus-4-7 · 43.7s</span></summary>
+  <div><h1>企業資產處置顧問回覆</h1>
+<hr>
+<h2>Q1：優先順序與時間規劃</h2>
+<p><strong>第 1 通電話：佳龍科技</strong></p>
+<p>理由很簡單：</p>
+<ul>
+<li>全台最大 ITAD，<strong>桃園觀音廠</strong>就在你隔壁，車程 30 分鐘內，到府估價零成本</li>
+<li>環保署 R-1602/R-3303 雙證齊全，四聯單、資料銷毀證明、發票一條龍</li>
+<li><strong>規模夠大才願意「順便收家具與電視」</strong>——這是中小型回收商不會做的，他們會挑食</li>
+<li>上市公司（KY 股），帳務乾淨，你內部簽核好過</li>
+</ul>
+<p><strong>一站式包整批的最可能人選：佳龍 &gt; 金益鼎 &gt; 亞將</strong></p>
+<p>但實話說，PC + Switch + 機櫃 + Mitel 話機這些 IT 類，三家都會搶；<strong>真正卡關的是 18 台電視 + 辦公家具</strong>——這部分九成機率佳龍會說「家具我們不收，幫你介紹下游」，這時你要逼他<strong>「一起報、一起載走、開一張發票」</strong>，否則家具/TV 你還得另外找百豐悅，又多一輪。</p>
+<p><strong>最小作業量估算</strong>：</p>
+<table>
+<tr><th>項目</th><th>通數</th><th>天數</th></tr>
+<tr><td>佳龍到府估價 + 報價</td><td>2 通</td><td>D+3</td></tr>
+<tr><td>Plan B 比價（金益鼎或亞將）</td><td>2 通</td><td>D+5</td></tr>
+<tr><td>家具/TV 若需分流（百豐悅）</td><td>1 通</td><td>D+7</td></tr>
+<tr><td>確認簽約、排載運日</td><td>1 通</td><td>D+10</td></tr>
+</table>
+<p><strong>結論：5~6 通電話、10 個工作天可結案</strong>。總務只需投入約 4 小時（含現場陪同估價 1.5 小時 ×2 家）。</p>
+<hr>
+<h2>Q2：FB 社團的情報員 SOP</h2>
+<h3>刊登品項（只挑值得探價的）</h3>
+<p>只刊 3 樣，不要分散：</p>
+<ol>
+<li><strong>QSC 喇叭 × 6</strong>——專業 PA 市場小但價格透明，1~2 天就有業者出價</li>
+<li><strong>Network Switch × 9</strong>——型號決定價差極大，業者會主動報型號行情</li>
+<li><strong>舊 PC 主機批次（不分售）</strong>——10 年機殘值低，但能逼出「一台幾十元」的底線</li>
+</ol>
+<p><strong>不要刊</strong>：螢幕（10 年無價）、Mitel（太冷門 FB 沒人）、家具（個人來看一張椅子很煩）。</p>
+<h3>標題寫法（吸業者、不吸個人）</h3>
+<p>❌ 個人取向：「QSC 喇叭便宜賣 6 顆 一顆 X000」</p>
+<p>✅ 業者取向：</p>
+<p>&gt; <strong>【整批出清・公司報廢】QSC K 系列喇叭 ×6・限整批帶走・桃園中壢自取・需開發票</strong></p>
+<p>關鍵字：<strong>「整批」「公司報廢」「需開發票」「自取」</strong>——個人買家看到「整批+發票」就會退散，業者看到「公司報廢」眼睛會亮。</p>
+<p>描述加一句：「<strong>有意者請私訊報整批收購價，恕不分售、不議單顆</strong>」——直接過濾 90% 玩家。</p>
+<h3>反應窗口</h3>
+<p><strong>5 天</strong>。第 1~2 天詢問量決定熱度，第 3~5 天讓業者出實價。超過 5 天意義不大。</p>
+<h3>議價話術範例</h3>
+<p><strong>情境 1（談 PC 批次）</strong>：</p>
+<p>&gt; 「桃園軒霖是 NT$250/台沒錯，但我這邊 FB 上有業者開到 NT$320，整批 30 台差快萬把塊。如果你能比照或加運費我可以今天定下來，不然我這邊得分流。」</p>
+<p><strong>情境 2（談 QSC）</strong>：</p>
+<p>&gt; 「我手上 PA 社團已經有 3 個業者私訊，最高開到單顆 NTXXXX。我不想分售也不想跟一堆個人約看貨，你整批含 PC、Switch 一起收的話，QSC 這部分用 NTXXXX 我就不另外處理了。」</p>
+<p><strong>重點：FB 報價是</strong>錨點<strong>，不是真的要去賣——讓對方知道「你有 Plan B」就夠了。</strong></p>
+<hr>
+<h2>Q3：最容易被忽略的盲點</h2>
+<p><strong>「資料銷毀證明」必須是「逐台序號級」、不是「一張總表」。</strong></p>
+<p>90% 的客戶（包括很多總務）拿到一張寫著「茲證明 XX 公司報廢電腦 30 台已完成資料銷毀」的 A4 紙就收下，覺得交差了。</p>
+<p><strong>但這張紙在你公司未來被稽核（ISO 27001、個資法事件、母公司內稽）時，等於零。</strong></p>
+<p>合規的資料銷毀證明必須包含：</p>
+<ul>
+<li><strong>每一台硬碟的序號（S/N）</strong></li>
+<li>銷毀方式（消磁 / 物理破壞 / 軟體覆寫 NIST 800-88）</li>
+<li>執行人員簽章 + 日期 + 影像或現場照片</li>
+</ul>
+<p><strong>佳龍、金益鼎、TES-AMM 都有能力出這種等級的證明，但你不主動要求、他們預設只給總表</strong>——因為逐台處理對他們是額外工。</p>
+<p><strong>行動點</strong>：在第 1 通電話、報價還沒談時就先問：</p>
+<p>&gt; 「你們資料銷毀證明能附<strong>每顆硬碟序號</strong>和銷毀方式嗎？我內稽會抽查。」</p>
+<p>這一句話會直接篩掉不合格業者，也讓合格業者知道你是內行人，後續報價不敢亂開。<strong>這比殘值多賺 5000 塊重要 100 倍——萬一公司資料外洩追溯，那張總表救不了你。</strong></p></div>
+</details>
+
+<details class="ai-card">
+  <summary>🏭 桃園在地廢電子業者
+    <span style="color:#666;font-size:.85em"> claude-opus-4-7 · 46.0s</span></summary>
+  <div><h1>桃園在地業者視角回覆</h1>
+<p>先說一句老實話：你這份清單<strong>整體偏「雜燴中等貨」</strong>，10+ 年 PC 跟螢幕在我們這邊是論斤論台、不是論價值的。真正有肉的是 <strong>Switch 9 台、Mitel 數十支、QSC 喇叭 6 支、TV 18 台</strong>——這四項才是議價籌碼，其他都是搭著賣的「附贈品」。把這個認知放在最前面，後面才看得懂。</p>
+<hr>
+<h2>Q1：優先順序與一站式可能性</h2>
+<p><strong>第一通電話打給：佳龍科技</strong></p>
+<p>理由：佳龍是 R-1602 老牌、台北桃園都收、有 ITAD 線（PC+Switch+Mitel 一次解），而且<strong>他們業務會願意到場估</strong>——對你「總務人力有限」這條最致命的約束，這點最值錢。讓他們先開一個整批數字當底價（anchor）。</p>
+<p><strong>第二通：金益鼎或樂吉國際</strong>——同樣 IT 整批，逼佳龍出真價。</p>
+<p><strong>第三通：百豐悅</strong>——TV 18 台 + 辦公家具，這塊 ITAD 業者通常不收或殺到趴，百豐悅是專門吃這塊的。</p>
+<p><strong>第四通：大豐或軒霖</strong>——殘餘的舊 PC、螢幕、雜項，論台秤重收尾。</p>
+<p><strong>最少電話數</strong>：4~5 通核心 + 2~3 通備案 = <strong>約 7 通</strong></p>
+<p><strong>時程</strong>：估價 3~5 個工作天、決標 1 天、搬運排程 5~7 天，<strong>總計 2 週內可結案</strong>（前提：你決策不拖）。</p>
+<p><strong>一站式可能性誰最高？</strong></p>
+<p>老實講，<strong>沒有一家會「真的」一站式包整批</strong>——TV 跟家具 ITAD 不愛、Mitel 話機 IT 業者不見得有出口管道。<strong>最接近的是佳龍</strong>，但家具那塊他十之八九會說「請另找下家」。</p>
+<p><strong>務實作法</strong>：佳龍吃 IT（PC+螢幕+Switch+Mitel）+ 百豐悅吃 TV+家具，<strong>兩家解 90% 的量</strong>，這才是現實版的「一站式」。</p>
+<hr>
+<h2>Q2：FB 社團探價 SOP</h2>
+<p><strong>值得刊登探價的只有 3 項</strong>（其他不要浪費時間）：</p>
+<ol>
+<li><strong>QSC 喇叭 × 6</strong>（FB「二手 PA 器材買賣」社團）</li>
+<li><strong>Mitel 5312 × 數十支</strong>（IP 電話相關社團、企業二手通訊）</li>
+<li><strong>Network Switch × 9</strong>（如果是 Cisco/HPE 商用級才值得，雜牌跳過）</li>
+</ol>
+<p><strong>舊 PC、舊螢幕、TV 不要刊</strong>——探不出有用情報，只會被個人買家騷擾。</p>
+<p><strong>標題寫法（吸業者不吸個人）</strong>：</p>
+<p>&gt; ❌ 爛寫法：「QSC 喇叭便宜賣 6 支」</p>
+<p>&gt; ✅ 好寫法：「【公司報廢出清】QSC K12.2 × 6 整批，桃園中壢自取，可開發票，意者私訊報價」</p>
+<p>關鍵字：<strong>「整批」「公司報廢」「可開發票」「自取」</strong>——這四個詞會自動篩掉散客、吸到同業跟小型 PA 公司。</p>
+<p><strong>反應窗口：5~7 天</strong>。前 3 天詢問量決定市場熱度，第 4~7 天會出現認真出價的業者。超過 7 天沒人理，就是市場冷，乖乖接收購商的價。</p>
+<p><strong>怎麼用在議價（範例）</strong>：</p>
+<p>&gt; <strong>場景 A</strong>：佳龍開 QSC 一支 3,000</p>
+<p>&gt; 你：「我這邊 FB 上 PA 社團問的人不少，有同業出到一支 5,500 自取，你方便調整嗎？不然 QSC 我可能單獨拆出來走。」</p>
+<p>&gt; （重點：<strong>威脅拆單</strong>，整批商最怕被挑走肉、剩骨頭給他）</p>
+<p>&gt; <strong>場景 B</strong>：金益鼎想壓 Mitel 整批 5,000</p>
+<p>&gt; 你：「Mitel 那批我 FB 上有業者私訊，一支願意收 80~120，數十支算下來不只這個價。要嘛你重估，要嘛 Mitel 我自己處理，其餘給你。」</p>
+<p><strong>核心心法</strong>：FB 情報的作用<strong>不是真的去賣</strong>，是讓收購商知道「你知道行情」——光這點就能擠出 10~20%。</p>
+<hr>
+<h2>Q3：最容易被忽略但很關鍵的一點</h2>
+<p><strong>「資料銷毀」這件事，是你被低估也是你能加價的單一最大槓桿。</strong></p>
+<p>業者圈內公開的秘密：很多收購商開的「整批價」<strong>預設你不在乎硬碟資料銷毀</strong>——他們把 PC 收走後，硬碟轉手賣到二級市場、或乾脆連資料一起流出去。所以當你<strong>主動要求「實體破壞 + 銷毀證明 + 序號清冊」</strong>，有兩種反應：</p>
+<ol>
+<li><strong>報價立刻往下修 5~15%</strong>（誠實業者，因為多了工序成本）</li>
+<li><strong>顧左右而言他、含糊帶過</strong>（這家直接淘汰，無論價多漂亮）</li>
+</ol>
+<p><strong>這就是你的篩選器</strong>——比比價、比執照都更能識破誰是真的合規業者。而且一旦你公司之後被稽核、或客戶資料外流回追，沒有銷毀證明，<strong>Brian 你個人是要扛責任的</strong>，不是公司扛、是經辦扛。</p>
+<p><strong>所以這不是「議價技巧」，是「自保動作」</strong>——但很多總務出清時只盯著錢，忘了這條。請把「資料銷毀證明」放在四聯單、發票之前，當第一順位驗收條件。</p></div>
+</details>
+
+<details class="ai-card">
+  <summary>📱 二手平台 / FB 社團運營者
+    <span style="color:#666;font-size:.85em"> claude-opus-4-7 · 42.2s</span></summary>
+  <div><h1>FB 社團運營者視角回應</h1>
+<hr>
+<h2>Q1：優先順序與執行節奏</h2>
+<h3>第 1 通電話：<strong>百豐悅二手家具家電館</strong></h3>
+<p><strong>為什麼是它，不是 ITAD：</strong></p>
+<ul>
+<li>18 台電視 + 辦公桌椅 + 會議桌 + 三層櫃 + 會議桌 → 這塊是<strong>最難脫手、最佔倉</strong>的部分，ITAD 業者通常不收家具 TV</li>
+<li>家具 TV 不解決，總務還是得另外花一輪時間</li>
+<li>百豐悅在桃園在地、做整批包走、現金結清，是<strong>唯一可能一通電話清掉一半品項</strong>的對象</li>
+<li>先確認家具 TV 這塊有人接，後面 IT 那塊再談就輕鬆很多</li>
+</ul>
+<h3>通話順序（建議 5 通搞定）</h3>
+<table>
+<tr><th>順序</th><th>對象</th><th>目的</th><th>預期時間</th></tr>
+<tr><td>1</td><td>百豐悅</td><td>TV×18 + 全部家具，估價 + 現勘預約</td><td>Day 1</td></tr>
+<tr><td>2</td><td>佳龍 or 金益鼎</td><td>PC + 螢幕 + Switch + 機櫃，IT 整批報價（要環保署證+四聯單+資料銷毀）</td><td>Day 1</td></tr>
+<tr><td>3</td><td>桃園軒霖</td><td>報廢機底價對照（PC NT$250/台是地板價，用來壓佳龍）</td><td>Day 2</td></tr>
+<tr><td>4</td><td>唐龍 or 互力</td><td>Mitel 話機整批報價</td><td>Day 2</td></tr>
+<tr><td>5</td><td>FB「二手 PA 器材買賣」</td><td>QSC×6 探價（不是賣，是收情報）</td><td>Day 2 貼文</td></tr>
+</table>
+<p><strong>最快 5~7 個工作天</strong>可以全部敲定，現勘安排在第二週。</p>
+<h3>一站式可能性</h3>
+<p><strong>沒有真正的一站式。</strong> 別幻想。家具 TV 跟 IT 是兩個生態系，硬要塞給同一家，那家一定壓你價。<strong>分兩批反而總價高 15~25%</strong>。</p>
+<hr>
+<h2>Q2：FB 探價 SOP</h2>
+<h3>值得刊登的品項（只挑 3 種）</h3>
+<ol>
+<li><strong>QSC 喇叭 ×6</strong> — 專業 PA 圈子小、行情透明、業者會主動敲</li>
+<li><strong>Network Switch ×9</strong>（如果是 Cisco/HP 企業級）— 網通二手商在 FB 蹲點</li>
+<li><strong>Mitel 5312 ×數十支</strong> — 量大就有人來問，個人不會買 IP 話機</li>
+</ol>
+<p><strong>不要刊登：</strong> 10+ 年 PC、舊螢幕、家具、TV。CP 值太低，回覆全是個人來盧的。</p>
+<h3>標題寫法（吸業者、擋個人）</h3>
+<p>❌ 個人取向：「QSC 喇叭便宜出清 一顆 3000」</p>
+<p>✅ 業者取向：「【整批出清】QSC K 系列喇叭 ×6 桃園中壢自取 整批優先 意者站內報價」</p>
+<p><strong>關鍵字：</strong> <code>整批</code>、<code>自取</code>、<code>公司汰換</code>、<code>意者報價</code>、<code>整批優先</code></p>
+<p><strong>避免：</strong> 標價（標了業者就不來主動報，你拿不到行情）、「可面交」「可議」「可小議」</p>
+<p>描述補一句：「<strong>個人單顆購買請見諒，整批優先處理</strong>」→ 業者看到會私訊，個人會自動退散。</p>
+<h3>反應窗口</h3>
+<p><strong>3~5 天，最多 7 天。</strong> 超過一週還在等就是貼文死了。前 48 小時收到的訊息品質最高（業者每天巡）。</p>
+<h3>把情報用在議價對話</h3>
+<p><strong>範例 1（壓 ITAD 整批價）：</strong></p>
+<p>&gt; 「我們 Switch 那批，我前幾天在 FB 放出消息探一下，有 3 家網通二手商主動來詢價，最高一家單看 Switch 願意出 X 元。我希望你這邊整批報價時，Switch 這塊不要低於這個數字，PC 跟螢幕那塊我可以接受你的行情。」</p>
+<p><strong>範例 2（QSC 不被當成「附帶垃圾」）：</strong></p>
+<p>&gt; 「QSC 那 6 顆我 FB 上有 PA 業者出到一顆 OO，整批就是 OO。如果你這次整包報價要把 QSC 算進去，那塊請至少給我 80%，不然我 QSC 單獨走 PA 圈，剩下的再給你。」</p>
+<p><strong>核心：</strong> FB 探到的價是<strong>單品項天花板</strong>，用來防止收購商把高價品跟低價品<strong>綁在一起壓低</strong>。</p>
+<hr>
+<h2>Q3：最容易被忽略的關鍵點</h2>
+<p><strong>「貼文一發，業者第一通電話就會問你『公司在哪、什麼時候可以來看』，你必須在貼文當下就準備好現勘窗口，否則情報變現率掉一半。」</strong></p>
+<p>我看過太多案子：總務發了探價文，業者來訊問現勘，總務回「我要再確認時間」→ 業者就降溫了，後面報的價會比第一時間低 20~30%，因為業者判斷你「沒有真的要賣，只是在問問」。</p>
+<p><strong>對策很簡單：</strong> FB 貼文發出去<strong>之前</strong>，先跟總務敲好「未來 10 天內任意 2 個半天」可以開放現勘。貼文裡不寫死時間，但業者一問你 30 分鐘內能給出 2 個選項。</p>
+<p><strong>這是 FB 探價能不能拿到「真實業者報價」而非「禮貌性報價」的分水嶺。</strong> 沒有現勘窗口，你拿到的所有價格情報都打 7 折，回頭跟收購商議價時也沒底氣——因為你自己心裡知道那些報價沒被真正驗證過。</p></div>
+</details>
+
+<details class="ai-card">
+  <summary>🛡️ 企業 ITAD 業務經理
+    <span style="color:#666;font-size:.85em"> claude-opus-4-7 · 48.0s</span></summary>
+  <div><h1>ITAD 業者視角回覆</h1>
+<p>先說一句實話：你這個案子在我們桌上，是「邊緣承接」等級。10+ 年的 PC 螢幕殘值幾乎是零，但 Switch × 9、QSC × 6、機櫃、Mitel 數十支、TV × 18，這幾項把整批清單的「remarketing 殘值」拉過我們的最低門檻（大概 NT$3~5 萬規模），所以值得我派人去現場估。如果只有 PC 螢幕，老實說我會請你直接找桃園軒霖，不要浪費你我時間。</p>
+<hr>
+<h2>Q1：優先順序與執行節奏</h2>
+<p><strong>第 1 通電話打給：佳龍科技 或 樂吉國際（Luckily）</strong></p>
+<p>理由：這個案子的核心價值在「整批一次清掉 + 出具完整文件」，不是在個別品項拼最高價。佳龍是上市公司、文件最齊（環保署許可、資安銷毀證明、四聯單、發票一條龍），樂吉的彈性與中壢/桃園地緣較好。打第一通是要做兩件事：<strong>(a) 確認對方願不願意把家具、TV 也一起包走（很多 ITAD 不收非 IT 品）；(b) 約現場估價時間</strong>。</p>
+<p><strong>最少電話數 / 天數</strong>：</p>
+<ul>
+<li>4~6 通電話、3~5 個工作天可結案</li>
+<li>Day 1：撥 2 家 ITAD（佳龍、樂吉）約現場</li>
+<li>Day 2~3：兩家現場估價（同一天排前後場最有議價張力）</li>
+<li>Day 4：比價、定案、確認文件清單</li>
+<li>Day 5：簽約、排搬運日</li>
+</ul>
+<p><strong>最可能一站式包整批的</strong>：<strong>佳龍科技</strong>。他們規模夠大、有家具與大宗雜項通路，TV × 18 對他們是順手的事。樂吉次之。亞將、金益鼎、TES-AMM 對「家具+TV」興趣偏低，他們會挑 IT 部分，剩下還是要你另外處理——這就破壞了你「總務時間最少」的核心目標。</p>
+<p><strong>但要誠實提醒你</strong>：就算佳龍包整批，家具 TV 那段他可能用「象徵性 NT$0 收走 / 甚至收你清運費」處理。你可以接受這個 trade-off 換取一站式，或把 TV+家具切給百豐悅、IT 留給 ITAD——後者多 2 通電話、多 1 天，但 TV 那塊可能多拿 NT$1~2 萬。<strong>這是你要先決定的策略題，不是我能幫你決的。</strong></p>
+<hr>
+<h2>Q2：FB 社團探價 SOP</h2>
+<p><strong>值得花力氣探價的只有 3 項</strong>：QSC 喇叭 × 6、Mitel 5312 × 數十支、Network Switch × 9。PC 和 10+ 年螢幕不要刊，浪費你時間，市場價就是廢料價，問了也是被砍。</p>
+<p><strong>標題寫法（吸引業者而非散戶）</strong>：</p>
+<ul>
+<li>❌ 散戶向：「QSC 喇叭便宜賣 一顆 XXXX」</li>
+<li>✅ 業者向：「【整批出清】QSC 喇叭 6 隻 / 公司退役 / 桃園自取 / 意者私訊報價」</li>
+</ul>
+<p>關鍵字：<strong>「整批」「公司退役」「自取」「意者報價」</strong>——這四個詞會把散戶過濾掉，留下盤商。<strong>不要自己標價</strong>，讓對方先出價，你才拿得到市場底。Switch 要寫清楚型號（Cisco / HPE / Ruckus 哪一家差很多）。</p>
+<p><strong>反應窗口</strong>：<strong>5~7 天</strong>。少於 5 天樣本不夠，超過 7 天就是你拖累自己。期間每天看一次私訊就好，不要追問。</p>
+<p><strong>怎麼把資訊用在跟我議價</strong>：</p>
+<p>&gt; 範例 1（對 ITAD）：</p>
+<p>&gt; 「佳龍你好，QSC 那 6 隻我在 FB 收到 3 個盤商出價，平均單顆 NT$X，整批 NT$Y。你們這次估的整批單裡 QSC 那段如果低於這個數，我就把 QSC 抽出來單獨處理，IT 設備還是給你們。請問可以再看一次嗎？」</p>
+<p>&gt; 範例 2（對 ITAD）：</p>
+<p>&gt; 「Mitel 話機我手上有 Alibaba RFQ 的國際買家詢價在每支 NT$X，你這邊出的單價偏低。如果整批要走，請至少把 Mitel 那段拉到接近這個水位，其他項目我接受你的估價。」</p>
+<p><strong>重點</strong>：FB 探價的目的不是賣，是<strong>讓你在議價時有具體數字可以丟出來</strong>。沒有數字的議價就是被我們業者吃定。</p>
+<hr>
+<h2>Q3：最容易被忽略的單點風險</h2>
+<p><strong>「資料銷毀證明的法律效力，跟『誰簽名、誰負責』有關，不是有一張紙就算數。」</strong></p>
+<p>我做這行最常看到的盲點：客戶拿到一張寫著「資料銷毀證明」的紙就放心歸檔，但出事的時候——比如三年後某顆硬碟在二手市場被挖出來、裡面有客戶資料外洩——那張紙能不能擋責任，看的是 <strong>(1) 出證單位是不是領有環保署 R-0501 / R-0502 許可的合格處理業者、(2) 證明上有沒有逐顆硬碟序號、(3) 銷毀方式是物理破碎還是只有軟體覆寫、(4) 有沒有銷毀過程的影像或第三方見證</strong>。</p>
+<p>很多廢電子業者也會給你「證明」，但那只是他們自己印的一張紙，法律效力幾乎是零。真出事，貴公司資安長要扛責任的時候，這張紙救不了你。</p>
+<p><strong>所以你跟我們談的時候，請當場要求看「銷毀證明範本」</strong>，確認上面有沒有硬碟序號欄位、銷毀方式欄位、處理業者許可證號。這一條不是議價籌碼，是保險。便宜 NT$5,000 但證明書是空殼的業者，你不該選。</p>
+<p>這是我從 ITAD 業者位置才看得清楚、廢電子業者不會主動告訴你的事。</p></div>
+</details>
+
+
+
+<h2 id="meta">二、多 AI 會商 · 統整結論</h2>
+<div class="meta-banner"><strong>🧠 Meta 統整</strong> · claude-opus-4-7 · 88.8s</div>
+<h1>顧問總編輯整合報告：中壢 IT／辦公設備出清</h1>
+<hr>
+<h2>一、共識區（含追問/辯論後確認）</h2>
+<p>經三輪檢驗，以下事項四家 AI 高度一致：</p>
+<h3>A. 分流策略共識</h3>
+<ol>
+<li><strong>絕不打包給單一回收商</strong>：QSC、Switch、機櫃、TV 必須分流，否則殘值被廢料價吃掉。</li>
+<li><strong>分流四大包</strong>（ChatGPT 框架，其他 AI 認同）：</li>
+</ol>
+<ul>
+<li>高殘值包：QSC、會議擴大機、企業級 Switch、機櫃</li>
+<li>大量搬走包：18 台 TV、辦公家具</li>
+<li>低殘值報廢包：10 年以上 PC／螢幕、雜牌 Switch</li>
+<li>特殊通訊包：Mitel 5312</li>
+</ul>
+<h3>B. 品項處置共識</h3>
+<table>
+<tr><th>品項</th><th>共識路線</th></tr>
+<tr><td>10 年以上 PC／螢幕</td><td>直接合法 ITAD／回收商，廢料價 NT$50–300/台，<strong>重點是資料抹除證明</strong></td></tr>
+<tr><td>QSC 喇叭</td><td><strong>絕不當廢料</strong>，走專業音響社團（FB「台灣音響二手交易區」、MYAV、PTT Audiophile）</td></tr>
+<tr><td>TV 18 台</td><td>整批優先（餐廳、宿舍、民宿、補習班買家）；零售為輔</td></tr>
+<tr><td>辦公家具</td><td>二手家具商整批到府清運</td></tr>
+<tr><td>機櫃</td><td>FB Marketplace 中壢自取，或併網通商</td></tr>
+<tr><td>Switch</td><td>視品牌型號，企業級（Cisco/HPE/Juniper）值得個別上架</td></tr>
+</table>
+<h3>C. 法規與風險共識</h3>
+<ol>
+<li><strong>資料抹除最高優先</strong>：PC 硬碟、Switch config、IP Phone 通訊錄與 SIP 帳密均需處理。</li>
+<li><strong>合法清運憑證必索取</strong>：依《廢棄物清理法》第 28、41、46 條，事業廢棄物須委託合法業者，未依規可處 1–5 年徒刑、最高 1,500 萬罰金。</li>
+<li><strong>稅務處理</strong>：公司資產處分需發票或收據，5% 營業稅，已折舊資產仍可能涉及處分損益。</li>
+</ol>
+<h3>D. 執行時程共識</h3>
+<p>四家均建議 <strong>2–4 週分階段</strong>：第 1 週盤點＋詢價、第 2 週上架＋議價、第 3 週清運、第 4 週收尾。</p>
+<hr>
+<h2>二、歧見與矛盾（標出辯論後是否收斂）</h2>
+<h3>矛盾 1：Mitel 5312 國內收購價（<strong>辯論後已收斂</strong>）</h3>
+<table>
+<tr><th>AI</th><th>原估價</th><th>修正後</th></tr>
+<tr><td>ChatGPT</td><td>NT$50–500</td><td>同左（保守）</td></tr>
+<tr><td>Gemini</td><td>未明確</td><td><strong>NT$50–150（B2B 大宗）</strong></td></tr>
+<tr><td>Grok</td><td>NT$350–650</td><td><strong>修正為 NT$180–320</strong>（2025/01 最新成交）</td></tr>
+<tr><td>Claude</td><td>NT$50–150（料件）/ USD 15–40（eBay）</td><td>同左</td></tr>
+</table>
+<p><strong>收斂判定</strong>：Grok 在 Round 2 已自我修正，承認 2024 下半年後價格下滑。<strong>最終共識：國內 NT$150–280/支，eBay 整批淨收 NT$320–480/支。</strong></p>
+<h3>矛盾 2：總回收金額預估（<strong>部分收斂</strong>）</h3>
+<table>
+<tr><th>AI</th><th>保守</th><th>樂觀</th></tr>
+<tr><td>ChatGPT</td><td>30,000–90,000</td><td>120,000–350,000</td></tr>
+<tr><td>Gemini</td><td>27,500</td><td>170,000</td></tr>
+<tr><td>Grok</td><td>18,000–28,000</td><td>42,000–58,000（<strong>明顯偏低</strong>）</td></tr>
+<tr><td>Claude</td><td>75,400</td><td>280,700</td></tr>
+</table>
+<p><strong>收斂判定</strong>：Grok 偏低主因是低估 QSC（單顆僅抓 NT$2,500–4,500，遠低於 ChatGPT 補充的 K12.2 單顆 NT$24,000–33,000）。<strong>整合後合理區間：保守 NT$5–9 萬，樂觀 NT$20–30 萬，折衷目標 NT$15–20 萬。</strong></p>
+<h3>矛盾 3：在地廠商真實性（<strong>辯論後大幅收斂，多家被剔除</strong>）</h3>
+<table>
+<tr><th>廠商</th><th>原列者</th><th>驗證結果</th></tr>
+<tr><td>優倍特環保科技</td><td>Gemini</td><td>✅ 統編 28624103，桃園觀音，真實 ITAD</td></tr>
+<tr><td>綠循環科技（綠盟）</td><td>Gemini</td><td>✅ 統編 53982054，登記新竹竹北</td></tr>
+<tr><td>祥發資源回收</td><td>Grok</td><td>❌ <strong>無統編可查，未驗證</strong></td></tr>
+<tr><td>阿忠回收企業</td><td>Grok</td><td>❌ <strong>無公司登記，個人流動商</strong></td></tr>
+<tr><td>宏泰環保科技</td><td>Grok</td><td>⚠️ 統編 53508886 部分吻合，電話需重查</td></tr>
+<tr><td>永信再生資源</td><td>Grok</td><td>❌ <strong>未驗證</strong></td></tr>
+<tr><td>佳龍科技</td><td>ChatGPT</td><td>✅ 統編 89314812，上市櫃，僅適合廢電子報廢</td></tr>
+<tr><td>金益鼎</td><td>ChatGPT/Claude</td><td>✅ 統編 89531168，貴金屬精煉廠</td></tr>
+<tr><td>大豐環保</td><td>ChatGPT/Claude</td><td>✅ 統編 27282195，桃園多據點</td></tr>
+<tr><td>台佳通信、海國樂器</td><td>ChatGPT</td><td>⚠️ ChatGPT 自承「需自行驗證」、降級</td></tr>
+<tr><td>Kanter 等 Mitel 夥伴</td><td>Gemini</td><td>⚠️ Gemini 修正為「依官網 Partner Locator 自查」</td></tr>
+</table>
+<h3>矛盾 4：eBay 國際出口可行性（<strong>收斂</strong>）</h3>
+<p>Claude 補充指出：新帳號 eBay 限額（首月 10 件 / USD 500）使單支上架不可行；<strong>整批 Bulk Lot 或 Alibaba RFQ 才是務實路徑</strong>。Grok 補充宏泰環保可代辦出口報關（抽成 15–18%）但宏泰本身真實性仍待驗證。</p>
+<hr>
+<h2>三、事實／引用核對表</h2>
+<table>
+<tr><th>事實點</th><th>引用來源</th><th>核對結果</th></tr>
+<tr><td>廢棄物清理法第 28、41、46 條罰則</td><td>ChatGPT</td><td>✅ 法條條號正確；第 46 條罰金為 1,500 萬以下</td></tr>
+<tr><td>加值營業稅率 5%（營業稅法 §3, §10, §32）</td><td>ChatGPT</td><td>✅ 條號與稅率正確</td></tr>
+<tr><td>R-1602 廢電子電機處理業執照</td><td>Claude/Grok</td><td>✅ 環境部資源循環署核發類別正確</td></tr>
+<tr><td>ITAD 廠商 vs R-1602 處理廠之區別</td><td>Gemini</td><td>✅ 角色區分正確；ITAD 通常持「廢棄物清除許可證」非處理執照</td></tr>
+<tr><td>環境部廢棄物管理資訊平台 wmp.moenv.gov.tw</td><td>Grok</td><td>✅ 網址與查詢路徑正確</td></tr>
+<tr><td>eBay 2022 起改 Managed Payments</td><td>Claude</td><td>✅ 屬實，PayPal 已非預設</td></tr>
+<tr><td>eBay 成交費 13.25% + USD 0.30/筆</td><td>Claude</td><td>✅ 電子產品類別費率屬實</td></tr>
+<tr><td>Mitel 5312 為 MiVoice 5000/MX-One 專用 proprietary protocol</td><td>Grok</td><td>✅ 屬實，無法當一般 SIP 話機</td></tr>
+<tr><td>Mitel 官方 Partner Locator 網址</td><td>Gemini/ChatGPT</td><td>✅ mitel.com/find-a-partner 屬實</td></tr>
+<tr><td>QSC K 系列 / KW / K.2 / CP / E 系列分類</td><td>ChatGPT 補充</td><td>✅ 型號分類正確</td></tr>
+<tr><td>上市櫃公司統編（佳龍 89314812、金益鼎 89531168）</td><td>ChatGPT/Claude</td><td>⚠️ 統編需以經濟部商工登記公示資料為準（findbiz.nat.gov.tw）</td></tr>
+<tr><td><strong>未驗證廠商</strong>（祥發、阿忠、永信、台佳通信細節）</td><td>Grok/ChatGPT</td><td>❌ Round 2 已自我承認需驗證</td></tr>
+</table>
+<hr>
+<h2>四、統整後的最佳建議</h2>
+<h3>步驟 1：盤點與資料安全（Day 1–3）</h3>
+<p><strong>必補欄位</strong>：</p>
+<ul>
+<li>QSC 具體型號（K8/K10/K12/K12.2/KW122/CP12/E110…）— <strong>這決定 5–15 萬的價差</strong></li>
+<li>Switch 品牌型號（拍型號貼紙）</li>
+<li>會議擴大機品牌與型號（看背板有無 70V/100V、Dante、RJ45）</li>
+<li>TV 品牌、年份、尺寸</li>
+<li>Mitel 5312 精確數量與機況</li>
+</ul>
+<p><strong>資料抹除</strong>：</p>
+<ul>
+<li>PC 硬碟用 DBAN 抹除或物理破壞，留紀錄</li>
+<li>Switch factory reset，清 VLAN/密碼/SNMP/VPN</li>
+<li>Mitel 話機清通訊錄、call log、SIP 帳密</li>
+</ul>
+<h3>步驟 2：分流詢價（Day 3–7，並行）</h3>
+<h4>A. 高殘值包</h4>
+<table>
+<tr><th>品項</th><th>通路</th><th>預期單價</th></tr>
+<tr><td>QSC（依型號）</td><td>FB「台灣音響二手交易區」、MYAV、PTT Audiophile</td><td>K12: NT$14k–21k/顆；K12.2: NT$24k–33k/顆</td></tr>
+<tr><td>會議擴大機</td><td>同上 + 蝦皮</td><td>TOA 中型 NT$3k–6k；Yamaha XMV NT$10k–25k</td></tr>
+<tr><td>企業級 Switch（Cisco/HPE）</td><td>蝦皮 + PTT HardwareSale</td><td>NT$500–2,000/台</td></tr>
+<tr><td>機櫃</td><td>FB Marketplace 中壢自取</td><td>大型 NT$2k–5k；小型 NT$0.8k–1.8k</td></tr>
+</table>
+<h4>B. 通訊包（Mitel 5312）</h4>
+<p><strong>最終建議排序</strong>：</p>
+<ol>
+<li><strong>若 30 支以下、品相普通</strong> → 國內 PBX 整合商（從 Mitel 官網 Partner Locator 查 Taiwan 區，話術用「升級方案折抵」），預期 NT$150–280/支</li>
+<li><strong>若 30 支以上、品相佳</strong> → <strong>Alibaba RFQ 找海外整批買家</strong>（最務實），預期淨收 NT$320–480/支</li>
+<li><strong>避免</strong>：自己從零註冊 eBay 拆批上架（新帳號限額 + 學習曲線吃掉利潤）</li>
+</ol>
+<h4>C. 大量包（TV + 家具）</h4>
+<ul>
+<li>找 <strong>2–3 家二手家具家電商</strong>到府估價（建議在 Google 商工登記 findbiz.nat.gov.tw 先查公司真實性）</li>
+<li>TV 先掛 FB Marketplace 整批 18 台 3 天，無人問再轉家電商</li>
+<li>預期：TV NT$1,500–4,500/台；家具整批 NT$15,000–40,000</li>
+</ul>
+<h4>D. 報廢包（10 年以上 PC/螢幕、雜牌 Switch）</h4>
+<p><strong>已驗證合法業者優先</strong>：</p>
+<ul>
+<li><strong>大豐環保科技</strong>（統編 27282195，桃園多據點）</li>
+<li><strong>佳龍科技</strong>（統編 89314812，桃園觀音）</li>
+<li><strong>金益鼎</strong>（統編 89531168，貴金屬精煉）</li>
+<li><strong>優倍特環保科技</strong>（統編 28624103，ITAD 服務）</li>
+</ul>
+<p><strong>強制要求</strong>：簽約前要求對方提供 <strong>R-1602 / R-1505 許可證影本＋有效期限</strong>，並透過 https://wmp.moenv.gov.tw/ 「許可證查詢」交叉驗證。</p>
+<p>⚠️ <strong>不建議聯繫</strong>：祥發、阿忠、永信再生、台佳通信、海國樂器（Round 2 已驗證為未登記或無法核實）</p>
+<h3>步驟 3：執行時程（4 週）</h3>
+<ul>
+<li><strong>W1</strong>：盤點＋抹除＋發詢價單（4 大包並行）</li>
+<li><strong>W2</strong>：高殘值品上架；與已驗證業者敲定到府日；Mitel 走 Alibaba RFQ</li>
+<li><strong>W3</strong>：清運（索取四聯單、回收證明、資料銷毀證明）</li>
+<li><strong>W4</strong>：零售收尾、未售品轉報廢、財務開立憑證</li>
+</ul>
+<h3>步驟 4：預期回收金額（整合後）</h3>
+<table>
+<tr><th>情境</th><th>區間</th></tr>
+<tr><td>保守（全整批清運）</td><td>NT$50,000–90,000</td></tr>
+<tr><td><strong>折衷目標</strong>（QSC/TV/Mitel 走零售或國際）</td><td><strong>NT$150,000–200,000</strong></td></tr>
+<tr><td>樂觀（QSC 為 K12.2、Switch 為企業級）</td><td>NT$250,000–300,000</td></tr>
+</table>
+<p><strong>價值關鍵 3 大品</strong>：QSC 喇叭（占總值 30–50%）、TV 18 台、Mitel 30 支。投入 30–40 工時經營網路平台，投報率最高。</p>
+<h3>步驟 5：法規與稅務 checklist</h3>
+<ul>
+<li>[ ] 索取 <strong>R-1602 廢電子四聯單</strong>（廢電子）</li>
+<li>[ ] 索取 <strong>資料銷毀證明</strong>（含序號與抹除方式）</li>
+<li>[ ] 出售收入開立 <strong>統一發票</strong>（5% 營業稅，含稅／未稅報價需明確）</li>
+<li>[ ] 已折舊資產處分損益請會計師確認分錄</li>
+<li>[ ] 出口 Mitel 若委外，需檢附「非廢棄物證明」（廢清法第 31 條）</li>
+</ul>
+<hr>
+<h2>五、執行摘要（200 字內）</h2>
+<p><strong>分四包並行處理</strong>：①QSC（依型號 NT$54k–198k／6 顆，走音響社團）、②TV+家具（整批委二手家具家電商）、③Mitel 5312（30 支以上走 Alibaba RFQ 淨收 NT$320–480/支；少量找 Mitel 官網 Partner Locator 查 Taiwan 夥伴）、④PC/螢幕報廢（大豐、佳龍、優倍特、金益鼎，<strong>透過 wmp.moenv.gov.tw 驗證 R-1602 執照</strong>）。<strong>未驗證廠商</strong>（祥發、阿忠、永信、台佳通信、海國樂器）一律剔除。資料抹除＋四聯單＋發票三項憑證必索取。4 週完成，折衷目標 <strong>NT$15–20 萬</strong>，QSC 型號是金額關鍵。</p>
+
+<h2 id="raw">三、4 AI 原始回答</h2>
+
+<details class="ai-card">
+  <summary><span class="ai-badge" style="background:#10A37F">🟢 ChatGPT</span>
+    <span style="color:#666;font-size:.9em"> gpt-5.5-pro · 712.0s</span></summary>
+  <div><h1>中壢 IT／辦公設備出清建議：最快且兼顧殘值的做法</h1>
+<h2>結論先講</h2>
+<p>這批不要全部丟給同一家回收商，否則 <strong>QSC 喇叭、Network Switch、機櫃、TV</strong> 的價值會被當廢料吃掉。  </p>
+<p>建議分成 4 包同步處理：</p>
+<ol>
+<li><strong>高殘值包</strong>：QSC 喇叭、會議擴大機、較新的 Network Switch、機櫃  </li>
+</ol>
+<p>   → 走專業二手音響、二手 IT、FB／露天平台。</p>
+<ol>
+<li><strong>大量可搬走包</strong>：18 台 TV、辦公桌椅、三層櫃、會議桌  </li>
+</ol>
+<p>   → 桃園／新北二手家具家電商到府估價，整批清。</p>
+<ol>
+<li><strong>低殘值報廢包</strong>：10 年以上 PC、螢幕、無價值 Switch、故障 TV  </li>
+</ol>
+<p>   → 合法 ITAD／廢電子回收商。</p>
+<ol>
+<li><strong>特殊通訊包</strong>：Mitel 5312 IP 話機  </li>
+</ol>
+<p>   → 先問 Mitel／PBX 維護商 1 週，無人收再整批低價賣或報廢。</p>
+<hr>
+<h1>一、收購廠商建議</h1>
+<p>&gt; 聯絡電話常變，以下以「官網／Google 商家聯絡頁」為主；實際報價前請要求對方提供統編、估價單、是否可開收據／發票、是否能出具回收或資料銷毀證明。</p>
+<h2>A. 桃園／北部優先</h2>
+<table>
+<tr><th>排序</th><th>廠商</th><th>聯絡管道</th><th>適用品項</th><th>到府／運送</th><th>桃園服務</th><th>預估殘值</th><th>效度</th></tr>
+<tr><td>1</td><td><strong>TES Sustainable Technology / TES-AMM Taiwan</strong></td><td>&lt;https://www.tes-amm.com/&gt;</td><td>退役 IT、PC、螢幕、Switch、話機、資料銷毀、企業 ITAD</td><td>企業案通常可約到府清點／清運</td><td>可服務北部企業案</td><td>PC／螢幕多半低價或抵清運；有價 IT 可 remarketing</td><td><strong>高</strong>：適合企業退役 IT，重點是資料安全與合法文件</td></tr>
+<tr><td>2</td><td><strong>金益鼎企業股份有限公司 Super Dragon Technology, SDTI</strong></td><td>&lt;https://www.sdti.com.tw/&gt;</td><td>廢電腦、廢電子、網通設備、電路板、螢幕等</td><td>大宗可洽到府／車趟安排</td><td><strong>桃園觀音在地</strong></td><td>以廢料價為主，PC／螢幕價值低</td><td><strong>高</strong>：桃園在地大型電子廢棄物處理業者，適合低殘值品</td></tr>
+<tr><td>3</td><td><strong>佳龍科技工程股份有限公司</strong></td><td>Google 商家：&lt;https://www.google.com/maps/search/?api=1&amp;query=佳龍科技工程股份有限公司&gt;</td><td>廢電子、金屬、資訊設備報廢</td><td>大宗可洽</td><td>桃園業者</td><td>以廢料價為主</td><td><strong>高／中</strong>：適合合法報廢，不適合追求二手殘值</td></tr>
+<tr><td>4</td><td><strong>大豐環保科技股份有限公司</strong></td><td>&lt;https://www.df-recycle.com.tw/&gt;</td><td>資源回收、廢家電、部分電子設備、大型清運媒合</td><td>視案件安排</td><td>北部可服務</td><td>多數為低殘值／清運導向</td><td><strong>中高</strong>：速度佳，但高價品不建議混入</td></tr>
+<tr><td>5</td><td><strong>桃園／中壢在地二手家具家電商</strong></td><td>建議用 Google Maps 搜：&lt;https://www.google.com/maps/search/?api=1&amp;query=中壢+二手家具+收購&gt;</td><td>TV、辦公桌椅、三層櫃、會議桌、小型機櫃</td><td>多數可到府估價、派車搬運</td><td><strong>在地優先</strong></td><td>TV 約 NT$300–1,500／台批收；家具視品相常低價或抵搬運</td><td><strong>高</strong>：18 台 TV＋家具最適合先找在地商整批報價</td></tr>
+</table>
+<hr>
+<h2>B. 大台北次之</h2>
+<table>
+<tr><th>排序</th><th>廠商</th><th>聯絡管道</th><th>適用品項</th><th>到府／運送</th><th>桃園服務</th><th>預估殘值</th><th>效度</th></tr>
+<tr><td>6</td><td><strong>泰山二手家具生活館／泰山二手家具商圈店家</strong></td><td>&lt;https://www.google.com/maps/search/?api=1&amp;query=泰山二手家具生活館&gt;</td><td>辦公家具、會議桌、櫃子、TV、部分家電</td><td>通常可到府估價</td><td>新北到桃園需看車趟</td><td>家具整批多半 NT$0–30,000，取決於品相與搬運</td><td><strong>中高</strong>：新北二手家具商常跑北北桃</td></tr>
+<tr><td>7</td><td><strong>上品二手家具館／北部二手家具商</strong></td><td>&lt;https://www.google.com/maps/search/?api=1&amp;query=上品二手家具館&gt;</td><td>辦公桌椅、櫃子、會議桌、電視</td><td>可洽到府</td><td>需確認</td><td>中低至中等</td><td><strong>中</strong>：可比價，但不一定願意跑中壢小量案</td></tr>
+<tr><td>8</td><td><strong>跳蚤本舖</strong></td><td>&lt;https://www.bmb.com.tw/&gt;</td><td>小家電、TV、部分家具、雜項寄賣</td><td>店型為主，是否到府需問</td><td>官網可查桃園周邊門市</td><td>寄賣價可能較高，但速度慢</td><td><strong>中低</strong>：適合零售寄賣，不適合最快清空</td></tr>
+<tr><td>9</td><td><strong>海國樂器／專業音響店家</strong></td><td>&lt;https://www.haikuo.com.tw/&gt;</td><td>QSC 喇叭、擴大機、PA 音響器材</td><td>通常需帶型號詢價，是否收購／寄賣需問</td><td>台北為主</td><td>QSC 若型號好，單顆可數千至上萬元</td><td><strong>中高</strong>：QSC 不應當廢品，先問專業音響通路</td></tr>
+<tr><td>10</td><td><strong>台佳通信／PBX 通訊工程商</strong></td><td>搜尋：&lt;https://www.google.com/maps/search/?api=1&amp;query=台佳通信+PBX&gt;</td><td>Mitel 話機、IP PBX、總機系統備品</td><td>需先電話確認</td><td>台北／北部</td><td>Mitel 5312 約 NT$50–500／支，視需求</td><td><strong>中</strong>：Mitel 話機要找維護商，不是一般 3C 收購</td></tr>
+</table>
+<hr>
+<h2>C. Mitel／PBX 系統整合商詢價名單</h2>
+<p>Mitel 5312 是比較專用的 IP 話機，台灣一般二手市場流通性低，但 <strong>既有 Mitel PBX 客戶或維護商</strong> 可能會買來當備品。</p>
+<table>
+<tr><th>業者</th><th>聯絡管道</th><th>真實存在性</th><th>是否確認 Mitel 授權</th><th>建議用途</th><th>效度</th></tr>
+<tr><td><strong>Mitel 官方 Partner Locator</strong></td><td>&lt;https://www.mitel.com/partners/find-a-partner&gt;</td><td>是，原廠官方</td><td>以官方查詢為準</td><td>查台灣當期授權夥伴，再逐一問是否收 Mitel 5312</td><td><strong>高</strong></td></tr>
+<tr><td><strong>NEC Taiwan 台灣恩益禧股份有限公司</strong></td><td>&lt;https://tw.nec.com/&gt;</td><td>是，官方網站可查</td><td>非 Mitel 主線，需確認</td><td>PBX／UC 系統商，可能知道舊總機備品需求</td><td><strong>中低</strong></td></tr>
+<tr><td><strong>台佳通信／PBX 通訊工程商</strong></td><td>&lt;https://www.google.com/maps/search/?api=1&amp;query=台佳通信+IP+PBX&gt;</td><td>Google 商家／工商資料可查</td><td>需對方證明</td><td>問 Mitel／Aastra／IP PBX 備品收購</td><td><strong>中</strong></td></tr>
+<tr><td><strong>凌群電腦 SYSCOM</strong></td><td>&lt;https://www.syscom.com.tw/&gt;</td><td>是，上市櫃等級 SI</td><td>非 Mitel 授權需確認</td><td>大型企業通訊／客服／UC 專案，可能轉介維護商</td><td><strong>低～中</strong></td></tr>
+<tr><td><strong>敦陽科技 STI</strong></td><td>&lt;https://www.sti.com.tw/&gt;</td><td>是，企業 SI</td><td>非 Mitel 授權需確認</td><td>問是否有客戶需要舊 IP Phone 備品</td><td><strong>低～中</strong></td></tr>
+</table>
+<p><strong>Mitel 詢價話術：</strong></p>
+<p>&gt; 我們公司在桃園中壢退役一批 Mitel 5312 IP Phone，數量約 XX 支，有話筒、底座、網路線／電源狀況待確認，可提供照片與測試。請問貴公司是否有 Mitel PBX 維護客戶需要備品，是否可整批收購或代售？</p>
+<hr>
+<h1>二、二手平台建議</h1>
+<table>
+<tr><th>排序</th><th>平台</th><th>網址</th><th>適合品項</th><th>成交速度</th><th>操作建議</th></tr>
+<tr><td>1</td><td><strong>Facebook Marketplace</strong></td><td>&lt;https://www.facebook.com/marketplace/&gt;</td><td>TV、機櫃、辦公家具、QSC、擴大機</td><td>快，1–7 天</td><td>標題一定寫「桃園中壢自取」、「公司退役」、「可現場測試」</td></tr>
+<tr><td>2</td><td><strong>Facebook 桃園／中壢二手社團</strong></td><td>搜尋：&lt;https://www.facebook.com/search/groups/?q=中壢%20二手%20買賣&gt;</td><td>TV、家具、機櫃</td><td>很快，但議價多</td><td>大型物品優先，要求自搬，收訂金避免放鳥</td></tr>
+<tr><td>3</td><td><strong>露天拍賣</strong></td><td>&lt;https://www.ruten.com.tw/&gt;</td><td>Network Switch、Mitel 話機、QSC、擴大機</td><td>1–4 週</td><td>適合型號搜尋，標題放完整型號、PoE、Gigabit、SFP</td></tr>
+<tr><td>4</td><td><strong>蝦皮</strong></td><td>&lt;https://shopee.tw/&gt;</td><td>小型 Switch、IP Phone、小音響設備</td><td>1–3 週</td><td>大型 TV／機櫃不適合；小件可用整批價</td></tr>
+<tr><td>5</td><td><strong>MYAV 視聽商情網</strong></td><td>&lt;https://www.myav.com.tw/&gt;</td><td>QSC 喇叭、會議擴大機、專業音響</td><td>1–4 週</td><td>QSC 建議列型號、單支／一對、可否試聽</td></tr>
+<tr><td>6</td><td><strong>Mobile01 市集／影音討論區</strong></td><td>&lt;https://www.mobile01.com/&gt;</td><td>QSC、TV、部分網通</td><td>1–4 週</td><td>價格可稍高，但需完整照片與功能測試</td></tr>
+<tr><td>7</td><td><strong>PTT HardwareSale / forsale</strong></td><td>&lt;https://www.ptt.cc/bbs/HardwareSale/index.html&gt;</td><td>Switch、舊電腦、螢幕便宜出清</td><td>快，但價格低</td><td>適合「便宜自取」；帳號門檻與格式要注意</td></tr>
+<tr><td>8</td><td><strong>Yahoo 奇摩拍賣</strong></td><td>&lt;https://tw.bid.yahoo.com/&gt;</td><td>Switch、話機、音響</td><td>較慢</td><td>可作補充通路</td></tr>
+<tr><td>9</td><td><strong>591／房東社群</strong></td><td>&lt;https://www.591.com.tw/&gt;</td><td>18 台 TV、家具整批給套房／宿舍／民宿業者</td><td>中等</td><td>可在 FB 房東社團搭配發布，比 591 本站更有效</td></tr>
+</table>
+<hr>
+<h2>建議標題範例</h2>
+<h3>Network Switch</h3>
+<pre><code>
+Cisco / HP / Aruba 24埠 Gigabit PoE Switch｜公司退役｜桃園中壢可測
+</code></pre>
+<h3>QSC 喇叭</h3>
+<pre><code>
+QSC 專業喇叭 6 顆｜會議室退役｜桃園中壢面交試聽｜型號見照片
+</code></pre>
+<h3>TV</h3>
+<pre><code>
+37～50吋液晶電視 18台整批｜公司退役｜桃園中壢自取｜適合套房/宿舍/民宿
+</code></pre>
+<h3>機櫃</h3>
+<pre><code>
+42U 伺服器機櫃 含門板/側板/風扇/PDU｜桃園中壢自取
+</code></pre>
+<hr>
+<h1>三、品項分流策略</h1>
+<table>
+<tr><th>品項</th><th>建議路線</th><th>理由</th></tr>
+<tr><td>10 年以上 PC 主機</td><td><strong>合法 ITAD／廢電腦回收</strong></td><td>有人收，但多半是廢料價。若低於 i5 4 代、無 SSD，二手價很低。重點是硬碟資料抹除。</td></tr>
+<tr><td>10 年以上螢幕</td><td><strong>直接回收或低價自取</strong></td><td>VGA 老螢幕幾乎沒殘值，搬運成本常高於售價。若 HDMI、狀況佳，可 NT$100–500／台賣自取。</td></tr>
+<tr><td>Network Switch ×9</td><td><strong>先看型號，再決定個別上架</strong></td><td>若是 Cisco／HP／Aruba／Ubiquiti／MikroTik、Gigabit、PoE、SFP，值得單台賣；若 10/100 或低階 unmanaged，整批低價。</td></tr>
+<tr><td>大型／小型機櫃</td><td><strong>FB／二手 IT／二手家具商</strong></td><td>機櫃有二手需求，但運送麻煩，適合中壢自取。大型 42U 常有 NT$3,000–8,000 殘值。</td></tr>
+<tr><td>Mitel 5312 IP Phone</td><td><strong>先問 PBX／Mitel 維護商，1 週後未果就整批出清</strong></td><td>台灣流通性低，非一般 SIP 話機市場；只有既有 Mitel 客戶會買備品。</td></tr>
+<tr><td>會議擴大機</td><td><strong>專業音響平台／二手影音</strong></td><td>型號很重要，若是 TOA、Yamaha、QSC、Crown、Bose 等仍有價。</td></tr>
+<tr><td>QSC 喇叭 ×6</td><td><strong>一定走專業音響市場</strong></td><td>QSC 是專業音響品牌，不要當廢品。若是 K／KW／CP 主動式系列，單顆可能上萬元；被動式也常有數千元。</td></tr>
+<tr><td>TV 37～50 吋 ×18</td><td><strong>建議混合：先零售 7 天，再整批賣剩餘</strong></td><td>全部零售金額較高但耗時；整批最快。18 台適合賣給套房、宿舍、民宿、二手家電商。</td></tr>
+<tr><td>辦公桌椅、三層櫃、會議桌</td><td><strong>二手家具商整批估價或低價自搬</strong></td><td>家具價值受搬運成本影響很大。若非 Herman Miller、Steelcase、震旦、優美等品牌，殘值有限。</td></tr>
+</table>
+<hr>
+<h2>特別問題回答</h2>
+<h3>1. 10 年以上 PC／螢幕是否還有人收？</h3>
+<p>有，但多半是 <strong>廢料價或清運價</strong>，不是二手價。</p>
+<ul>
+<li>PC 主機：大約 NT$50–300／台廢料價；若 i5 以上、可開機，可能 NT$300–1,500。</li>
+<li>LCD 螢幕：舊款多半 NT$0–200；故障或老 VGA 可能沒人願意付錢。</li>
+<li>若需要資料抹除證明，可能反而要付費。</li>
+</ul>
+<h3>2. Mitel 5312 在台灣流通性如何？</h3>
+<p><strong>偏低。</strong>  </p>
+<p>Mitel 5312 通常綁 Mitel MiVoice／3300 ICP 等系統，買家多是既有 Mitel PBX 用戶或維護商。一般二手 3C 商不太會收。</p>
+<p>建議：</p>
+<ol>
+<li>先問 Mitel 官方 Partner Locator 找到台灣夥伴。</li>
+<li>再問 PBX 維護商是否有備品需求。</li>
+<li>若 1 週內沒報價，整批用 NT$50–200／支低價出清，不要拖太久。</li>
+</ol>
+<h3>3. Network Switch 9 台是否值得個別上架？</h3>
+<p>看型號：</p>
+<ul>
+<li><strong>值得個別上架</strong>：Cisco Catalyst、HP／Aruba、Juniper、Fortinet、Ubiquiti、MikroTik、PoE、Gigabit、10G、SFP。</li>
+<li><strong>不值得</strong>：10/100、8 埠低階、無品牌 unmanaged switch。</li>
+</ul>
+<p>建議先拍每台正面、背面、型號貼紙、通電燈號，再決定。</p>
+<h3>4. 18 台 TV：整批收購 vs 零售？</h3>
+<ul>
+<li><strong>最快</strong>：整批賣給二手家電／家具商，約 NT$300–1,500／台。</li>
+<li><strong>較高金額</strong>：零售自取，約 NT$800–3,000／台，但要處理看貨、測試、議價、放鳥。</li>
+<li><strong>建議做法</strong>：前 7 天挑狀況好的零售，剩下第 2 週整批處理。</li>
+</ul>
+<h3>5. QSC 喇叭適合專業二手音響市場嗎？</h3>
+<p><strong>非常適合。</strong>  </p>
+<p>QSC 是專業 PA／會議室／展演音響品牌，請先確認：</p>
+<ul>
+<li>型號：K8、K10、K12、KW、CP、AD-S、E 系列等</li>
+<li>主動式或被動式</li>
+<li>單顆或成對</li>
+<li>單體有無破音、箱體有無裂、輸入端是否正常</li>
+</ul>
+<p>QSC 建議不要包給回收商，應先問專業音響店或上 MYAV／FB 音響社團。</p>
+<hr>
+<h1>四、2～4 週執行時程</h1>
+<h2>第 1 週：盤點、分包、同步詢價</h2>
+<h3>Day 1–2：盤點</h3>
+<p>每件設備建立表格：</p>
+<ul>
+<li>品名</li>
+<li>品牌</li>
+<li>型號</li>
+<li>數量</li>
+<li>序號</li>
+<li>是否可開機</li>
+<li>配件是否完整</li>
+<li>照片</li>
+<li>存放位置</li>
+<li>是否含硬碟／SSD</li>
+</ul>
+<p>特別要拍：</p>
+<ul>
+<li>Switch 型號貼紙</li>
+<li>QSC 型號與背板</li>
+<li>TV 型號、尺寸、輸入端子</li>
+<li>機櫃尺寸、U 數、深度、有無 PDU</li>
+<li>Mitel 話機底部型號貼紙</li>
+</ul>
+<h3>Day 2–4：資料安全處理</h3>
+<ul>
+<li>PC 硬碟／SSD 拆下或抹除。</li>
+<li>Switch factory reset，清除 VLAN、IP、密碼、SNMP、VPN、config。</li>
+<li>Mitel 話機清除通訊錄、call log、extension 設定。</li>
+<li>如需正式銷毀，請 TES 或合法 ITAD 出具證明。</li>
+</ul>
+<h3>Day 3–5：詢價</h3>
+<p>同步發三組報價：</p>
+<ol>
+<li><strong>ITAD／廢電子</strong>：TES、金益鼎、佳龍、大豐。</li>
+<li><strong>TV／家具／機櫃</strong>：桃園中壢二手家具家電商、新北家具商。</li>
+<li><strong>高價品</strong>：QSC／擴大機、Switch、Mitel 話機分別問專業商。</li>
+</ol>
+<hr>
+<h2>第 2 週：平台上架＋鎖定第一批買家</h2>
+<ul>
+<li>QSC、擴大機、Switch、機櫃開始上 FB／露天／MYAV。</li>
+<li>TV 先挑狀況好的 5–10 台零售。</li>
+<li>家具找 2–3 家到府估價，選願意「整批搬走」者。</li>
+<li>Mitel 話機若 PBX 商無明確報價，即改整批低價上架。</li>
+</ul>
+<hr>
+<h2>第 3 週：降價與清運</h2>
+<ul>
+<li>QSC／Switch 若有詢問但未成交，降價 10–20%。</li>
+<li>TV 剩餘台數改整批賣。</li>
+<li>家具與機櫃安排搬運日。</li>
+<li>PC／螢幕交由合法回收商清運。</li>
+</ul>
+<hr>
+<h2>第 4 週：結案</h2>
+<ul>
+<li>收款、開立發票或收據。</li>
+<li>取得清運單、回收證明、資料銷毀證明。</li>
+<li>內部固定資產除帳。</li>
+<li>未售物品一律報廢，不再占用空間。</li>
+</ul>
+<hr>
+<h1>五、風險與注意事項</h1>
+<h2>資料安全</h2>
+<ul>
+<li>PC 硬碟、SSD 是最高風險。</li>
+<li>Switch 設定檔可能含內網 IP、VLAN、密碼、SNMP community。</li>
+<li>IP Phone 可能含分機、通訊錄、通話紀錄。</li>
+</ul>
+<h2>稅務與帳務</h2>
+<ul>
+<li>公司出售固定資產、廢料、二手設備，通常需入帳。</li>
+<li>若公司是營業人，出售設備原則上可能涉及開立統一發票。</li>
+<li>捐贈若要節稅，需受贈單位為合格機關、學校或 NGO，並取得收據。</li>
+<li>已完全折舊的設備，稅務殘值不等於市場售價。</li>
+</ul>
+<h2>搬運風險</h2>
+<ul>
+<li>機櫃、會議桌、TV 需確認：</li>
+<li>樓層</li>
+<li>電梯尺寸</li>
+<li>停車位置</li>
+<li>是否需拆卸</li>
+<li>是否需假日搬運</li>
+<li>報價前提供搬運條件，避免臨場加價。</li>
+</ul>
+<hr>
+<h1>六、預估總回收金額區間</h1>
+<p>以下假設：</p>
+<ul>
+<li>PC／螢幕各約 20–40 台，且多數超過 10 年。</li>
+<li>Mitel 話機約 30–50 支。</li>
+<li>18 台 TV 多數可正常顯示。</li>
+<li>QSC 型號未知。</li>
+<li>Switch 型號未知。</li>
+</ul>
+<table>
+<tr><th>品項</th><th>保守估計</th><th>樂觀估計</th></tr>
+<tr><td>PC＋螢幕</td><td>NT$0–8,000</td><td>NT$10,000–25,000</td></tr>
+<tr><td>Network Switch ×9</td><td>NT$3,000–20,000</td><td>NT$30,000–90,000</td></tr>
+<tr><td>大小機櫃</td><td>NT$2,000–8,000</td><td>NT$8,000–20,000</td></tr>
+<tr><td>Mitel 5312 話機</td><td>NT$0–8,000</td><td>NT$10,000–30,000</td></tr>
+<tr><td>會議擴大機</td><td>NT$1,000–5,000</td><td>NT$5,000–20,000</td></tr>
+<tr><td>QSC 喇叭 ×6</td><td>NT$18,000–50,000</td><td>NT$60,000–150,000</td></tr>
+<tr><td>TV ×18</td><td>NT$9,000–27,000</td><td>NT$25,000–75,000</td></tr>
+<tr><td>辦公家具</td><td>NT$0–20,000</td><td>NT$20,000–60,000</td></tr>
+</table>
+<h2>整體估計</h2>
+<table>
+<tr><th>情境</th><th>預估總額</th></tr>
+<tr><td><strong>保守：快速整批清運</strong></td><td>約 <strong>NT$30,000–90,000</strong></td></tr>
+<tr><td><strong>樂觀：高價品分流出售</strong></td><td>約 <strong>NT$120,000–350,000</strong></td></tr>
+</table>
+<p>若 QSC 是 K／KW 系列主動式喇叭，或 Switch 是企業級 PoE／10G 設備，總額可能再提高。反之，若 TV 很老、Switch 是 10/100、QSC 是低階被動式且狀況差，則會落在保守區間。</p></div>
+</details>
+
+
+<details class="ai-card">
+  <summary><span class="ai-badge" style="background:#4285F4">🔵 Gemini</span>
+    <span style="color:#666;font-size:.9em"> gemini-2.5-pro · 84.2s</span></summary>
+  <div><p>好的，經理。我是您在地的二手商業設備處置顧問。針對貴公司在中壢的這批設備，我將以「效率最大化、殘值最大化」為原則，提供一套具體、可執行的處置計畫。</p>
+<p>中壢地理位置優越，許多大型回收處理廠都設在桃園，這是我們的地利之便。以下是詳細規劃：</p>
+<hr>
+<h3>一、收購廠商建議（按效度排序）</h3>
+<p>我們的首要目標是找到能「一站式」處理最多品項、且願意到府服務的廠商，這樣最省時省力。</p>
+<table>
+<tr><th>廠商名稱</th><th>聯絡資訊</th><th>收購品項範圍</th><th>到府/運送服務</th><th>桃園據點</th><th>預估殘值</th><th>效度評分 &amp; 理由</th></tr>
+<tr><td><strong>1. 優倍特環保科技 (U-Verter)</strong></td><td>官網：[u-verter.com](https://www.u-verter.com/)&lt;br&gt;電話：03-433-3188</td><td><strong>IT 設備全包</strong>：電腦、螢幕、Switch、機櫃、話機、電視。<strong>辦公家具部分收購</strong>。提供完整 ITAD 服務。</td><td><strong>提供</strong>，專業到府盤點、估價、打包、清運。</td><td><strong>有 (桃園觀音)</strong></td><td>IT 設備依型號規格估價，廢料按市價。<strong>殘值中上</strong>。</td><td><strong>高</strong>&lt;br&gt;理由：<strong>桃園在地龍頭</strong>，專業 IT 資產處置(ITAD)廠商，流程標準化，可處理資料銷毀證明。是本次案件<strong>最優先聯絡的對象</strong>，能解決 80% 以上的品項。</td></tr>
+<tr><td><strong>2. 綠盟 (Green盟)</strong></td><td>官網：[green盟.tw](https://www.green盟.tw/contact.php)&lt;br&gt;電話：03-559-9958</td><td><strong>IT 設備全包</strong>：同上，專精於企業 IT 退役資產，尤其伺服器、網通設備。</td><td><strong>提供</strong>，全台服務，可預約到府。</td><td>服務範圍含桃園</td><td>網通設備、伺服器估價不錯。廢料行情價。<strong>殘值中上</strong>。</td><td><strong>高</strong>&lt;br&gt;理由：與優倍特同為專業 ITAD 廠商，報價可能更有競爭力。建議<strong>與優倍特同時詢價比較</strong>。</td></tr>
+<tr><td><strong>3. 永續二手辦公家具</strong></td><td>官網：[sustainabilityoa.com.tw](https://www.sustainabilityoa.com.tw/)&lt;br&gt;電話：02-2203-3111</td><td><strong>辦公家具為主</strong>：桌椅、三層櫃、會議桌。<strong>少量 IT 設備</strong>（如螢幕、主機）會順便收。</td><td><strong>提供</strong>，專車到府清運。</td><td>服務範圍含桃園</td><td>家具依品牌、新舊、材質估價。普通辦公家具殘值偏低，重點在免費清運。</td><td><strong>中高</strong>&lt;br&gt;理由：若辦公家具數量龐大且狀況良好，他們是最佳選擇。可請他們專門處理家具，或詢問是否能整批打包（含部分 IT）。</td></tr>
+<tr><td><strong>4. 金益鼎企業 (G-Yi Dding)</strong></td><td>官網：[g-yidding.com.tw](https://www.g-yidding.com.tw/)&lt;br&gt;電話：03-598-5566</td><td><strong>廢電子料貴金屬回收</strong>：主機板、IC、伺服器。對「整機」較無興趣，但會收。不收家具。</td><td><strong>可安排</strong>，通常是大宗貨運。</td><td>服務範圍含桃園</td><td>按<strong>廢料重量與貴金屬含量</strong>計價。10年以上舊電腦可能每台僅 NT$50-150。</td><td><strong>中</strong>&lt;br&gt;理由：當其他廠商判定設備無二手價值時，他們是最後的變現管道（廢料回收）。適合處理已無殘值的大量主機板。</td></tr>
+<tr><td><strong>5. 大豐環保科技</strong></td><td>官網：[tf-recycle.com.tw](https://www.tf-recycle.com.tw/)&lt;br&gt;電話：0800-009-717</td><td><strong>幾乎全包</strong>（以資源回收角度）：廢電腦、廢螢幕、廢鐵（機櫃）、廢家電（電視）。不收家具。</td><td><strong>提供</strong>，有企業回收服務。</td><td><strong>有 (桃園多處)</strong></td><td>完全以<strong>回收物分類牌價</strong>計算，殘值最低，但保證能清掉。</td><td><strong>中低</strong>&lt;br&gt;理由：作為備案。如果高價收購商都不要，且只想一次清空，大豐可以處理所有廢棄物，但拿到的錢非常少。</td></tr>
+</table>
+<p><strong>結論：</strong> 請<strong>優先聯絡「優倍特」和「綠盟」</strong>，提供完整清單（含型號照片），讓他們進行整批估價。同時，聯絡<strong>「永續二手辦公家具」</strong>專門評估家具部分。三方報價比較後，選擇最優方案。</p>
+<hr>
+<h3>二、二手平台建議（針對高價值品項）</h3>
+<p>對於 QSC 喇叭、規格較好的 Network Switch、會議擴大機等，零售的價格會遠高於整批收購。</p>
+<table>
+<tr><th>平台名稱</th><th>網址</th><th>適合品項</th><th>預期成交速度</th><th>操作建議</th></tr>
+<tr><td><strong>1. PTT 硬體買賣板 (HardwareSale)</strong></td><td>[PTT Web](https://www.ptt.cc/bbs/HardwareSale/index.html)</td><td>Network Switch, 會議擴大機, 高階電腦零組件</td><td><strong>快 (1-7 天)</strong></td><td><strong>標題格式務必正確</strong>：<code>[賣/桃園] Cisco Catalyst 2960 Switch</code>。內文詳述型號、使用狀況、配件，價格參考板上過去成交價再打 8-9 折。註明「中壢可面交」，可加速成交。</td></tr>
+<tr><td><strong>2. Facebook Marketplace</strong></td><td>[Facebook Marketplace](https://www.facebook.com/marketplace/)</td><td><strong>QSC 喇叭, 電視, 機櫃, 狀況好的辦公桌椅</strong></td><td><strong>中 (3-20 天)</strong></td><td><strong>善用地理優勢</strong>，設定地點為中壢區，吸引在地買家自取。照片要清晰明亮，標題「出清！公司用 QSC 專業喇叭 (6顆合售/可單買) 中壢自取」。<strong>機櫃、家具等大型物品，這是最佳平台</strong>。</td></tr>
+<tr><td><strong>3. Facebook 二手音響社團</strong></td><td>關鍵字搜尋：<code>二手音響買賣</code>、<code>專業音響 PA 交流</code></td><td><strong>QSC 喇叭, 會議擴大機</strong></td><td><strong>中 (5-30 天)</strong></td><td>這是<strong>專業買家聚集地</strong>。發文請附上清晰的型號照片、說明使用環境（公司會議室）、功能是否正常。價格可參考國外 eBay 二手價，設定一個有討論空間的價格。成交價會比 PTT 或 Marketplace 高。</td></tr>
+<tr><td><strong>4. 露天拍賣 (Ruten)</strong></td><td>[ruten.com.tw](https://www.ruten.com.tw/)</td><td>所有品項皆可，特別是 Network Switch, Mitel 話機</td><td><strong>慢 (7-60 天)</strong></td><td>適合<strong>不急著賣</strong>、想賣得特定價格的品項。將 9 台 Switch 以「單台」及「整批優惠」兩種方式上架。Mitel 話機可以「10支一組」的方式上架，吸引特定系統整合商尋找備品。</td></tr>
+</table>
+<hr>
+<h3>三、品項分流策略</h3>
+<table>
+<tr><th>品項分類</th><th>建議路線</th><th>理由</th></tr>
+<tr><td>1. 舊電腦主機 (10年以上)</td><td><strong>直接報廢回收</strong></td><td><strong>完全沒有二手價值</strong>。裡面的零件（DDR2/DDR3 RAM、舊 CPU）市場需求趨近於零。直接交給優倍特或大豐，依廢料重量計價（或免費回收），<strong>重點是取得銷毀證明確保資料安全</strong>。自行處理拿不到錢，還費時費力。</td></tr>
+<tr><td>2. 舊螢幕 (10年以上)</td><td><strong>直接報廢回收</strong></td><td>10 年以上螢幕多為 CCFL 背光、解析度低、耗電，<strong>二手市場完全無人問津</strong>。同上，直接交給回收商，價值極低，重點在清運。</td></tr>
+<tr><td>3. Network Switch (9台)</td><td><strong>二手平台零售</strong></td><td><strong>潛在高價值品</strong>。請先盤點出品牌與型號（如 Cisco, HP, Juniper）。一台功能正常的二手企業級 Switch 可能價值 NT$1,000 ~ 5,000+。值得花時間在 PTT HardwareSale 或露天單獨上架販售。</td></tr>
+<tr><td>4. 大型/小型機櫃 (2台)</td><td><strong>二手平台零售 (Marketplace)</strong></td><td>機櫃新品昂貴，二手有穩定需求。但運送是最大問題。在 Marketplace 上標明「<strong>限中壢自取，需自行搬運</strong>」，鎖定附近有需求的個人工作室或小型企業。價格訂在 NT$1,000-4,000 之間，很快就能賣掉。</td></tr>
+<tr><td>5. <strong>Mitel 5312 IP 話機 (數十支)</strong></td><td><strong>特殊管道收購</strong></td><td><strong>這是特殊品，一般回收商不識貨！</strong> Mitel 在台雖非主流，但仍有企業客戶。這些客戶的系統整合商 (SI) 或維護廠商，會需要備品或零件機。<strong>請直接聯絡以下廠商詢問收購意願</strong>：&lt;br&gt;1. <strong>台佳通信 (Teco Communication)</strong> - 官網: [tecom.com.tw](https://www.tecom.com.tw/) / 電話: 03-462-9566。老牌通訊系統整合商，極可能接觸過 Mitel 系統。&lt;br&gt;2. <strong>皇輝科技 (HwaCom)</strong> - 官網: [hwacom.com](https://www.hwacom.com/) / 電話: 02-2747-2788。大型 SI，企業通訊是其業務之一，可能有意願。&lt;br&gt;3. <strong>康特國際 (Kanter)</strong> - 官網: [kanter.com.tw](https://www.kanter.com.tw/)。他們是 Mitel 在台灣的合作夥伴之一，最有機會出價收購做為備品庫存。&lt;br&gt;4. <strong>蓋德科技 (Gater)</strong> - 官網: [gater.com.tw](https://www.gater.com.tw/) / 電話: 02-2793-5567。專做 IP PBX 解決方案，可能會收購特定型號話機。&lt;br&gt;<strong>策略</strong>：直接致電或 Email 這些公司的業務部門，說明有「一批 Mitel 5312 IP Phone 庫存備品要出清」，附上照片和數量，詢問是否有收購意願。價格會遠高於廢料價。</td></tr>
+<tr><td>6. 會議擴大機 / 7. QSC 喇叭</td><td><strong>二手平台零售 (專業社團)</strong></td><td><strong>這是本案的價值冠軍！</strong> QSC 是專業音響知名品牌，二手市場非常活絡。<strong>千萬不可當廢鐵賣給回收商</strong>。請盤點出具體型號，上 Facebook 二手音響社團或 PTT Audiophile 板，成交價可能數千至上萬元不等。</td></tr>
+<tr><td>8. 37~50吋電視 (18台)</td><td><strong>收購商整批處理</strong></td><td>數量太大，單獨賣耗時費力。雖然每台在 Marketplace 上可能賣 NT$800-2,000，但要面對 18 組不同買家。<strong>建議直接打包給優倍特或專門的二手家電商</strong>，雖然單價較低 (可能 NT$500-1,000/台)，但一次清空，效率最高。</td></tr>
+<tr><td>9. 辦公桌椅、三層櫃等</td><td><strong>收購商整批處理</strong></td><td>家具笨重、價值低、運送成本高。除非是 Herman Miller, Steelcase 等高檔品牌，否則零售非常困難。直接請<strong>永續二手辦公家具</strong>整批估價帶走，是最務實的作法。</td></tr>
+</table>
+<hr>
+<h3>四、執行時程與優先順序建議 (2-4 週計畫)</h3>
+<p><strong>第一週：盤點、詢價、市場測試</strong></p>
+<ul>
+<li><strong>(Day 1-2) 優先執行：</strong></li>
+</ul>
+<ol>
+<li><strong>最終盤點 &amp; 拍照</strong>：列出所有品項的<strong>確切品牌、型號、數量</strong>。特別是 Switch, QSC 喇叭, 擴大機, 電視。為所有物品拍清晰照片。</li>
+<li><strong>資料抹除計畫</strong>：確認所有電腦硬碟的資料抹除方式（軟體清除或物理銷毀）。</li>
+</ol>
+<ul>
+<li><strong>(Day 3-5) 同步處理：</strong></li>
+</ul>
+<ol>
+<li><strong>聯絡一站式廠商</strong>：將完整清單（含照片）Email 給<strong>優倍特</strong>和<strong>綠盟</strong>，請他們提供「整批收購」的報價。</li>
+<li><strong>聯絡專業廠商</strong>：將家具清單給<strong>永續</strong>估價。將 Mitel 話機資訊給上述<strong>通訊整合商</strong>詢價。</li>
+<li><strong>高價值品上架</strong>：將 QSC 喇叭、會議擴大機、Network Switch 的資訊，以稍高的「預售價」PO 上 <strong>PTT、FB 社團</strong>，測試市場反應與價格區間。</li>
+</ol>
+<p><strong>第二週：評估、決策、預約</strong></p>
+<ul>
+<li><strong>(Day 8-10) 評估報價</strong>：比較各家報價。注意！<strong>「免費清運」本身就是一種價值</strong>。選擇總體效益最高的方案（殘值 + 處理效率）。</li>
+<li><strong>(Day 11-12) 做出決策</strong>：</li>
+<li>決定哪些品項要給整批收購商。</li>
+<li>決定哪些品項要零售。</li>
+<li>和出價最高的收購商敲定清運日期。</li>
+</ul>
+<p><strong>第三至四周：執行與收尾</strong></p>
+<ul>
+<li><strong>(Day 15-20) 執行清運</strong>：</li>
+<li>在收購商來之前，將要零售的品項（QSC、Switch）集中保管。</li>
+<li>監督現場清運過程，確保所有約定的品項都被帶走。</li>
+<li><strong>務必取得收據或廢棄物清運三聯單</strong>。</li>
+<li><strong>(Day 21-30) 零售收尾</strong>：</li>
+<li>處理零售品項的買家面交或寄送事宜。</li>
+</ul>
+<p><strong>風險與注意事項：</strong></p>
+<ul>
+<li><strong>資料抹除</strong>：這是最高優先級！務必確保所有硬碟資料已按公司規定完全清除。若委外處理，需取得具法律效力的「資料銷毀證明」。</li>
+<li><strong>發票/收據</strong>：公司資產出售，財務上需要有收入憑證。與收購方確認是否能開立收購證明或發票。</li>
+<li><strong>稅務影響</strong>：資產售出所得需列為公司收入，請與財會部門確認。</li>
+</ul>
+<hr>
+<h3>五、預估總回收金額區間 (新台幣)</h3>
+<p>以下為粗估，實際金額取決於各品項的具體型號與狀況。</p>
+<ul>
+<li><strong>假設前提</strong>：</li>
+<li>Network Switch 為 8-10 年前的 Cisco/HP 中階 GbE Switch。</li>
+<li>QSC 喇叭與擴大機為功能正常的中階商用型號。</li>
+<li>電視為功能正常的舊款 LCD/LED TV。</li>
+<li>Mitel 話機能找到特定買家。</li>
+<li>辦公家具為一般品牌，狀況普通。</li>
+</ul>
+<table>
+<tr><th>品項</th><th>保守估計 (NT$)</th><th>樂觀估計 (NT$)</th></tr>
+<tr><td>舊電腦/螢幕</td><td>$0 (免費清運)</td><td>$2,000</td></tr>
+<tr><td>Network Switch (9台)</td><td>$2,000 (整批@200-300)</td><td>$18,000 (零售@2,000)</td></tr>
+<tr><td>機櫃 (2台)</td><td>$1,000 (回收價)</td><td>$5,000 (零售自取)</td></tr>
+<tr><td>Mitel 話機 (數十支)</td><td>$500 (廢料價)</td><td>$8,000 (備品價@100-200)</td></tr>
+<tr><td>會議擴大機 + QSC 喇叭</td><td><strong>$15,000</strong></td><td><strong>$100,000+</strong></td></tr>
+<tr><td>電視 (18台)</td><td>$9,000 (@500)</td><td>$27,000 (@1,500)</td></tr>
+<tr><td>辦公家具</td><td>$0 (免費清運)</td><td>$10,000</td></tr>
+<tr><td><strong>總計</strong></td><td><strong>約 $27,500</strong></td><td><strong>約 $170,000</strong></td></tr>
+</table>
+<p><strong>總結預估區間：新台幣 $30,000 ~ $170,000 元</strong></p>
+<p>這個巨大的差異主要來自於 <strong>QSC 專業音響設備</strong>和 <strong>Network Switch</strong>。如果這兩項的型號較新、等級較高，總價值將大幅躍升。反之，如果都是入門或老舊型號，則會趨近保守估計。</p>
+<p>請依照此計畫，立即開始盤點與聯絡，祝您處置順利！有任何問題隨時可以再問我。</p></div>
+</details>
+
+
+<details class="ai-card">
+  <summary><span class="ai-badge" style="background:#000000">⚫ Grok</span>
+    <span style="color:#666;font-size:.9em"> grok-4.20-0309-reasoning · 67.8s</span></summary>
+  <div><p><strong>中壢/桃園在地優先 → 大台北次之 → 全台網路平台</strong>  </p>
+<p><strong>IT設備出清處置策略報告</strong>（2025年最新市場行情）</p>
+<hr>
+<h3>一、收購廠商建議（按效度排序）</h3>
+<h4><strong>高效度（桃園中壢在地優先）</strong></h4>
+<p><strong>1. 祥發資源回收有限公司（最高推薦）</strong></p>
+<ul>
+<li>電話：03-463-8899 / LINE：@xiangfa</li>
+<li>收購品項：廢電腦主機、舊螢幕、Network Switch、機櫃、辦公家具、電視</li>
+<li>服務：提供中壢免費到府估價與清運</li>
+<li>據點：桃園中壢工業區（距貴公司約15分鐘）</li>
+<li>預估殘值：整批約 NT$12,000~22,000（視Switch型號）</li>
+<li><strong>效度：高</strong>  </li>
+</ul>
+<p>  理由：中壢在地，運費低，R-3303、R-1602執照齊全，可一次清運全部品項，效率最高。</p>
+<p><strong>2. 宏泰環保科技股份有限公司</strong></p>
+<ul>
+<li>電話：03-433-6789 / 網站：hongtai-recycle.com.tw</li>
+<li>收購品項：廢電腦、螢幕、機櫃、電視、辦公家具</li>
+<li>服務：到府估價、提供清運車輛</li>
+<li>據點：桃園中壢區</li>
+<li>預估殘值：舊PC+螢幕幾乎0元，Switch與機櫃可單計價</li>
+<li><strong>效度：高</strong>  </li>
+</ul>
+<p>  理由：專做企業大宗清運，熟悉政府機關退役設備流程。</p>
+<p><strong>3. 中壢二手電腦回收 - 阿忠回收企業</strong></p>
+<ul>
+<li>電話：0910-338-885</li>
+<li>收購品項：Network Switch、Mitel話機、QSC喇叭、會議擴大機、機櫃</li>
+<li>服務：到府估價、可協助分揀</li>
+<li>據點：中壢火車站附近</li>
+<li>預估殘值：Switch單台約NT$800-2,500，QSC單支約NT$1,800-2,800</li>
+<li><strong>效度：高</strong>  </li>
+</ul>
+<p>  理由：在地小型專業商，對二手中古IT設備敏感度高。</p>
+<p><strong>4. 永信再生資源有限公司（辦公家具強項）</strong></p>
+<ul>
+<li>電話：03-452-1122</li>
+<li>收購品項：辦公桌椅、三層櫃、會議桌、電視</li>
+<li>服務：到府估價、清運</li>
+<li>據點：桃園平鎮區（中壢旁）</li>
+<li>預估殘值：家具整批約NT$8,000-15,000</li>
+<li><strong>效度：中高</strong>  </li>
+</ul>
+<p>  理由：再生家具廠直營，家具類可給較好價格。</p>
+<h4><strong>中高效度（大台北地區）</strong></h4>
+<p><strong>5. 台北綠色資源回收股份有限公司</strong></p>
+<ul>
+<li>電話：02-2798-2333</li>
+<li>收購品項：全品項皆可（含廢電子、廢家具）</li>
+<li>服務：可到桃園中壢估價（運費自付）</li>
+<li>據點：台北內湖</li>
+<li>預估殘值：整體較中壢低約15-25%</li>
+<li><strong>效度：中</strong>  </li>
+</ul>
+<p>  理由：規模大、執照完整，但運費較高。</p>
+<p><strong>6. 台佳通信股份有限公司（Mitel話機重點推薦）</strong></p>
+<ul>
+<li>電話：02-2792-8888 / 網站：www.taichia.com.tw</li>
+<li>收購品項：Mitel 5312 IP話機、會議擴大機</li>
+<li>服務：可到府估價</li>
+<li>據點：台北內湖（科技園區）</li>
+<li>預估殘值：Mitel 5312 若狀況良好，每支可達NT$350-650</li>
+<li><strong>效度：高（針對話機）</strong>  </li>
+</ul>
+<p>  理由：為Mitel原廠授權經銷商及PBX整合商，有維修備品需求，真實存在且仍在營運。</p>
+<p><strong>7. 訊聯通信有限公司</strong></p>
+<ul>
+<li>電話：02-2723-4567</li>
+<li>收購品項：IP電話、PBX系統設備、Mitel/NEC話機</li>
+<li>據點：台北松山區</li>
+<li><strong>效度：中高（針對Mitel）</strong>  </li>
+</ul>
+<p>  理由：專營二手通訊設備，長期收購Mitel、Polycom、Yealink備品。</p>
+<p><strong>8. 鼎新通信系統有限公司</strong></p>
+<ul>
+<li>電話：02-7725-3388</li>
+<li>收購品項：Mitel IP話機、會議系統</li>
+<li>據點：新北三重</li>
+<li><strong>效度：中</strong>  </li>
+</ul>
+<p>  理由：PBX系統整合商，具備Mitel維修能力。</p>
+<p><strong>9. 台灣QSC音響二手代理商 - 聲寶音響企業</strong></p>
+<ul>
+<li>電話：02-2765-8899</li>
+<li>收購品項：QSC喇叭、會議擴大機</li>
+<li>據點：台北松山</li>
+<li>預估殘值：QSC K8/K10/K12 每支約NT$2,500-4,500</li>
+<li><strong>效度：高（針對音響）</strong></li>
+</ul>
+<hr>
+<h3>二、二手平台建議（按效度排序）</h3>
+<p>針對仍有價值的品項（Switch、QSC喇叭、機櫃、37-50吋電視、Mitel話機、辦公家具）</p>
+<ol>
+<li><strong>Facebook「專業音響二手買賣」+「台灣企業二手設備交流社團」</strong>（最高效）</li>
+</ol>
+<ul>
+<li>適合：QSC喇叭、會議擴大機、Network Switch、機櫃</li>
+<li>預期成交速度：7-14天</li>
+<li>操作建議：標題寫「QSC K12 專業音箱 原廠公司用 9成新」，附原廠標籤照片，整批議價優惠。</li>
+</ul>
+<ol>
+<li><strong>蝦皮拍賣（Shopee）</strong></li>
+</ol>
+<ul>
+<li>適合：Mitel 5312（可分批10支一組）、Network Switch、電視、機櫃</li>
+<li>預期成交速度：Switch與QSC約10-20天，Mitel較慢（25-40天）</li>
+<li>操作建議：Switch標「Cisco/HPE 企業級 9台整批出清」，電視建議「18台整批批發價」。</li>
+</ul>
+<ol>
+<li><strong>Facebook Marketplace + PTT 二手家具板 / 中古電腦板</strong></li>
+</ol>
+<ul>
+<li>適合：辦公家具、電視</li>
+<li>操作建議：家具用「中壢自取 辦公桌椅會議桌 大量出清」標題，強調「公司升級退役」。</li>
+</ul>
+<ol>
+<li><strong>露天拍賣 / 591二手</strong></li>
+</ol>
+<ul>
+<li>適合：大型機櫃、整批電視</li>
+<li>建議整批標「19吋機櫃+Switch整組企業出清」。</li>
+</ul>
+<hr>
+<h3>三、品項分流策略</h3>
+<ul>
+<li><strong>舊電腦主機 &amp; 10年以上舊螢幕</strong>：<strong>直接報廢回收</strong>（走祥發或宏泰）。10年以上幾乎無二手市場，資源回收業者多以「含運費回收」或給極低廢料價（每台約NT$10-30）。不要浪費時間零售。</li>
+</ul>
+<ul>
+<li><strong>Mitel 5312 IP話機</strong>：<strong>優先聯絡專業通訊商收購</strong>。台灣流通性中等偏低，一般二手市場單支僅NT$150-300，但台佳通信、訊聯通信、鼎新等PBX整合商因有維修備品需求，可出到NT$350-650。建議先寄樣品給前3家議價。</li>
+</ul>
+<ul>
+<li><strong>Network Switch × 9台</strong>：<strong>不建議個別上架</strong>。若為Cisco、HPE、Juniper等企業品牌，建議整批賣給阿忠回收或蝦皮整組出清，單獨上架時間成本過高。</li>
+</ul>
+<ul>
+<li><strong>37~50吋電視 × 18台</strong>：<strong>整批收購優於零售</strong>。零售速度太慢（可能需3個月），建議整批給祥發、宏泰或辦公家具回收商，可快速換現金。</li>
+</ul>
+<ul>
+<li><strong>QSC喇叭 × 6個</strong>：<strong>走專業二手音響市場</strong>。QSC屬專業品牌，在「專業音響二手買賣」社團與蝦皮均有穩定買家，單支可賣到NT$2,800-4,500，遠高於一般回收商。</li>
+</ul>
+<ul>
+<li><strong>大型/小型機櫃</strong>：<strong>整批與Switch一起賣</strong>，價值較高（大型機櫃單台可達NT$2,500-4,000）。</li>
+</ul>
+<ul>
+<li><strong>辦公桌椅、會議桌</strong>：<strong>混合路線</strong>。狀況好的上Facebook Marketplace或社團零售，較差的整批給永信再生資源。</li>
+</ul>
+<hr>
+<h3>四、執行時程與優先順序建議（2-4週完成）</h3>
+<p><strong>第一週（最重要）</strong>：</p>
+<ol>
+<li>完整盤點所有型號、序號、狀況（尤其是Switch與QSC型號）。</li>
+<li>所有含硬碟設備執行資料抹除（建議使用DBAN或聘請專業抹除公司並取證）。</li>
+<li>同步聯絡<strong>祥發、宏泰、阿忠</strong>三家中壢在地商來現場估價。</li>
+<li>同步拍攝專業照片（包含原廠標籤、整體環境照），開始準備上架素材。</li>
+</ol>
+<p><strong>第二週</strong>：</p>
+<ul>
+<li>根據第一週報價決定分流。</li>
+<li>Mitel話機寄樣品給台佳通信、訊聯通信議價。</li>
+<li>QSC喇叭、Switch、機櫃同步上Facebook社團與蝦皮。</li>
+<li>家具與電視同步找永信再生資源議整批價。</li>
+</ul>
+<p><strong>第三-第四週</strong>：</p>
+<ul>
+<li>執行清運與交易。</li>
+<li>索取所有回收商的「資源回收聯單」或「收購證明」以備稅務。</li>
+</ul>
+<p><strong>風險與注意事項</strong>：</p>
+<ul>
+<li>硬碟資料抹除必須留存證明（避免個資外洩）。</li>
+<li>回收商須開立「資源回收處理聯單」或發票，才可認列損失。</li>
+<li>大額交易建議簽訂「設備買賣合約」。</li>
+</ul>
+<hr>
+<h3>五、預估總回收金額區間（新台幣）</h3>
+<p><strong>保守估計</strong>：<strong>NT$18,000 ~ 28,000</strong></p>
+<p><strong>樂觀估計</strong>：<strong>NT$42,000 ~ 58,000</strong></p>
+<p><strong>假設前提</strong>：</p>
+<ul>
+<li>Switch為企業級（Cisco/HPE常見型號，非家用）。</li>
+<li>QSC為K系列專業喇叭，非破損品。</li>
+<li>Mitel 5312 至少有20支以上狀況良好。</li>
+<li>家具數量約30-40件，含會議桌。</li>
+<li>電視多為2015-2018年款。</li>
+</ul>
+<p>若Switch型號高端（例如Catalyst 9300系列）或QSC為較新款，樂觀情境可突破NT$65,000。</p>
+<hr>
+<p><strong>立即行動建議</strong>：今天就先打電話給<strong>祥發資源回收（03-463-8899）</strong>與<strong>阿忠回收（0910-338-885）</strong>約明天或後天到府估價，同時開始盤點與資料抹除。</p>
+<p>需要我幫您撰寫給回收商的「設備清單報價單」模板嗎？</p></div>
+</details>
+
+
+<details class="ai-card">
+  <summary><span class="ai-badge" style="background:#D97757">🟠 Claude</span>
+    <span style="color:#666;font-size:.9em"> claude-opus-4-7 · 104.1s</span></summary>
+  <div><h1>桃園中壢 IT 設備出清處置策略建議</h1>
+<p>&gt; <strong>重要聲明</strong>：以下廠商資訊基於市場常識與公開資料整理，部分聯絡方式可能變動，<strong>實際聯繫前請務必上網或撥打 104 查號台再次確認</strong>。Mitel 代理商部分尤其需要驗證，台灣 Mitel 市場相對小眾。</p>
+<hr>
+<h2>一、收購廠商建議（按效度排序）</h2>
+<h3>A. 中壢/桃園在地優先</h3>
+<h4>1. <strong>桃園在地資源回收業者（多家集合）</strong></h4>
+<ul>
+<li><strong>聯絡管道</strong>：環保署資源回收查詢系統 https://recycle.epa.gov.tw/</li>
+<li><strong>收購範圍</strong>：舊 PC、舊螢幕、廢家具、廢電視（CRT 與液晶）</li>
+<li><strong>到府估價</strong>：多數提供，桃園市區免運</li>
+<li><strong>預估殘值</strong>：</li>
+<li>舊 PC（含主機板、CPU、RAM、HDD）：<strong>NT$80~250/台</strong>（看主機重量與規格）</li>
+<li>舊液晶螢幕：<strong>NT$30~80/台</strong>（純廢料價）</li>
+<li>37~50 吋 LCD/LED TV：<strong>NT$200~600/台</strong>（看年份與面板）</li>
+<li><strong>效度</strong>：<strong>中</strong>。優點是整批快速清運，缺點是價格被壓得很低。</li>
+</ul>
+<h4>2. <strong>金益鑫資源回收 / 桃園在地廢電腦商（建議搜尋關鍵字）</strong></h4>
+<ul>
+<li><strong>搜尋方式</strong>：Google「桃園 廢電腦回收」「中壢 二手電腦收購」</li>
+<li><strong>代表性業者</strong>：</li>
+<li><strong>金益鑫</strong>（桃園、新北一帶活躍）</li>
+<li><strong>冠倫資源回收</strong></li>
+<li><strong>大豐環保科技</strong>（上市公司，全台收 R-1602 廢電子）：03-3636789（楊梅廠）/ https://www.tairoun.com.tw/</li>
+<li><strong>效度</strong>：<strong>高</strong>（大豐有規模、有合法清除許可，企業出清開立證明文件較完整）</li>
+</ul>
+<h4>3. <strong>群曜環保（桃園/新北）</strong></h4>
+<ul>
+<li><strong>業務</strong>：企業 IT 退役整批收購、含資料抹除證明</li>
+<li><strong>搜尋</strong>：「群曜環保」或「企業 IT 設備回收」</li>
+<li><strong>效度</strong>：<strong>中高</strong>，適合需要環保處理證明的公司</li>
+</ul>
+<hr>
+<h3>B. 大台北次之（IT 二手收購商）</h3>
+<h4>4. <strong>巨匠電腦回收 / 二手電腦商</strong></h4>
+<ul>
+<li><strong>聯絡</strong>：台北萬華光華商場周邊多家二手電腦行</li>
+<li><strong>代表</strong>：</li>
+<li><strong>電腦救援站</strong> https://www.pcrescue.com.tw/</li>
+<li><strong>光華商場二手店家</strong>（光華新天地 B1~2F 多家收二手）</li>
+<li><strong>收購範圍</strong>：可運作的 PC（10 年以上機率低）、Switch、機櫃</li>
+<li><strong>效度</strong>：<strong>中</strong>（10 年以上 PC 他們大概只當廢料）</li>
+</ul>
+<h4>5. <strong>二手伺服器/網通設備商（針對 Switch、機櫃）</strong></h4>
+<ul>
+<li><strong>建議廠商</strong>：</li>
+<li><strong>永準科技</strong>（二手 Server / Switch 收購買賣）：可上 Google 搜尋</li>
+<li><strong>新晶資訊</strong> http://www.newcrystal.com.tw/（二手伺服器、網通收購）</li>
+<li><strong>久揚資訊 / 鎰勝資訊</strong>（二手企業 IT 收購）</li>
+<li><strong>收購範圍</strong>：Cisco / HPE / Juniper Switch、19 吋機櫃、UPS</li>
+<li><strong>預估殘值</strong>：</li>
+<li>Cisco Catalyst 2960 系列二手約 NT$500~2,000/台</li>
+<li>一般品牌 Switch：NT$200~800/台</li>
+<li>42U 大型機櫃：<strong>NT$2,000~5,000</strong>（含 PDU/風扇加分）</li>
+<li>小型機櫃（12U/15U）：<strong>NT$800~1,800</strong></li>
+<li><strong>效度</strong>：<strong>高</strong>（網通設備有實際備品需求市場）</li>
+</ul>
+<h4>6. <strong>二手辦公家具收購商（大台北/桃園皆有）</strong></h4>
+<ul>
+<li><strong>代表廠商</strong>：</li>
+<li><strong>再生工場二手辦公家具</strong> https://www.2han.com.tw/</li>
+<li><strong>馥茂二手辦公家具</strong>（新北中和）：02-2243-XXXX</li>
+<li><strong>永輝二手家具</strong>（桃園地區也收）</li>
+<li><strong>收購範圍</strong>：辦公桌椅、會議桌、三層櫃、檔案櫃</li>
+<li><strong>預估殘值</strong>：</li>
+<li>OA 辦公桌：NT$300~800/張</li>
+<li>辦公椅（網椅/主管椅）：NT$200~1,500/張</li>
+<li>會議桌：NT$1,500~5,000/張（看尺寸）</li>
+<li><strong>效度</strong>：<strong>高</strong>（家具二手市場活絡，整批收購意願高）</li>
+</ul>
+<hr>
+<h3>C. 通訊系統 / Mitel 話機專用管道（重點）</h3>
+<p>&gt; ⚠️ <strong>Mitel 5312 在台灣是冷門機種</strong>。Mitel 主要在歐美與企業 PBX 市場，台灣以 Avaya、Cisco、Panasonic、NEC、Asterisk 為主流。Mitel 5312 是搭配 Mitel MiVoice / 3300 ICP / MX-ONE 系統的 SIP 話機，<strong>離開原系統幾乎無法使用</strong>，因此流通性偏低。</p>
+<h4>7. <strong>Mitel 台灣相關通路（請務必再驗證）</strong></h4>
+<ul>
+<li><strong>Mitel 全球官網經銷商查詢</strong>：https://www.mitel.com/partners/find-a-partner</li>
+<li>在台灣選項中可查到授權合作夥伴名單</li>
+<li><strong>可能的相關業者</strong>（需電話確認是否仍經營 Mitel）：</li>
+<li><strong>零壹科技 (Zero One Technology)</strong> https://www.zerone.com.tw/ 02-2627-7868（過去曾代理多家 PBX 品牌）</li>
+<li><strong>眾通資訊</strong>（IP PBX 整合商）</li>
+<li><strong>台佳通信</strong>（PBX 系統商，主力 Panasonic 但會處理跨品牌）</li>
+<li><strong>NEC Taiwan</strong> https://tw.nec.com/ 02-2378-9666（NEC 是 Mitel 競品，但企業通訊系統商有時會收備品料）</li>
+<li><strong>訊崴技術 (Synnex)</strong> —— Avaya 在台代理，可詢問是否有客戶需要 Mitel 備品</li>
+<li><strong>預估殘值</strong>：</li>
+<li>若能找到使用 Mitel 系統的企業客戶：<strong>NT$300~800/支</strong></li>
+<li>若只能當料件：<strong>NT$50~150/支</strong></li>
+<li><strong>效度</strong>：<strong>低～中</strong>。<strong>強烈建議直接上 eBay / 蝦皮國際 賣給海外買家</strong>（東南亞、中東有 Mitel 用戶），單價可拉到 USD 15~40/支。</li>
+</ul>
+<h4>8. <strong>eBay 國際出口（Mitel 話機建議路線）</strong></h4>
+<ul>
+<li><strong>網址</strong>：https://www.ebay.com/</li>
+<li><strong>理由</strong>：Mitel 5312 在 eBay 美國站常態流通價 USD 15~50/支，數十支整批可賣 USD 500~1,500</li>
+<li><strong>效度</strong>：<strong>高</strong>（針對 Mitel 話機）</li>
+</ul>
+<hr>
+<h2>二、二手平台建議（按效度排序）</h2>
+<table>
+<tr><th>排序</th><th>平台</th><th>網址</th><th>適合品項</th><th>預期成交速度</th><th>操作建議</th></tr>
+<tr><td>1</td><td><strong>Facebook Marketplace + 在地社團</strong></td><td>facebook.com/marketplace</td><td>TV、辦公家具、QSC 喇叭、機櫃</td><td>1~2 週</td><td>加入「中壢二手」「桃園二手家具」「台灣音響二手」社團，免運費吸引在地買家</td></tr>
+<tr><td>2</td><td><strong>蝦皮拍賣</strong></td><td>shopee.tw</td><td>Switch、Mitel 話機（國內小量）、會議擴大機</td><td>2~4 週</td><td>標題加品牌+型號+「企業汰換」+「九成新」；可開賣場一次上架</td></tr>
+<tr><td>3</td><td><strong>PTT 看板</strong>（Audiophile / Networking / mac_shop）</td><td>ptt.cc</td><td>QSC 喇叭、Switch、機櫃</td><td>1~3 週</td><td>Audiophile 板賣 QSC 最對味，注意板規格式</td></tr>
+<tr><td>4</td><td><strong>eBay 國際站</strong></td><td>ebay.com</td><td><strong>Mitel 話機</strong>、特殊網通設備</td><td>2~6 週</td><td>英文標題寫清楚 model + condition + qty available</td></tr>
+<tr><td>5</td><td><strong>591 二手</strong></td><td>591.com.tw</td><td>大型辦公家具、會議桌</td><td>2~4 週</td><td>拍照清楚標尺寸</td></tr>
+<tr><td>6</td><td><strong>Yahoo 拍賣 / 露天</strong></td><td>流量下滑但仍有</td><td>中老年買家會用，TV、家具</td><td>較慢</td><td>輔助通路</td></tr>
+</table>
+<h3>重點品項標題寫法範例</h3>
+<ul>
+<li>QSC 喇叭：「<strong>QSC K10/K12 二手 專業舞台喇叭 公司汰換 桃園自取優惠</strong>」</li>
+<li>Switch：「<strong>Cisco/HP Switch 24Port Gigabit 企業汰換 多台供應 含發票</strong>」</li>
+<li>TV：「<strong>Sony/LG 43吋 LED 電視 公司汰換 桃園中壢自取 量大可議</strong>」</li>
+</ul>
+<hr>
+<h2>三、品項分流策略</h2>
+<table>
+<tr><th>品項</th><th>建議路線</th><th>理由</th></tr>
+<tr><td><strong>舊 PC（10 年以上）</strong></td><td>✅ <strong>整批給回收商</strong>（大豐/在地廢電腦商）</td><td>10 年機種無二手轉售價值，個別上架划不來；走 R-1602 廢電子設備代碼，每台約 NT$80~250。<strong>務必先做硬碟抹除或實體破壞</strong>。</td></tr>
+<tr><td><strong>舊螢幕（10 年以上）</strong></td><td>✅ <strong>整批給回收商</strong></td><td>純廢料價，搭舊 PC 一起出清</td></tr>
+<tr><td><strong>Network Switch × 9</strong></td><td>⭐ <strong>二手網通商收購 + 蝦皮分批上架雙軌</strong></td><td>視品牌型號決定。<strong>Cisco/HPE/Juniper 強烈建議蝦皮個別上架</strong>，單價差很多；雜牌則整批給網通商。9 台不算多，建議花 1~2 小時拍照上架。</td></tr>
+<tr><td><strong>大型機櫃 × 1</strong></td><td>⭐ <strong>二手網通商或 FB Marketplace</strong></td><td>機櫃運費高，在地買家最佳。預估 NT$2,000~5,000</td></tr>
+<tr><td><strong>小型機櫃 × 1</strong></td><td>⭐ <strong>FB Marketplace / 蝦皮</strong></td><td>NT$800~1,800</td></tr>
+<tr><td><strong>Mitel 5312 × 數十支</strong></td><td>🌟 <strong>eBay 國際站為主 + 嘗試聯繫零壹/PBX 整合商</strong></td><td>國內市場小，eBay 整批 USD 500~1,500；國內整合商若有客戶在用，可打包報價</td></tr>
+<tr><td><strong>會議擴大機</strong></td><td>待型號補上後決定。若是 <strong>Shure / Yamaha / Bose / TOA</strong> 品牌：PTT Audiophile + 蝦皮；若是雜牌：FB 在地社團</td></tr>
+<tr><td><strong>QSC 喇叭 × 6</strong></td><td>🌟 <strong>PTT Audiophile + 二手音響社團</strong></td><td>QSC 是專業品牌（K 系列、KW 系列、K.2 系列每對二手仍有 NT$8,000~25,000），<strong>絕對不要給回收商</strong>。發燒友市場接受度高</td></tr>
+<tr><td><strong>TV × 18 台（37~50吋）</strong></td><td>⭐ <strong>整批 + 零售雙軌</strong></td><td><strong>建議：先掛 FB Marketplace「整批 18 台 NT$XX,XXX 自取」吸引餐廳/補習班/民宿買家</strong>，3 天無人問再拆零售。整批可省力，零售總額較高但耗時。每台預估 NT$1,500~4,500（看品牌與年份）</td></tr>
+<tr><td><strong>辦公桌椅、三層櫃、會議桌</strong></td><td>⭐ <strong>二手家具商整批收購</strong></td><td>數量大時家具商願意到府打包，省力。再生工場、馥茂等。預估整批可拿 NT$15,000~40,000</td></tr>
+</table>
+<hr>
+<h2>四、執行時程與優先順序</h2>
+<h3>📅 第 1 週：盤點與詢價（並行）</h3>
+<ul>
+<li><strong>Day 1~2</strong>：完成所有品項清點，<strong>特別補齊</strong>：</li>
+<li>會議擴大機型號</li>
+<li>QSC 喇叭具體型號（K10? K12? KW122?）</li>
+<li>Switch 品牌型號（Cisco? HPE? D-Link?）</li>
+<li>TV 品牌、年份</li>
+<li>Mitel 5312 數量精確值</li>
+<li><strong>Day 2~3</strong>：拍照建檔（每項 3~5 張，含型號標籤）</li>
+<li><strong>Day 3~5</strong>：發詢價單給：</li>
+<li>大豐環保（PC/螢幕廢料）</li>
+<li>2~3 家二手家具商（家具）</li>
+<li>2~3 家二手網通商（Switch/機櫃）</li>
+<li>零壹科技、Mitel 經銷商查詢（話機）</li>
+</ul>
+<h3>📅 第 2 週：高價值品項上架 + 收購商議價</h3>
+<ul>
+<li><strong>Day 8~10</strong>：QSC、Switch、機櫃 上架蝦皮 + PTT</li>
+<li><strong>Day 8~10</strong>：Mitel 話機上架 eBay（建議找懂英文同事代操或委託代購商）</li>
+<li><strong>Day 10~12</strong>：與家具商、廢電腦商敲定到府日期</li>
+<li><strong>Day 12~14</strong>：TV 18 台整批詢價（FB Marketplace + 二手家電商）</li>
+</ul>
+<h3>📅 第 3 週：執行清運</h3>
+<ul>
+<li>廢 PC/螢幕：硬碟抹除後給大豐或在地回收商整批清運</li>
+<li>家具：家具商到府打包載走</li>
+<li>高價品項持續網路詢問與成交</li>
+</ul>
+<h3>📅 第 4 週：收尾</h3>
+<ul>
+<li>未售出品項降價或轉給回收商</li>
+<li>整理發票/收據/環保清運證明文件</li>
+</ul>
+<h3>⚠️ 風險與注意事項</h3>
+<ol>
+<li><strong>資料抹除</strong>：所有 PC、Switch（config）、Mitel 話機（內存通訊錄/SIP 帳密）<strong>務必出清前重置或硬碟銷毀</strong>。建議使用 DBAN 或物理破壞硬碟，留存銷毀紀錄。</li>
+<li><strong>環保清運證明</strong>：給合法回收商（如大豐）務必索取 <strong>R-1602 / R-1505 廢棄物清除處理聯單</strong>，避免日後環保稽查問題。</li>
+<li><strong>稅務</strong>：</li>
+</ol>
+<ul>
+<li>公司資產處分需開立發票或收據（買方為個人時可開「廢品出售」憑證）</li>
+<li>帳上仍有殘值的固定資產，處分需做資產減損/處分損益分錄，<strong>請會計師確認</strong></li>
+<li>捐贈給合格學校/NGO 可取得捐贈收據抵稅（適合可運作的設備）</li>
+</ul>
+<ol>
+<li><strong>隱私合規</strong>：話機可能含通訊錄/通話紀錄，建議全機 Factory Reset。</li>
+</ol>
+<hr>
+<h2>五、預估總回收金額區間</h2>
+<p>&gt; 假設前提：品項數量以「主機 30 台、螢幕 30 台、Switch 9 台、機櫃 2 台、Mitel 30 支、QSC K 系列 6 顆、TV 18 台、家具一批中型辦公室」估算。</p>
+<table>
+<tr><th>品項</th><th>保守估計</th><th>樂觀估計</th></tr>
+<tr><td>舊 PC × 30</td><td>$2,400</td><td>$7,500</td></tr>
+<tr><td>舊螢幕 × 30</td><td>$900</td><td>$2,400</td></tr>
+<tr><td>Switch × 9</td><td>$1,800</td><td>$15,000</td></tr>
+<tr><td>機櫃 × 2</td><td>$2,800</td><td>$6,800</td></tr>
+<tr><td>Mitel × 30</td><td>$4,500（料件價）</td><td>$30,000（eBay 國際）</td></tr>
+<tr><td>會議擴大機</td><td>$1,000</td><td>$8,000</td></tr>
+<tr><td>QSC × 6</td><td>$20,000</td><td>$80,000</td></tr>
+<tr><td>TV × 18</td><td>$27,000</td><td>$81,000</td></tr>
+<tr><td>辦公家具一批</td><td>$15,000</td><td>$50,000</td></tr>
+<tr><td><strong>合計</strong></td><td><strong>約 NT$ 75,400</strong></td><td><strong>約 NT$ 280,700</strong></td></tr>
+</table>
+<h3>💡 結論</h3>
+<ul>
+<li><strong>保守估計約 7~8 萬</strong>（全走整批回收商）</li>
+<li><strong>樂觀估計約 25~30 萬</strong>（QSC、TV、Mitel、Switch 走零售/國際平台）</li>
+<li><strong>價值關鍵在 QSC 喇叭、TV、Mitel 話機</strong>這三項，花時間經營網路平台投報率最高</li>
+<li><strong>建議目標</strong>：折衷路線約 <strong>NT$ 15~20 萬</strong>，投入約 30~40 工時</li>
+</ul>
+<hr>
+<h2>📌 立即行動清單（今天可做）</h2>
+<ol>
+<li>✅ 盤點補上「型號」欄位（特別是 QSC、Switch、會議擴大機）</li>
+<li>✅ 撥電話給 <strong>大豐環保 03-3636789</strong> 預約整批 PC/螢幕估價</li>
+<li>✅ 上 <strong>Mitel 官網 partners 查詢</strong> 確認台灣授權商</li>
+<li>✅ 拍 QSC 喇叭照片，上 PTT Audiophile 板貼出</li>
+<li>✅ FB 加入「中壢二手」「桃園企業出清」「台灣專業音響二手」3 個社團</li>
+</ol>
+<p>如需我針對特定品項（如 QSC 型號確認後、Switch 品牌確認後）提供更精準估價，或代擬蝦皮/eBay 上架文案，請再提供補充資訊。</p></div>
+</details>
+
+
+
+<h2 id="round2">四、深度追問（Round 2）</h2>
+<p style="color:var(--muted)">共 8 組針對各 AI 模糊處的精準追問。</p>
+
+<details>
+  <summary>🔎 <strong>ChatGPT</strong> · 桃園在地廠商聯絡電話缺失</summary>
+  <blockquote style="color:#666;border-left:3px solid #ccc;padding-left:1em">
+    <small>原句：佳龍科技工程股份有限公司｜Google 商家：...｜大宗可洽｜桃園業者</small><br>
+    <small>追問：你列的佳龍科技、台佳通信、海國樂器都只給 Google 搜尋連結，沒有實際電話與地址。請補：(1) 這三家的總機電話、地址、是否仍在營運 (2) 是否真的有收 Mitel 5312 / QSC / 廢電子業務 (3) 若無法確認，請明確標註「需自行驗證」而非列為推薦</small>
+  </blockquote>
+  <div><p>你抓得對；我上次把「Google 搜尋連結」放進推薦名單不夠嚴謹。以下只針對 <strong>佳龍科技、台佳通信、海國樂器</strong> 補正，並把無法確認者降級為「需自行驗證／非推薦」。</p>
+<h2>三家補正表</h2>
+<table>
+<tr><th>廠商</th><th>電話／地址</th><th>是否仍在營運</th><th>是否真的適合收 Mitel 5312 / QSC / 廢電子</th><th>修正後結論</th></tr>
+<tr><td><strong>佳龍科技工程股份有限公司</strong> Jarllytec Co., Ltd.</td><td><strong>總機：03-483-9611</strong>；公開資訊常見地址：<strong>桃園市觀音區經建一路16號</strong>。查核：公開資訊觀測站搜尋股票代號 <strong>9955</strong>；經濟部商工登記可查統編 <strong>97211972</strong>。</td><td><strong>可確認仍為上市公司，原則上仍在營運</strong>；但接不接單、清運條件要電話確認。</td><td><strong>廢電子／貴金屬／電子廢料：可列為合法報廢候選，但仍須核對其清除／處理／再利用許可項目與有效期限。</strong> Mitel 5312、QSC 若交給佳龍，基本上是走「廢電子／拆解」邏輯，不是二手收購。</td><td><strong>可作為低殘值廢電子報廢候選；不建議拿 QSC、可賣的 Switch、機櫃給它估殘值。</strong></td></tr>
+<tr><td><strong>台佳通信</strong></td><td>我上次只給 Google 搜尋連結，<strong>無法確認唯一法人、總機與地址</strong>。同名或近似名稱可能不只一家。查核入口：經濟部商工登記 &lt;https://findbiz.nat.gov.tw/fts/query/QueryBar/queryInit.do&gt;；Google Maps 搜尋「台佳通信 桃園」。</td><td><strong>需自行驗證。</strong> 不能只看 Google 顯示「營業中」就認定。</td><td><strong>Mitel 5312：無公開可驗證資料證明其有中古收購或回收業務。</strong> 它若只是電話交換機／弱電工程商，可能只願意維修、拆機或介紹客戶，不代表會買中古 Mitel。QSC：不適用。廢電子：若無廢棄物清除／處理許可，不能當報廢商。</td><td><strong>降級為「可電話詢問 Mitel 去化管道」，不是推薦收購商。需自行驗證。</strong></td></tr>
+<tr><td><strong>海國樂器</strong></td><td>我上次只給搜尋連結，<strong>未能以官方資料確認可負責列出的總機與地址</strong>。查核入口：Google Maps 搜尋「海國樂器」；商工登記同上。</td><td><strong>需自行驗證。</strong> 樂器行／音響商是否仍營業、是否收中古企業音響，要逐案問。</td><td><strong>QSC：無法確認其有企業退役 QSC 喇叭／擴大機收購業務。</strong> 即使是音響／樂器業者，也可能只做新機銷售、維修或代訂料，不等於會收購。Mitel：不適用。廢電子：不適用，除非另有合法廢棄物許可。</td><td><strong>降級為「可詢問 QSC 維修或轉介」，不是推薦收購商。需自行驗證。</strong></td></tr>
+</table>
+<h2>合法性重點</h2>
+<p>若你是公司行號要報廢 PC、螢幕、網通、話機等，不能只找「願意搬走的人」。</p>
+<p>依 <strong>《廢棄物清理法》第28條</strong>，事業廢棄物應自行或委託合法清除、處理、再利用機構處理。  </p>
+<p>依 <strong>第41條</strong>，從事廢棄物清除、處理業務者原則上須取得許可。  </p>
+<p>若無許可卻從事清除處理，可能涉及 <strong>第46條</strong> 刑責，最高可處 <strong>1年以上5年以下有期徒刑，得併科新臺幣1,500萬元以下罰金</strong>。</p>
+<p>所以修正後判斷是：</p>
+<ul>
+<li><strong>佳龍科技</strong>：可列入「廢電子合法處理候選」，但打電話時要要求提供許可項目與回收／處理證明。</li>
+<li><strong>台佳通信</strong>：不能當成 Mitel 5312 收購推薦，只能當成「電話系統業者詢問對象」。</li>
+<li><strong>海國樂器</strong>：不能當成 QSC 收購推薦，只能當成「音響維修／轉介詢問對象」。</li>
+</ul>
+<p>我會把原清單中的 <strong>台佳通信、海國樂器從推薦名單移除</strong>，改標「需自行驗證」。佳龍則保留，但只適用於 <strong>低殘值廢電子報廢</strong>，不適合用來估 QSC 或其他仍有二手價的設備。</p></div>
+</details>
+
+<details>
+  <summary>🔎 <strong>ChatGPT</strong> · QSC 喇叭殘值估算缺型號對應</summary>
+  <blockquote style="color:#666;border-left:3px solid #ccc;padding-left:1em">
+    <small>原句：QSC 喇叭 ×6｜NT$18,000–50,000（保守）｜NT$60,000–150,000（樂觀）</small><br>
+    <small>追問：QSC 殘值區間從 1.8 萬到 15 萬落差 8 倍，太籠統。請依型號分別給出 2025 年台灣二手實際成交價：(1) K8/K10/K12 主動式 (2) KW122/KW152 (3) K.2 系列 (4) CP8/CP12 (5) 被動式 E 系列。每個型號單顆成交價區間</small>
+  </blockquote>
+  <div><p>你說得對，QSC 不能用一個大區間估。以下我把「2025 台灣二手可成交價」拆成型號別；價格是<strong>單顆、功能正常、外觀 7 成以上、不含運、不含 5% 營業稅、無重大維修紀錄</strong>的二手成交區間。若是成對賣，通常比單顆好成交；若 6 顆整批給音響商買斷，通常再打 <strong>65%–80%</strong>。</p>
+<h2>QSC 2025 台灣二手成交價／單顆</h2>
+<table>
+<tr><th>系列</th><th>型號</th><th>2025 台灣二手成交價／顆</th><th>效度</th><th>評估理由</th></tr>
+<tr><td>原始 K 系列主動式</td><td><strong>K8</strong></td><td><strong>NT$9,000–13,000</strong></td><td>高</td><td>老 K 系列仍有教會、樂團、活動場需求，但年份偏久</td></tr>
+<tr><td>原始 K 系列主動式</td><td><strong>K10</strong></td><td><strong>NT$11,000–16,000</strong></td><td>高</td><td>比 K8 好用、比 K12 輕，流通性不錯</td></tr>
+<tr><td>原始 K 系列主動式</td><td><strong>K12</strong></td><td><strong>NT$14,000–21,000</strong></td><td>高</td><td>最好賣的老 K 型號之一，成對出售價格較穩</td></tr>
+<tr><td>KW 木箱主動式</td><td><strong>KW122</strong></td><td><strong>NT$17,000–25,000</strong></td><td>中</td><td>聲音與輸出好，但重、體積大，買方較專業</td></tr>
+<tr><td>KW 木箱主動式</td><td><strong>KW152</strong></td><td><strong>NT$20,000–30,000</strong></td><td>中</td><td>15 吋輸出高，但重量影響成交速度，桃園自取會被議價</td></tr>
+<tr><td>K.2 系列主動式</td><td><strong>K8.2</strong></td><td><strong>NT$18,000–24,000</strong></td><td>高</td><td>新一代 K 系列，折舊較少，流通性佳</td></tr>
+<tr><td>K.2 系列主動式</td><td><strong>K10.2</strong></td><td><strong>NT$21,000–28,000</strong></td><td>高</td><td>常見活動、監聽、教會用途，成交穩</td></tr>
+<tr><td>K.2 系列主動式</td><td><strong>K12.2</strong></td><td><strong>NT$24,000–33,000</strong></td><td>高</td><td>需求最高；漂亮、有袋、有原箱可接近上緣</td></tr>
+<tr><td>CP 入門主動式</td><td><strong>CP8</strong></td><td><strong>NT$8,000–11,500</strong></td><td>中高</td><td>新機價較低，二手折價明顯，但小型活動好賣</td></tr>
+<tr><td>CP 入門主動式</td><td><strong>CP12</strong></td><td><strong>NT$11,000–16,000</strong></td><td>中高</td><td>比 CP8 更實用，二手需求較好</td></tr>
+<tr><td>E 系列被動式</td><td><strong>E110</strong></td><td><strong>NT$7,000–10,500</strong></td><td>中</td><td>被動式需另配擴大機，買方較窄</td></tr>
+<tr><td>E 系列被動式</td><td><strong>E112</strong></td><td><strong>NT$8,500–13,000</strong></td><td>中</td><td>12 吋被動箱，教會／固定安裝較可能收</td></tr>
+<tr><td>E 系列被動式</td><td><strong>E115</strong></td><td><strong>NT$10,500–16,000</strong></td><td>中</td><td>體積較大，成交看場館需求</td></tr>
+<tr><td>E 系列被動式</td><td><strong>E215</strong></td><td><strong>NT$16,000–25,000</strong></td><td>中低</td><td>雙 15 吋很大、運送麻煩，喊價可高但成交慢</td></tr>
+<tr><td>E 系列被動式低音</td><td><strong>E118sw</strong></td><td><strong>NT$14,000–22,000</strong></td><td>中</td><td>被動低音箱需擴大機／DSP，買方以工程、租賃為主</td></tr>
+</table>
+<h2>對你原本 6 顆 QSC 的修正判斷</h2>
+<p>若 6 顆都是功能正常：</p>
+<ul>
+<li><strong>6 顆 K8</strong>：約 <strong>NT$54,000–78,000</strong></li>
+<li><strong>6 顆 K10</strong>：約 <strong>NT$66,000–96,000</strong></li>
+<li><strong>6 顆 K12</strong>：約 <strong>NT$84,000–126,000</strong></li>
+<li><strong>6 顆 K12.2</strong>：約 <strong>NT$144,000–198,000</strong></li>
+<li><strong>6 顆 CP8</strong>：約 <strong>NT$48,000–69,000</strong></li>
+<li><strong>6 顆被動 E110</strong>：約 <strong>NT$42,000–63,000</strong></li>
+</ul>
+<p>所以我前次講的 <strong>NT$18,000 低標</strong>，只適用於「故障、外觀很差、被家具／回收商整批賤收」的情境；若是可正常使用的 QSC 主動喇叭，低於 5 萬通常不合理。</p>
+<h2>會影響價格的扣價項目</h2>
+<ul>
+<li>單顆單賣：比成對賣低 <strong>5%–15%</strong></li>
+<li>租賃公司退役、外觀傷重：扣 <strong>15%–35%</strong></li>
+<li>高音單體、低音單體換過：扣 <strong>10%–25%</strong></li>
+<li>主動式 amp module 有雜音、保護、過熱：可能只剩 <strong>NT$2,000–6,000 零件價</strong></li>
+<li>附原廠袋／cover：每顆可加 <strong>NT$500–1,500</strong></li>
+<li>含腳架：每支另抓 <strong>NT$500–1,000</strong></li>
+</ul>
+<h2>查價平台與效度</h2>
+<p>可用同一關鍵字替換型號，例如 <code>QSC K12.2</code>、<code>QSC KW152</code>：</p>
+<ul>
+<li>露天拍賣：&lt;https://www.ruten.com.tw/find/?q=QSC%20K12.2&gt;  </li>
+</ul>
+<p>  效度高，台灣二手音響器材常見，但掛牌價通常比成交價高 10%–20%。</p>
+<ul>
+<li>Yahoo 拍賣：&lt;https://tw.bid.yahoo.com/search/auction/product?p=QSC%20K12.2&gt;  </li>
+</ul>
+<p>  效度中，較適合看上限價。</p>
+<ul>
+<li>蝦皮：&lt;https://shopee.tw/search?keyword=QSC%20K12.2&gt;  </li>
+</ul>
+<p>  效度中，商家掛價偏高，不能直接當成交價。</p>
+<ul>
+<li>Facebook Marketplace：&lt;https://www.facebook.com/marketplace/search/?query=QSC%20K12.2&gt;  </li>
+</ul>
+<p>  效度高，實際成交常在私訊議價後低於刊登價。</p>
+<h2>稅務價格註記</h2>
+<p>上表是<strong>未稅二手成交價</strong>。若賣方是公司行號，出售舊固定資產仍屬銷售貨物，通常要開立統一發票；依《加值型及非加值型營業稅法》第 3 條、第 10 條、第 32 條，營業稅稅率為 <strong>5%</strong>。  </p>
+<p>所以若報價是 NT$20,000／顆，要先講清楚是：</p>
+<ul>
+<li><strong>未稅 NT$20,000，另加 5%</strong>；或</li>
+<li><strong>含稅 NT$20,000，實收未稅為 NT$19,048</strong>。</li>
+</ul></div>
+</details>
+
+<details>
+  <summary>🔎 <strong>Claude</strong> · 會議擴大機完全跳過分析</summary>
+  <blockquote style="color:#666;border-left:3px solid #ccc;padding-left:1em">
+    <small>原句：會議擴大機｜待型號補上後決定</small><br>
+    <small>追問：會議擴大機你直接跳過未分析。請補：(1) 會議室常見擴大機品牌（TOA/Yamaha/Shure/Bose/Crown）各自的二手殘值區間 (2) 即使型號未知，仍可依品牌等級給出粗估範圍 (3) 適合的二手平台與買家輪廓</small>
+  </blockquote>
+  <div><h1>會議擴大機殘值補充分析</h1>
+<h2>一、台灣會議室常見擴大機品牌與二手殘值區間</h2>
+<p>&gt; 估價基準：<strong>外觀堪用、可正常開機、附電源線</strong>。10 年以上機種需打 5~7 折。會議室擴大機多為定壓輸出（70V/100V）或低阻（4~16Ω）設計，與家用 Hi-Fi 不同，買家輪廓也不同。</p>
+<h3>1. <strong>TOA（日本，台灣會議室/廣播系統市佔最高）</strong></h3>
+<ul>
+<li><strong>代表機種</strong>：A-1712、A-2120、A-2240、A-706、A-912MK2、ZA-2128</li>
+<li><strong>二手殘值</strong>：</li>
+<li>小型混音擴大機（60W~120W，如 A-1712 / A-706）：<strong>NT$1,500~3,500</strong></li>
+<li>中型（240W，如 A-2240）：<strong>NT$3,000~6,000</strong></li>
+<li>數位矩陣型（M-9000 系列）：<strong>NT$8,000~20,000</strong></li>
+<li><strong>效度</strong>：<strong>高</strong>。TOA 是台灣學校、會議室、公部門廣播系統大宗，零件與替換需求穩定，二手市場流通性最佳。</li>
+</ul>
+<h3>2. <strong>Yamaha（日本，中高階會議與小型場館）</strong></h3>
+<ul>
+<li><strong>代表機種</strong>：MA2030a、PA2030a、XMV 系列、IMX644（會議用矩陣）</li>
+<li><strong>二手殘值</strong>：</li>
+<li>MA/PA 2030a 定壓擴大機：<strong>NT$4,000~8,000</strong></li>
+<li>XMV4140/XMV8140 數位擴大機：<strong>NT$10,000~25,000</strong></li>
+<li>IMX644 會議混音器：<strong>NT$15,000~35,000</strong>（仍有專業買家）</li>
+<li><strong>效度</strong>：<strong>高</strong>。Yamaha 商用線品牌力強，10 年內機種仍有 SI 廠商收購整修轉售。</li>
+</ul>
+<h3>3. <strong>Shure（美國，主要做麥克風，擴大機少見）</strong></h3>
+<ul>
+<li><strong>代表機種</strong>：SCM810/SCM820 自動混音器、IntelliMix P300（會議 DSP）</li>
+<li><strong>二手殘值</strong>：</li>
+<li>SCM810：<strong>NT$8,000~18,000</strong></li>
+<li>P300（近年機種）：<strong>NT$25,000~50,000</strong></li>
+<li><strong>效度</strong>：<strong>高</strong>。Shure 會議產品線在台灣企業會議室（含視訊整合）有穩定需求，<strong>若你的「擴大機」其實是 Shure 自動混音器，殘值會比一般擴大機高</strong>。</li>
+</ul>
+<h3>4. <strong>Bose（美國，較少純擴大機，多為主動喇叭）</strong></h3>
+<ul>
+<li><strong>代表機種</strong>：FreeSpace IZA 190-HZ、IZA 250-LZ、PowerSpace P2600A/P4300A</li>
+<li><strong>二手殘值</strong>：</li>
+<li>FreeSpace IZA 系列：<strong>NT$5,000~10,000</strong></li>
+<li>PowerSpace 系列：<strong>NT$8,000~18,000</strong></li>
+<li><strong>效度</strong>：<strong>中</strong>。Bose 商用市場買家較窄，需找 Bose 經銷商（如台灣總代理 <strong>仲敏 02-2705-0868</strong>）或專業 SI 系統整合商。</li>
+</ul>
+<h3>5. <strong>Crown（美國，由 Harman 集團，PA/演藝廳級）</strong></h3>
+<ul>
+<li><strong>代表機種</strong>：XLS 系列、CDi 系列、DCi 系列</li>
+<li><strong>二手殘值</strong>：</li>
+<li>XLS 1502/2502：<strong>NT$5,000~12,000</strong></li>
+<li>CDi 2|300、4|300（定壓）：<strong>NT$8,000~18,000</strong></li>
+<li>DCi 系列（網路型）：<strong>NT$15,000~40,000</strong></li>
+<li><strong>效度</strong>：<strong>高</strong>。Crown 屬於專業 PA 級，會議室較少見，若有則買家會是 Live House、教會、活動公司，殘值堅挺。</li>
+</ul>
+<h3>6. <strong>其他可能機種（補充）</strong></h3>
+<ul>
+<li><strong>Inter-M</strong>（韓國）、<strong>Australian Monitor</strong>、<strong>鐘王</strong>（台製）：屬經濟型廣播擴大機，二手殘值 <strong>NT$800~2,500</strong>，主要走資源回收或廟宇/小型店面市場。</li>
+<li><strong>Biamp / QSC Q-Sys</strong>（會議 DSP/網路擴大機）：<strong>NT$30,000~80,000</strong>，若是這類設備千萬不要當廢料賣。</li>
+</ul>
+<hr>
+<h2>二、即使型號未知的「品牌等級粗估法」</h2>
+<table>
+<tr><th>品牌等級</th><th>代表品牌</th><th>機體外觀特徵</th><th>粗估殘值/台</th></tr>
+<tr><td><strong>A 級（國際商用主流）</strong></td><td>TOA、Yamaha、Bose、Shure、Crown、Biamp、QSC</td><td>1U/2U 黑色機架、定壓輸出端子（70V/100V 標示）、品牌 logo 明顯</td><td><strong>NT$3,000~15,000</strong></td></tr>
+<tr><td><strong>B 級（次主流）</strong></td><td>Inter-M、Cloud、Australian Monitor、Denon Pro</td><td>機架式但較輕薄、台灣代理較少</td><td><strong>NT$1,500~4,000</strong></td></tr>
+<tr><td><strong>C 級（經濟/台製）</strong></td><td>鐘王、Show、無品牌 OEM</td><td>鐵殼較薄、旋鈕簡陋、無數位介面</td><td><strong>NT$500~1,500</strong></td></tr>
+<tr><td><strong>特殊加分</strong></td><td>含 DSP、網路控制（Dante/AVB）、近 5 年機種</td><td>後板有 RJ45 + Dante 標示</td><td><strong>乘 1.5~2 倍</strong></td></tr>
+</table>
+<p>&gt; <strong>關鍵自我檢核（不需型號也能判斷）</strong>：</p>
+<p>&gt; 1. 機殼背後是否有 <strong>70V/100V 端子</strong>？→ 是定壓型，廣播工程買家有興趣</p>
+<p>&gt; 2. 是否有 <strong>Dante / AVB / 網路孔</strong>？→ 近年機種，殘值高</p>
+<p>&gt; 3. 是否有 <strong>多通道輸入旋鈕（4 個以上）</strong>？→ 混音擴大機，比純功放值錢</p>
+<p>&gt; 4. <strong>重量 8 公斤以上</strong> 通常代表大型變壓器/真材實料，殘值較高</p>
+<hr>
+<h2>三、適合的二手平台與買家輪廓</h2>
+<h3>1. <strong>Facebook 社團（最推薦，買家精準）</strong></h3>
+<ul>
+<li><strong>「台灣音響二手交易區」</strong>（成員 10 萬+）：https://www.facebook.com/groups/twaudio2hand</li>
+<li><strong>「PA 音響系統二手交易」</strong>：搜尋 FB 關鍵字「PA 二手」</li>
+<li><strong>「廣播音響工程同業交流」</strong>：較封閉，需申請加入</li>
+<li><strong>買家輪廓</strong>：音響工程行老闆、廟宇音響負責人、活動公司、學校總務</li>
+<li><strong>效度</strong>：<strong>最高</strong>。同行最懂價值，能識別品牌與型號，成交速度快</li>
+</ul>
+<h3>2. <strong>蝦皮拍賣（一般消費者+小工程行）</strong></h3>
+<ul>
+<li>搜尋關鍵字「TOA 二手」「擴大機 中古」可看行情</li>
+<li><strong>買家輪廓</strong>：店面老闆、小型廣播裝設者</li>
+<li><strong>效度</strong>：<strong>中高</strong>，適合單台販售，整批不便</li>
+</ul>
+<h3>3. <strong>露天拍賣 / Yahoo 拍賣</strong></h3>
+<ul>
+<li>露天的「樂器收藏」「音響設備」分類仍有專業買家活動</li>
+<li><strong>效度</strong>：<strong>中</strong></li>
+</ul>
+<h3>4. <strong>PTT Audiophile / Audio 板</strong></h3>
+<ul>
+<li>較偏家用，會議擴大機關注度低</li>
+<li><strong>效度</strong>：<strong>低</strong></li>
+</ul>
+<h3>5. <strong>直接聯絡音響工程行（B2B 整批最快）</strong></h3>
+<ul>
+<li><strong>桃園在地</strong>：</li>
+<li><strong>聖音音響工程</strong>（桃園）：03-336-XXXX（請查證）</li>
+<li><strong>群音影音</strong>（中壢）：搜尋「中壢 音響工程」</li>
+<li><strong>大台北</strong>：</li>
+<li><strong>金韻音響工程</strong>：02-2999-XXXX</li>
+<li><strong>博凱音響</strong>：專做商用會議音響整套買賣</li>
+<li><strong>買家輪廓</strong>：他們會以「整修轉賣」或「拆零件備品」收購，價格約市價 4~6 折</li>
+<li><strong>效度</strong>：<strong>高</strong>，適合不想拆售的整批處置</li>
+</ul>
+<hr>
+<h2>四、建議行動順序</h2>
+<ol>
+<li><strong>先拍照</strong>：機體正面 + 背面端子 + 側面型號貼紙（通常在側邊或底部）</li>
+<li><strong>貼到 FB「台灣音響二手交易區」測水溫</strong>：留言「請問這台行情？」3 天內可得多個報價</li>
+<li><strong>若型號為 TOA / Yamaha / Shure 主流型</strong>：直接掛蝦皮 + 私訊 2~3 家音響工程行比價</li>
+<li><strong>若是無品牌/老舊台製</strong>：併入廢電子整批給大豐或在地回收商，估 NT$300~800/台 即可</li>
+</ol>
+<p>&gt; <strong>底線提醒</strong>：會議擴大機<strong>絕對不要直接秤斤賣廢鐵</strong>（變壓器銅料雖有價，但約只值 NT$200~500），先花 10 分鐘拍照貼社團問價，可能多收 NT$2,000~10,000。</p></div>
+</details>
+
+<details>
+  <summary>🔎 <strong>Claude</strong> · eBay 國際出口操作門檻未說明</summary>
+  <blockquote style="color:#666;border-left:3px solid #ccc;padding-left:1em">
+    <small>原句：Mitel 話機上架 eBay（建議找懂英文同事代操或委託代購商）</small><br>
+    <small>追問：你建議 Mitel 走 eBay 國際但操作步驟過於簡略。請補：(1) eBay 台灣賣家註冊與金流（PayPal/Payoneer）設定 (2) 國際運費試算（30 支話機到美國/東南亞）與是否會吃掉利潤 (3) 是否有台灣代operate eBay 出口的代購商可推薦 (4) 整批一次賣 vs 拆批上架的策略</small>
+  </blockquote>
+  <div><h1>eBay 國際出口操作補充：Mitel 5312 × 30 支實戰評估</h1>
+<p>&gt; <strong>先講結論</strong>：30 支 Mitel 5312 走 eBay 國際<strong>不建議自己從零註冊操作</strong>，學習曲線與運費會吃掉大半利潤。比較務實的路徑是 <strong>(A) 找代操商整批處理</strong> 或 <strong>(B) 直接在 eBay 找美國/印度買家私訊談整批 FOB 台灣出貨</strong>。以下逐點說明。</p>
+<hr>
+<h2>(1) eBay 台灣賣家註冊與金流設定</h2>
+<h3>註冊流程（2024 年後重點變動）</h3>
+<ol>
+<li><strong>eBay.com 註冊賣家帳號</strong>（不是 eBay 台灣，台灣站已停止 C2C 功能）</li>
+</ol>
+<ul>
+<li>網址：https://www.ebay.com/sl/sell</li>
+<li>需要：英文姓名、台灣地址（英文）、手機驗證、Email</li>
+</ul>
+<ol>
+<li><strong>賣家身份驗證</strong>：需上傳護照或身分證 + 地址證明（水電費帳單）</li>
+<li><strong>新賣家有上架限額</strong>：首月通常只能上架 <strong>10 件 / 總值 USD 500</strong>，需逐月累積評價才能解鎖。</li>
+</ol>
+<ul>
+<li>⚠️ <strong>這是大坑</strong>：30 支話機新帳號根本一次上不完，需要 2~3 個月慢慢放量，或申請提高限額（需客服溝通、英文書信往來）。</li>
+</ul>
+<h3>金流：PayPal 已不是主流（重要更新）</h3>
+<ul>
+<li><strong>eBay 自 2022 年起全面改用 Managed Payments</strong>，賣家收款直接綁定銀行帳戶或 Payoneer，<strong>PayPal 已非預設</strong>。</li>
+<li><strong>台灣賣家實務做法</strong>：</li>
+<li><strong>Payoneer</strong>（最推薦）：https://www.payoneer.com/zh-hant/</li>
+<li>註冊免費，提供美國虛擬銀行帳號接收 eBay 款項</li>
+<li>提領回台灣銀行手續費約 <strong>1.2%</strong>（USD → TWD 匯差另計約 0.5~1%）</li>
+<li>整體匯回成本約 <strong>2~2.5%</strong></li>
+<li><strong>直接綁台灣銀行</strong>：eBay 支援部分台灣銀行（玉山、國泰世華有專案），但匯入手續費較高（每筆 USD 15~25 電匯費）</li>
+<li><strong>eBay 平台費用</strong>：</li>
+<li><strong>刊登費</strong>：每月免費 250 件後超過才收</li>
+<li><strong>成交手續費</strong>：<strong>約 13.25% + USD 0.30/筆</strong>（電子產品類別）</li>
+<li><strong>跨境費</strong>：另加 <strong>1.65%</strong>（買家在美國以外）</li>
+</ul>
+<p>&gt; 💡 <strong>真實成本概算</strong>：賣 USD 50 一支，eBay 抽成約 USD 7.5，Payoneer 提領約 USD 1，<strong>淨收約 USD 41.5</strong>（≈ NT$1,330）</p>
+<hr>
+<h2>(2) 國際運費試算（30 支 Mitel 5312）</h2>
+<h3>重量估算</h3>
+<ul>
+<li>Mitel 5312 單支含底座、話筒：<strong>約 0.9 kg</strong></li>
+<li>30 支總重（含緩衝包材、紙箱）：<strong>約 35~40 kg</strong></li>
+<li>體積：約 0.15 CBM（單支盒裝堆疊）</li>
+</ul>
+<h3>運費比較（台灣 → 目的地）</h3>
+<table>
+<tr><th>運送方式</th><th>美國（加州）</th><th>美國（東岸）</th><th>馬來西亞</th><th>印度</th></tr>
+<tr><td><strong>DHL Express</strong>（5~7 天）</td><td>NT$18,000~22,000</td><td>NT$22,000~26,000</td><td>NT$9,000~12,000</td><td>NT$14,000~18,000</td></tr>
+<tr><td><strong>FedEx 經濟</strong>（8~12 天）</td><td>NT$14,000~18,000</td><td>NT$17,000~21,000</td><td>NT$7,000~10,000</td><td>NT$11,000~14,000</td></tr>
+<tr><td><strong>EMS 郵局</strong>（10~14 天）</td><td>NT$12,000~15,000</td><td>同左</td><td>NT$5,500~7,500</td><td>NT$8,000~10,500</td></tr>
+<tr><td><strong>海運併櫃</strong>（30~45 天）</td><td>NT$6,000~9,000</td><td>NT$8,000~11,000</td><td>NT$3,500~5,000</td><td>NT$5,000~7,000</td></tr>
+</table>
+<h3>⚠️ 利潤評估（殘酷現實）</h3>
+<p>假設 Mitel 5312 國際單價 USD 35~60（依機況）：</p>
+<ul>
+<li>30 支理想營收：<strong>USD 1,050~1,800（NT$33,600~57,600）</strong></li>
+<li>扣 eBay 手續費 13.25%~15%：<strong>剩 NT$28,560~48,960</strong></li>
+<li>扣海運費 NT$8,000：<strong>剩 NT$20,560~40,960</strong></li>
+<li>扣包材、報關、雜費 NT$3,000：<strong>剩 NT$17,560~37,960</strong></li>
+</ul>
+<p>&gt; <strong>與其他選項比較</strong>：在台灣賤賣給通訊行 NT$50~150/支 = <strong>NT$1,500~4,500</strong></p>
+<p>&gt; eBay 走海運整批，<strong>淨利潤可拉到 NT$17,000~38,000</strong>，差 4~10 倍，但時間成本是 <strong>2~3 個月</strong>。</p>
+<h3>報關注意</h3>
+<ul>
+<li>出口貨值超過 <strong>FOB USD 750</strong>（約 NT$24,000）需正式報關，要找報關行（費用約 NT$1,500~2,500/票）</li>
+<li>30 支 Mitel 大概率超過此門檻</li>
+<li><strong>HS Code</strong>：8517.18.00（其他電話機）</li>
+</ul>
+<hr>
+<h2>(3) 台灣 eBay 出口代操商推薦</h2>
+<p>&gt; 這是最務實的路徑，<strong>抽 15~25% 但你完全免操心</strong>。</p>
+<h3>A. eBay 官方認證合作夥伴（eBay Education Specialist）</h3>
+<ul>
+<li><strong>網路家庭電商學院（PChome 體系）</strong>：https://www.ebay-edu.com.tw/</li>
+<li>eBay 官方在台教育訓練合作夥伴</li>
+<li>提供代操、代上架、代客服服務</li>
+<li>抽成約 <strong>15~20%</strong></li>
+</ul>
+<h3>B. 跨境電商代操商</h3>
+<ol>
+<li><strong>EZ Way 易利委 / 跨境通</strong></li>
+</ol>
+<ul>
+<li>主要做進口，但部分業者有出口代操</li>
+</ul>
+<ol>
+<li><strong>聖洋科技 cacaFly</strong>：https://www.cacafly.com/</li>
+</ol>
+<ul>
+<li>規模大，但偏品牌客戶</li>
+</ul>
+<ol>
+<li><strong>TS 跨境電商代操</strong>（中小型代操）</li>
+</ol>
+<ul>
+<li>Google 搜尋「eBay 代操 台灣」會跑出 5~10 家小型工作室</li>
+<li>抽成 <strong>20~25%</strong>，包含上架、客服、退貨處理</li>
+</ul>
+<h3>C. 二手 IT 設備整批外銷商（最適合 30 支 Mitel 案例）</h3>
+<ul>
+<li><strong>這類商人會直接報價買斷，跳過 eBay 流程</strong>：</li>
+<li><strong>東南亞二手 IT 出口商</strong>（中和、三重一帶聚集）</li>
+<li>搜尋關鍵字：「二手電話機 收購 出口」「used phone bulk Taiwan」</li>
+<li>在 <strong>Alibaba.com</strong> 搜尋「Mitel 5312 used」會看到中國/印度買家，可主動報價</li>
+<li><strong>印度市場對舊款企業話機需求高</strong>（PBX 系統還在大量使用）</li>
+<li><strong>建議實際操作</strong>：</li>
+</ul>
+<ol>
+<li>拍 5 張清晰照片 + 數量 30 + 機況描述</li>
+<li>上 Alibaba RFQ（Request for Quotation）發布求售</li>
+<li>LinkedIn 搜尋「Mitel refurbished」找美國經銷商私訊</li>
+<li>通常 1~2 週內會有 2~3 個報價</li>
+</ol>
+<hr>
+<h2>(4) 整批一次賣 vs 拆批上架策略</h2>
+<h3>策略 A：<strong>整批 Bulk Lot 一次賣（強烈推薦）</strong></h3>
+<p><strong>做法</strong>：在 eBay 標題寫 <code>Lot of 30 Mitel 5312 IP Phones - Used Working Pull</code></p>
+<p><strong>優點</strong>：</p>
+<ul>
+<li>只需上架 1 次，新帳號限額不卡關</li>
+<li>買家通常是美國 refurbisher（翻新商）、IT asset recovery 公司</li>
+<li>一次成交一次出貨，省 29 次客服與包裝</li>
+<li>海運整箱寄送成本最低</li>
+</ul>
+<p><strong>缺點</strong>：</p>
+<ul>
+<li>單價會被壓低約 30~40%</li>
+<li>預估整批成交價：<strong>USD 700~1,200（NT$22,400~38,400）</strong></li>
+</ul>
+<h3>策略 B：<strong>拆批 5~10 支分組</strong></h3>
+<p><strong>做法</strong>：拆成 3~6 組，每組 5~10 支</p>
+<p><strong>適用情境</strong>：</p>
+<ul>
+<li>你有耐心 1~2 個月慢賣</li>
+<li>願意處理多次出貨</li>
+</ul>
+<p><strong>預估</strong>：總營收可拉高至 <strong>USD 1,200~1,600</strong>，但時間成本拉長 + 多次運費反而吃掉差額。</p>
+<h3>策略 C：<strong>單支零售（不建議）</strong></h3>
+<ul>
+<li>30 支單支上架 = 30 次刊登 + 30 次客服 + 30 次包裝出貨</li>
+<li>新帳號限額會卡死</li>
+<li>單支運費佔比高（一支寄美國 DHL 約 NT$1,500，售價才 NT$1,800）</li>
+<li><strong>僅適合 1~3 支特別好機況的剩貨清尾</strong></li>
+</ul>
+<hr>
+<h2>🎯 最終建議路徑（依推薦度排序）</h2>
+<table>
+<tr><th>路徑</th><th>預估淨收</th><th>時間</th><th>麻煩度</th><th>推薦度</th></tr>
+<tr><td><strong>1. Alibaba RFQ 找海外整批買家</strong>（FOB 台灣交貨）</td><td>NT$25,000~40,000</td><td>2~4 週</td><td>低</td><td>⭐⭐⭐⭐⭐</td></tr>
+<tr><td><strong>2. eBay 整批 Bulk Lot + 海運</strong></td><td>NT$20,000~35,000</td><td>1~2 月</td><td>中</td><td>⭐⭐⭐⭐</td></tr>
+<tr><td><strong>3. 委託 eBay 代操商（PChome 體系）</strong></td><td>NT$15,000~28,000</td><td>1~2 月</td><td>極低</td><td>⭐⭐⭐⭐</td></tr>
+<tr><td><strong>4. 自己 eBay 拆批上架</strong></td><td>NT$25,000~40,000</td><td>2~3 月</td><td>高</td><td>⭐⭐</td></tr>
+<tr><td><strong>5. 在台灣賤賣通訊行</strong></td><td>NT$1,500~4,500</td><td>1 週</td><td>極低</td><td>⭐</td></tr>
+</table>
+<p>&gt; <strong>如果你完全沒做過跨境電商</strong>：直接走 <strong>路徑 1（Alibaba RFQ）</strong>，最快、最省事，避開 eBay 新手所有坑。</p></div>
+</details>
+
+<details>
+  <summary>🔎 <strong>Gemini</strong> · Mitel 收購廠商真實性存疑</summary>
+  <blockquote style="color:#666;border-left:3px solid #ccc;padding-left:1em">
+    <small>原句：康特國際 (Kanter) - 官網: kanter.com.tw...他們是 Mitel 在台灣的合作夥伴之一</small><br>
+    <small>追問：你列的台佳通信(tecom.com.tw)、皇輝科技、康特國際、蓋德科技作為 Mitel 收購管道，但這些公司是否真的處理 Mitel 5312 二手收購並未驗證。請說明：(1) 你是依據什麼來源判定他們是 Mitel 夥伴 (2) 若無法確認，請改建議從 Mitel 官網 Partner Locator 自行查詢的具體步驟 (3) Mitel 5312 每支實際備品收購價區間</small>
+  </blockquote>
+  <div><p>好的，經理。</p>
+<p>您提出的質疑非常精準且重要。我先前的建議是基於「代理商或系統整合商可能提供舊換新或協助處理退役設備」的行業慣例推斷，但這並不等同於他們有常態性的「二手收購業務」。您的指正讓我能提供更精確的資訊，非常感謝。</p>
+<p>針對您提出的三點，我進行深入的補充說明：</p>
+<hr>
+<h3>(1) 判斷 Mitel 合作夥伴的依據</h3>
+<p>我先前將台佳、皇輝、康特等公司列為潛在管道，是基於他們在公開資訊中（如官網、工程實績、新聞稿）顯示為 Mitel 在台灣的系統整合商 (System Integrator) 或經銷商。</p>
+<ul>
+<li><strong>推斷邏輯：</strong> 這類廠商在協助其企業客戶導入新一代通訊系統時，經常會面臨客戶舊有設備的處置問題。因此，他們有時會提供「附帶服務」，例如：將舊設備折價、協助轉售給其他仍在使用同型號的客戶作為備品、或直接代為聯繫回收管道。</li>
+<li><strong>現實情況（您的質疑點）：</strong> 然而，這不代表他們會對<strong>「非其客戶」</strong>的<strong>「單純二手設備」</strong>進行現金收購。他們的核心業務是銷售新系統與服務，而非二手買賣。因此，直接聯繫他們要求收購，成功率確實不高。</li>
+</ul>
+<h3>(2) 從 Mitel 官網自行查詢合作夥伴的具體步驟</h3>
+<p>為了找到最可能協助處理的廠商，我們直接從 Mitel 官方管道著手，尋找專精於中小企業解決方案且地理位置在台灣的合作夥伴。步驟如下：</p>
+<ol>
+<li><strong>前往 Mitel 官方 Partner Locator 頁面：</strong></li>
+</ol>
+<ul>
+<li><strong>網址：</strong> [https://www.mitel.com/find-a-partner](https://www.mitel.com/find-a-partner)</li>
+</ul>
+<ol>
+<li><strong>設定篩選條件：</strong></li>
+</ol>
+<ul>
+<li>在 &quot;Find a partner near you&quot; 的搜尋框中，直接輸入 &quot;<strong>Taiwan</strong>&quot;。</li>
+<li>按下搜尋後，頁面會列出所有在台灣註冊的官方合作夥伴。</li>
+</ul>
+<ol>
+<li><strong>分析搜尋結果並採取行動：</strong></li>
+</ol>
+<ul>
+<li>您會看到一個列表，其中可能包含如 <strong>Kanter International (康特)</strong>、<strong>Great Domain Computer (蓋德)</strong> 等公司。</li>
+<li><strong>關鍵溝通策略：</strong> 聯絡時，請不要直接問「你們收不收購二手 Mitel 5312」。這樣很容易被拒絕。建議採用以下話術：</li>
+</ul>
+<p>        &gt; 「您好，我們是中壢的一家公司，目前有一批 Mitel 5312 話機即將汰換。想請問貴公司是否有提供『Mitel 系統升級方案』，並能協助回收或折價處理這批舊有設備的服務？」</p>
+<ul>
+<li><strong>此問法的效度評估：</strong></li>
+<li><strong>高動機：</strong> 將您的需求包裝成一個潛在的「新生意」，能大幅提高對方深入了解的意願。</li>
+<li><strong>精準探詢：</strong> 能直接測試出該廠商是否有處理退役資產 (ITAD) 的業務模式。即使他們最終不收購，也可能基於服務潛在客戶的立場，為您介紹真正有在處理的下游廠商。</li>
+</ul>
+<h3>(3) Mitel 5312 IP Phone 實際備品收購價區間</h3>
+<p>關於 Mitel 5312 這款 IP Phone 的實際殘值，必須坦誠地說，非常有限。它是 2008 年左右推出的產品，至今已超過 15 年。</p>
+<ul>
+<li><strong>估價邏輯：</strong></li>
+</ul>
+<ol>
+<li><strong>技術規格過時：</strong> 僅支援 10/100 Mbps 網路，螢幕為單色背光，已不符現今主流辦公室需求。</li>
+<li><strong>市場定位：</strong> 其價值僅剩下「既有 Mitel 系統用戶的維修備品」。會收購的買家，目標是拆零件或提供給不願升級系統的客戶作為故障替換。</li>
+<li><strong>交易成本：</strong> 收購方需承擔測試、清潔、庫存、無人購買的風險，因此收購價會壓得非常低。</li>
+</ol>
+<ul>
+<li><strong>每支實際收購價區間：</strong></li>
+<li><strong>B2B 大宗收購價：</strong> <strong>NT$ 50 - 150 / 支</strong></li>
+<li><strong>效度理由：</strong> 這是系統整合商或專業二手通訊設備商，在確認功能正常、外觀無嚴重破損的前提下，願意收購作為「備品庫存」的價格。若品項不佳或數量過於龐大，價格可能更低。</li>
+<li><strong>線上平台零售價 (參考用)：</strong> 在蝦皮、露天拍賣上，個人賣家單支出售的「零售價」可能在 NT$ 300 - 600 不等，但這是C2C市場的價格，不適用於企業整批快速處置，且需要承擔漫長的銷售時間與交易成本。</li>
+<li><strong>最終廢料價：</strong> 如果找不到任何願意收購的廠商，它們最終只能進入廢電腦回收流程，按重量計價，每支價值將低於 <strong>NT$ 10</strong>。</li>
+</ul>
+<p><strong>結論建議：</strong></p>
+<p>對於 Mitel 5312 這批話機，我們的處置目標應設定為<strong>「零成本清運」而非「獲利」</strong>。最好的結果是，透過上述第二點的聯繫方式，找到一家願意為您升級新系統並「免費回收」舊話機的 Mitel 合作夥伴，這就等同於省下了清運費用。</p></div>
+</details>
+
+<details>
+  <summary>🔎 <strong>Gemini</strong> · 在地龍頭廠商聯絡資訊正確性</summary>
+  <blockquote style="color:#666;border-left:3px solid #ccc;padding-left:1em">
+    <small>原句：優倍特環保科技 (U-Verter)｜官網：u-verter.com｜電話：03-433-3188</small><br>
+    <small>追問：「優倍特環保科技」與「綠盟」這兩家被列為桃園 ITAD 龍頭，但業界較知名的桃園 ITAD 是金益鼎、佳龍、大豐。請確認：(1) 優倍特、綠盟是否為真實存在且仍營運的公司，並提供統編或登記資訊 (2) 若無法確認，請改推薦可驗證的桃園 ITAD 廠商 (3) 是否有提供 R-1602 廢電子處理執照</small>
+  </blockquote>
+  <div><p>好的，經理。</p>
+<p>您提出的這一點非常專業且關鍵，確實點出了「IT 資產處置 (ITAD) 服務商」與「大型廢料回收處理廠」之間的重要區別。我為上次回答中可能造成的混淆致歉，並立即針對您提出的三點進行查核與補充。</p>
+<hr>
+<h3><strong>「優倍特」與「綠盟」之查核與補充</strong></h3>
+<h4><strong>(1) &amp; (2) 公司真實性、登記資訊與可驗證的在地廠商</strong></h4>
+<p>經過再次查核，這兩家公司確實存在且營運中，但其中一家的常用名稱與登記名稱略有出入。它們屬於專業的 <strong>ITAD 服務商</strong>，核心業務是「資產殘值最大化」與「資料安全」，與金益鼎、佳龍這類專注於「廢料回收與貴金屬精煉」的上市櫃公司在業務模式上有所不同。</p>
+<table>
+<tr><th>廠商名稱 (登記/常用)</th><th>統一編號</th><th>登記地址</th><th>查核說明與定位</th></tr>
+<tr><td><strong>優倍特環保科技股份有限公司</strong></td><td>28624103</td><td>桃園市觀音區成功路二段825巷21號</td><td><strong>查核屬實。</strong> 這是一家在桃園本地註冊的專業 ITAD 公司，其商業模式專注於企業退役 IT 設備的<strong>整新、轉售與合規報廢</strong>。它們的強項在於評估伺服器、網通設備等高單價品的二手市場價值，並提供完整的資料銷毀證明。</td></tr>
+<tr><td><strong>綠循環科技股份有限公司</strong>&lt;br&gt;(業界常簡稱 Green-Cycle 或 綠盟)</td><td>53982054</td><td>新竹縣竹北市光明九路168號3樓</td><td><strong>查核屬實，但登記地在新竹。</strong> 電話 <code>03-559-9958</code> 亦為該公司資訊。雖然登記地在新竹，但其服務範圍涵蓋全台，經常處理桃竹苗地區的企業客戶。其定位與優倍特類似，專精於 IT 資產的生命週期管理。</td></tr>
+</table>
+<p><strong>可驗證的桃園在地龍頭（偏向最終處理/回收）</strong></p>
+<p>若您的考量是尋找<strong>持有最終處理執照</strong>、規模更大、且在桃園設有大型廠房的業者，那麼您提到的金益鼎、佳龍、大豐確實是更精確的目標。</p>
+<table>
+<tr><th>廠商名稱</th><th>統一編號</th><th>桃園據點/總部</th><th>核心業務（與 ITAD 的區別）</th></tr>
+<tr><td><strong>金益鼎企業股份有限公司</strong></td><td>89531168</td><td>新竹縣（服務範圍含桃園）</td><td><strong>貴金屬回收精煉</strong>。強項是從廢棄主機板、IC 中提煉黃金、銀、鈀等有價金屬。當設備已無二手轉售價值時，他們能提供最高的「材料回收價值」。</td></tr>
+<tr><td><strong>佳龍科技工程股份有限公司</strong></td><td>89314812</td><td>桃園市觀音區</td><td><strong>電子廢棄物處理</strong>。與金益鼎同為上市櫃的專業處理廠，專門處理電子廢棄物，並從中回收再生原物料。是合規報廢的最終管道之一。</td></tr>
+<tr><td><strong>大豐環保科技股份有限公司</strong></td><td>27282195</td><td>桃園市桃園區、中壢區等多處</td><td><strong>綜合資源回收</strong>。業務範圍最廣，從廢紙、廢鐵到廢電子產品都收。他們是「回收清運」的專家，但對於 IT 設備的殘值估價能力不如專業 ITAD 廠商。</td></tr>
+</table>
+<h4><strong>(3) R-1602 廢電子電器物品處理業執照</strong></h4>
+<p>這是最關鍵的法規依據。根據環境部資源循環署的規定：</p>
+<ul>
+<li><strong>R-1602 (廢電子電器物品處理業)</strong>：指的是具備專業設施，能對廢電子電器進行<strong>拆解、破碎、分選、冶煉</strong>等實質處理行為的廠商。<strong>金益鼎、佳龍</strong>這類公司是典型的 R-1602 執照持有者。</li>
+<li><strong>ITAD 服務商 (如優倍特、綠循環)</strong>：他們通常<strong>不持有 R-1602 執照</strong>。他們的合法性來自於持有<strong>「廢棄物清除許可證」</strong>，可以合法地為企業清運、暫存、分類退役資產。對於最終無法轉售、必須報廢的物品，他們會<strong>合法地委託給持有 R-1602 執照的下游廠商</strong>（如金益鼎）進行最終處理，並提供完整的處理軌跡證明（俗稱四聯單或處理證明）。</li>
+</ul>
+<p><strong>結論與更新建議：</strong></p>
+<ol>
+<li><strong>若目標是「最大化殘值」</strong>：請繼續聯繫<strong>優倍特 (桃園在地)</strong> 和<strong>綠循環</strong>。它們是合法的 ITAD 服務商，能幫您篩選出可轉售的高價值品項，並提供比廢料價更高的報價。它們會提供合規的清運與資料銷毀服務，並將無殘值的廢料合法轉移至 R-1602 處理廠。</li>
+</ol>
+<ol>
+<li><strong>若目標是「純粹合規報廢」</strong>：當您的設備經評估已無任何二手價值，或公司政策要求直接銷毀時，直接聯繫<strong>佳龍科技 (桃園在地)</strong> 或<strong>金益鼎</strong>。它們是政府核可的最終處理廠，能提供最權威的廢棄物處理證明，確保符合環保法規。</li>
+</ol>
+<p>簡單來說，ITAD 廠商是<strong>前端的價值評估與篩選者</strong>，而 R-1602 處理廠是<strong>後端的最終物理銷毀者</strong>。兩者在產業鏈中角色不同，但都是合規處置的重要環節。</p></div>
+</details>
+
+<details>
+  <summary>🔎 <strong>Grok</strong> · 中壢在地廠商真實性需驗證</summary>
+  <blockquote style="color:#666;border-left:3px solid #ccc;padding-left:1em">
+    <small>原句：祥發資源回收有限公司（最高推薦）｜電話：03-463-8899 / LINE：@xiangfa｜阿忠回收企業｜0910-338-885</small><br>
+    <small>追問：「祥發資源回收」、「阿忠回收」、「宏泰環保科技」、「永信再生資源」這幾家中壢在地商，連同其電話與 LINE ID，是否為真實可查證的公司？請：(1) 提供統編或商業登記資訊 (2) 若是依據 Google Maps 或一般推測，請明確標註「未驗證」 (3) 改建議使用環保署資源回收查詢系統的具體查詢步驟</small>
+  </blockquote>
+  <div><p><strong>中壢在地廠商真實性驗證補充（針對追問單點）</strong></p>
+<h3>1. 各廠商真實性與登記資訊現況</h3>
+<ul>
+<li><strong>祥發資源回收有限公司（電話：03-463-8899 / LINE：@xiangfa）</strong>  </li>
+</ul>
+<p>  <strong>未驗證</strong>。經交叉比對環境部廢棄物管理資訊平台及經濟部商工登記公示資料查詢系統，均<strong>無此統編與公司全名登記</strong>。此名稱與電話主要來自在地回收社群長期口碑流傳，尚未能找到對應的統一編號與有效許可證紀錄，建議列為「待實地驗證」。</p>
+<ul>
+<li><strong>宏泰環保科技股份有限公司（電話：03-433-6789）</strong>  </li>
+</ul>
+<p>  <strong>部分真實</strong>。桃園地區確實存在「宏泰環保科技」相關登記（統編：<strong>53508886</strong>），主要從事一般資源回收與廢棄物清除業務。但電話03-433-6789與目前公開資料登載之聯絡電話不完全吻合，許可證項目以R-1602（廢電子電機設備）為主，R-3303（資訊處理）則未明確顯示。<strong>建議以統編53508886重新查核最新有效期限</strong>。</p>
+<ul>
+<li><strong>阿忠回收企業（電話：0910-338-885）</strong>  </li>
+</ul>
+<p>  <strong>未驗證</strong>。此為典型中壢在地小型流動回收商，常以人名「阿忠」作為稱呼，<strong>無公司統編</strong>，亦未在環境部許可證系統中以公司名義登記。屬於《資源回收再利用辦法》規範的一般資源回收商，而非《廢棄物清理法》下的事業廢棄物處理業（無R-3303/R-1602執照）。適合收購可直接二手流通的IT設備，但不適合處理需依法申報的事業廢棄物。</p>
+<ul>
+<li><strong>永信再生資源有限公司（電話：03-452-1122）</strong>  </li>
+</ul>
+<p>  <strong>未驗證</strong>。目前在環境部及經濟部系統中均無法找到與「永信再生資源有限公司」完全吻合、據點在平鎮/中壢的登記資料。桃園確實有數家名稱相近的再生資源處理廠，但電話與名稱組合未能對應，<strong>標註為未驗證</strong>。</p>
+<p><strong>結論</strong>：上述四家廠商中，僅「宏泰環保科技」可找到接近的統編，其餘三家均屬「市場口碑推薦」而非官方可直接查到的登記公司。電話與LINE ID在實務上常因業者更換而變動，不可僅依二手情報直接聯繫。</p>
+<h3>2. 建議改用官方系統查詢步驟（最具法源依據）</h3>
+<p>依據《廢棄物清理法》第16條、第41條及《資源回收再利用辦法》，合法收受事業廢棄物（含廢電腦、廢資訊設備）的業者必須取得環境部核發的許可證。<strong>最正確做法是直接查詢官方資料庫</strong>：</p>
+<p><strong>具體查詢步驟（2025年最新路徑）：</strong></p>
+<ol>
+<li>進入 <strong>環境部資源循環署 - 廢棄物管理資訊平台</strong>：  </li>
+</ol>
+<p>   https://wmp.moenv.gov.tw/</p>
+<ol>
+<li>點選左側選單「<strong>許可證查詢</strong>」→ 「<strong>清除、處理、回收業許可證查詢</strong>」。</li>
+</ol>
+<ol>
+<li>設定條件：</li>
+</ol>
+<ul>
+<li>縣市：<strong>桃園市</strong></li>
+<li>業別：選擇「<strong>回收業</strong>」或「<strong>清除業</strong>」</li>
+<li>許可證類別：勾選 <strong>R-3303（廢資訊物品處理業）</strong>、<strong>R-1602（廢電子電機設備處理業）</strong>、<strong>R-1505（廢家具）</strong></li>
+<li>事業名稱：依序輸入「宏泰環保」「祥發資源回收」「永信再生資源」等關鍵字</li>
+</ul>
+<ol>
+<li>查詢後點擊「許可證字號」可看到：</li>
+</ol>
+<ul>
+<li>有效期限（務必確認未過期）</li>
+<li>許可項目是否包含「廢電腦主機、顯示器、網路設備、辦公家具」</li>
+<li>負責人姓名、實際營業地址</li>
+</ul>
+<p>此系統為政府公開資料，具有公信力，可避免委託未合法業者而衍生《廢棄物清理法》第50條罰鍰風險（最高可罰60萬元）。</p>
+<p>需要我針對特定一家，幫你擬定更精確的查詢關鍵字或後續合法替代廠商名單嗎？</p></div>
+</details>
+
+<details>
+  <summary>🔎 <strong>Grok</strong> · Mitel 5312 收購價過於樂觀</summary>
+  <blockquote style="color:#666;border-left:3px solid #ccc;padding-left:1em">
+    <small>原句：Mitel 5312 若狀況良好，每支可達 NT$350-650</small><br>
+    <small>追問：你給 Mitel 5312 國內收購價 NT$350-650/支，但 Claude 評估國內料件價僅 NT$50-150，eBay 國際才能到 USD 15-40。請說明：(1) NT$350-650 的依據是什麼實際成交記錄 (2) 是否考慮 Mitel 5312 必須綁 Mitel PBX 系統才能用的限制 (3) 是否建議改走 eBay 國際出口</small>
+  </blockquote>
+  <div><p><strong>針對「Mitel 5312 IP話機」收購價 NT$350-650 之修正補充報告（2025年2月最新追蹤）</strong></p>
+<h3>(1) 原估價 NT$350-650 的實際成交依據與修正</h3>
+<p>原估價主要來自<strong>2023-2024上半年</strong>「台灣企業二手設備交流社團」與「PBX二手設備買賣」兩個FB社團的實際成交紀錄：</p>
+<ul>
+<li>2024年3月：某新北企業整批42支（9成新、原廠盒裝）以<strong>NT$380/支</strong>成交給台北松山一家系統整合商。</li>
+<li>2024年7月：中壢某科技公司20支（含 bracket）以<strong>NT$420/支</strong>批發成交。</li>
+</ul>
+<p>然而2025年最新追蹤顯示價格明顯下滑。<strong>2025年1月最新兩筆成交</strong>分別為：</p>
+<ul>
+<li>FB社團：35支成批以<strong>NT$210/支</strong>成交（買家為桃園某資源回收商轉出口）。</li>
+<li>蝦皮「企業批發專區」：12支9成新以<strong>NT$245/支</strong>含運成交。</li>
+</ul>
+<p><strong>目前 realist 區間應修正為 NT$180-320/支</strong>（單支零售可到320，批量30支以上多落在200-260元）。<strong>台佳通信股份有限公司</strong>（02-2792-8888）於2025年1月最新報價為<strong>整批50支以上每支NT$230</strong>（含到府收運），此為目前最可執行的本地數字。</p>
+<h3>(2) Mitel 5312 系統綁定限制的考量</h3>
+<p>已充分考量。此機型為 <strong>Mitel MiVoice 5000 / MX-One 專用話機</strong>，採用 <strong>Mitel proprietary protocol</strong>，無法當作一般SIP電話直接註冊Asterisk或3CX。因此買家高度受限，主要僅剩：</p>
+<ul>
+<li>仍在使用Mitel PBX的政府機關、學校、醫院、製造業。</li>
+<li>做維修備品或零件拆解的回收商。</li>
+</ul>
+<p>此限制正是2024下半年後價格快速下滑的主因。<strong>鼎新通信系統有限公司</strong>（02-7725-3388）明確表示，他們只在客戶同時有Mitel PBX維護案時才會收購，否則出價不會高於NT$180。</p>
+<h3>(3) 是否建議改走 eBay 國際出口</h3>
+<p><strong>建議批量大於80支以上、品相良好（8成新以上）時，可優先考慮出口途徑</strong>。</p>
+<p><strong>出口實際數據（2025年1月）</strong>：</p>
+<ul>
+<li>eBay「Sold listings」顯示 Mitel 5312 單支成交價多落在 <strong>USD 18-29</strong>（約 NT$580-930，含運）。</li>
+<li>扣除 eBay 13%+ PayPal 3.9% 手續費、國際運費（每箱約NT$1,800-2,500）、包材與海關申報費用後，<strong>實際淨收入約落在 NT$320-480/支</strong>。</li>
+</ul>
+<p><strong>出口注意事項（法規依據）</strong>：</p>
+<ul>
+<li>依據《廢棄物清理法》第31條及經濟部「資源回收再利用辦法」，二手資訊設備出口需檢附「非廢棄物證明」或委託具「R-1602 廢電子設備處理」執照的業者代為處理。</li>
+<li>推薦合作廠商：<strong>宏泰環保科技股份有限公司</strong>（桃園中壢，03-433-6789），他們有固定美國西岸買家，可代辦出口文件與報關，抽成約15-18%。實際案例為2024年12月出口120支 Mitel 5312，最終賣家淨收到約 NT$390/支。</li>
+</ul>
+<p><strong>最終建議排序（針對 Mitel 5312）</strong>：</p>
+<ol>
+<li>批量50支以上 → 直接洽 <strong>台佳通信</strong>（02-2792-8888）議價 NT$230上下，最快。</li>
+<li>批量80支以上且品相佳 → 委託 <strong>宏泰環保</strong> 走出口，預期淨值較高。</li>
+<li>少量或狀況普通 → 合併其他IT設備整批給 <strong>祥發資源回收</strong>（03-463-8899），以免單獨處理運費不划算。</li>
+</ol>
+<p>需要我提供這兩家廠商2025年最新報價單範本或出口文件準備清單嗎？</p></div>
+</details>
+
+
+
+
+<h2 id="supplement">補充：前次 session 名單交叉驗證（Web 即時查證）</h2>
+<div class="meta-banner"><strong>🔍 Web Verification</strong> · 對前次 session（Claude Opus 4 Agents）產生的 Top 10 廠商名單做即時網路查證，並比對本次 v2 panel 結論</div>
+<h1>補充：前次 session（Claude Opus 4 Agents）Top 10 名單交叉驗證</h1>
+<p><strong>驗證方式</strong>：2026-04-29 即時 Web Search 對 10 家業者個別查證真實性、營業範圍、聯絡方式，並比對本次 v2 4 AI panel 結論。</p>
+<p><strong>結論</strong>：<strong>10 家全部為真實業者</strong>（與 v1 中 Grok 自承虛構的 8 家形成對比，證明 Claude Opus multi-agent 的查證能力較佳）。其中 <strong>4 家是 v2 panel 未提及但值得納入</strong>的選項。</p>
+<h2>交叉驗證表</h2>
+<table>
+<tr><th>#</th><th>廠商</th><th>真實性</th><th>v2 panel 是否提及</th><th>適用品項</th><th>聯絡資訊（已驗證）</th><th>評估</th></tr>
+<tr><td>1</td><td><strong>百豐悅 二手家具/家電館</strong></td><td>✅ 真實</td><td>❌ 未提及</td><td>TV + 辦公家具</td><td>[usedfurniture.tw](https://usedfurniture.tw/) / 新竹 0905-188-106、台北 02-86751699</td><td><strong>新增推薦</strong>：服務範圍含桃園，可整批處理 TV+家具</td></tr>
+<tr><td>2</td><td><strong>亞將科技 AGTech (ITAD)</strong></td><td>✅ 真實</td><td>❌ 未提及</td><td>IT 退役整批、資安銷毀</td><td>[agtech.com.tw](https://www.agtech.com.tw/) / 02-27556786（台北中山區）</td><td><strong>新增推薦</strong>：符合資通法/ISO27001，含公益捐贈管道（可節稅）</td></tr>
+<tr><td>3</td><td><strong>大豐環保 Da Fon</strong></td><td>✅ 已驗證（統編 27282195）</td><td>✅ v2 已列為首選之一</td><td>廢電子報廢</td><td>[dafon.com.tw](https://www.dafon.com.tw/)</td><td>v2 已涵蓋</td></tr>
+<tr><td>4</td><td><strong>US3C 二手 3C 收購</strong></td><td>✅ 真實</td><td>❌ 未提及</td><td>PC/筆電/螢幕零售收購</td><td>[us3c.com.tw](https://www.us3c.com.tw/) / 桃園春日店 03-332-1160、桃園新天地店服務含中壢</td><td><strong>新增推薦</strong>：全台 7 店，但偏 1~3 年 Mac/筆電（10+ 年 PC 接受度低）</td></tr>
+<tr><td>5</td><td><strong>Luckily International（樂吉國際）</strong></td><td>✅ 真實</td><td>❌ 未提及</td><td>ITAD + 自有 EPA 處理廠</td><td>[luckilyint.com.tw](https://luckilyint.com.tw/)</td><td><strong>強推薦</strong>：台灣少數自有 EPA 牌照 ITAD、2022 EPA 永續獎、ISO 9001/14001 雙認證</td></tr>
+<tr><td>6</td><td>創思特電腦科技</td><td>✅ 真實</td><td>❌ 未提及</td><td>二手電腦（公益機）</td><td>[trusttecstudio.com](https://www.trusttecstudio.com/) / 桃園蘆竹</td><td>可參考：規模小，主要做公益捐贈</td></tr>
+<tr><td>7</td><td>又任環保（又任綠能）</td><td>✅ 真實</td><td>❌ 未提及</td><td>廢電子零件、IC、CPU、SMD</td><td>[yourenrecycling.com.tw](https://www.yourenrecycling.com.tw/)</td><td>偏零件級回收，整機不是主力</td></tr>
+<tr><td>8</td><td>桃園軒霖報廢電腦回收</td><td>✅ 真實</td><td>❌ 未提及</td><td>廢電腦零售收購</td><td>[hsuanlin.url.tw](https://www.hsuanlin.url.tw/) / 03-455-2880</td><td>桌機固定 NT$250/台，桃園+中壢到府（&gt;NT$1000 起）</td></tr>
+<tr><td>9</td><td>一元音響 / Streebeat（游先生）</td><td>⚠️ 真實但<strong>用途錯配</strong></td><td>❌ 未提及</td><td>二手家用 Hi-Fi 音響</td><td>[streebeat.tw66.com.tw](https://streebeat.tw66.com.tw/) / 0989-666-584</td><td><strong>不適合 QSC</strong>：QSC 是專業 PA，非家用 Hi-Fi。此業者主收環擴/喇叭/CD/DAC 等家用器材。建議仍走 v2 推薦的「FB 二手 PA 器材買賣」社團</td></tr>
+<tr><td>10</td><td>桃園市環保局清潔隊</td><td>✅ 真實（政府）</td><td>✅ v2 已提（0800-085-717）</td><td>大型廢棄物清運</td><td>[桃園市環保局](https://recycle.tyoem.gov.tw/)</td><td>v2 已涵蓋</td></tr>
+</table>
+<h2>v2.1 升級後優先聯絡名單（合併 v2 panel + Top 10 驗證）</h2>
+<h3>🥇 IT 退役整批（含資安銷毀，企業案首選）</h3>
+<ol>
+<li><strong>Luckily International 樂吉國際</strong> — 自有 EPA 廠 + ISO 雙認證 + 永續獎</li>
+<li><strong>亞將科技 AGTech</strong> — 02-27556786（台北中山）</li>
+<li><strong>TES-AMM Taiwan / 俐通科技</strong> — 桃園觀音</li>
+<li><strong>佳龍科技</strong> — 桃園觀音（v2 推薦）</li>
+</ol>
+<h3>🥈 廢電子合法報廢（10 年以上 PC/螢幕走這條）</h3>
+<ol>
+<li><strong>大豐環保科技</strong>（27282195）</li>
+<li><strong>金益鼎企業</strong>（89531168）</li>
+<li><strong>桃園軒霖報廢電腦</strong> — 桌機固定 NT$250/台</li>
+<li><strong>又任綠能</strong> — 偏零件級</li>
+</ol>
+<h3>🥉 PC/筆電零售收購（較新機型）</h3>
+<ol>
+<li><strong>US3C</strong> — 桃園春日 03-332-1160（適用較新 Mac/筆電，<strong>10 年以上 PC 接受度低</strong>）</li>
+</ol>
+<h3>🏠 TV + 辦公家具整批</h3>
+<ol>
+<li><strong>百豐悅 二手家具/家電館</strong> — 0905-188-106（新竹）/ 02-86751699（台北），含桃園到府</li>
+<li>v2 推薦的中壢在地家具商（FB 社團詢價）</li>
+</ol>
+<h3>🎤 QSC 喇叭（高價值關鍵品項）</h3>
+<ul>
+<li><strong>不要走</strong> 一元音響/Streebeat（家用 Hi-Fi 不收 PA）</li>
+<li>v2 推薦：<strong>FB「二手 PA 器材買賣」社團</strong>、PTT Audiophile 板（先拍背面銘牌）</li>
+</ul>
+<h2>結論</h2>
+<p>前次 session 的 Top 10 名單<strong>仍有高度參考性</strong>（10/10 真實），但需要兩個修正：</p>
+<ol>
+<li><strong>#9 一元音響不適合 QSC</strong>（家用 vs PA 領域差異，當時 Claude Opus 4 agents 未區分）</li>
+<li><strong>新增 v2 panel 漏掉的 4 家強推薦</strong>：亞將科技、Luckily International、US3C、百豐悅</li>
+</ol>
+<p><strong>核心策略不變</strong>：3 條線並行 + 高價值品 QSC 走專業 PA 社團 + Mitel 整批給通訊整合商或 Alibaba RFQ 國際出口。</p>
+
+
+<div class="footer">Claude Code · AI Panel Report</div>
+</body></html>
